@@ -13,14 +13,14 @@ O giroscópio mede velocidade angular — quantos graus por segundo o deck está
 
 Isso resolve um problema fundamental dos analógicos: num FPS, com analógico você escolhe entre sensibilidade baixa (mira precisa, mas você não consegue virar rápido) e sensibilidade alta (você vira rápido, mas não acerta nada). Com o giroscópio, o analógico cuida dos giros amplos e o gyro cuida das correções finas. É a mesma divisão de trabalho que jogadores de mouse fazem entre braço (movimentos grandes) e pulso (ajustes finos).
 
-<terminal>
+```terminal
 $ grep -i "gyro\|IMU\|angular\|rotation" ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | tail -10
 [Steam Input] Gyro sensor initialized (BMI160)
 [Steam Input] Gyro calibrated, drift 0.0012 rad/s
 [Steam Input] Gyro enabled as mouse
 [Steam Input] Gyro sensitivity set: 2.40
 [Steam Input] Gyro activation: on right touchpad touch
-</terminal>
+```
 
 O chip `BMI160` que aparece no log é o sensor inercial (IMU) fabricado pela Bosch que o deck usa. O valor `drift 0.0012 rad/s` indica o desvio que a calibração detectou quando o deck está parado — é esse valor que o firmware subtrai das leituras brutas para que o cursor não "ande sozinho".
 
@@ -32,7 +32,7 @@ Giroscópio ligado o tempo todo é cansativo: qualquer tremor da mão mexe o cur
 - **On Press:** O gyro só age enquanto um botão está pressionado (por exemplo `[[L2]]`, o gatilho de mira). Funciona bem quando o jogo já tem um botão de "mirar com a arma".
 - **Always On:** O gyro fica ativo permanentemente. Exige um botão de "desligar gyro" (gyro off) para momentos de navegação em menu.
 
-<terminal>
+```terminal
 $ cat ~/.local/share/Steam/config/controller_configs/730/SteamControllerGamepad.vdf 2>/dev/null | grep -A 10 -i "gyro"
 "gyro"
 {
@@ -44,7 +44,7 @@ $ cat ~/.local/share/Steam/config/controller_configs/730/SteamControllerGamepad.
     "vertical_scale"    "0.70"
     "gyro_button"       "none"
 }
-</terminal>
+```
 
 Amostra real de um arquivo de configuração de CS2 (AppID 730). Os campos principais: `mode` (`mouse` é o mais comum; existe `joystick` para jogos que não aceitam mouse+controle ao mesmo tempo), `activation` (`touch_right_pad`), `sensitivity` (`2.40` — valores entre 1.5 e 3.0 são típicos para FPS), `smoothing` (valor em percentual; 15% suaviza sem introduzir latência perceptível) e `vertical_scale` (`0.70` — reduz a sensibilidade vertical, uma preferência comum para manter a mira no plano horizontal).
 
@@ -55,7 +55,7 @@ Dois parâmetros menos óbvios fazem diferença:
 - **Smoothing (suavização):** Aplica uma média móvel sobre as leituras do gyro. Com smoothing 0%, o cursor reage ao menor tremor da mão; com 30%+, a mira fica estável mas há um atraso perceptível. O ponto ideal costuma estar entre 10% e 20%.
 - **Gyro + analógico/touchpad composto:** Quando ambos estão ativos ao mesmo tempo, o Steam Input soma os movimentos. Isso significa que você pode mirar com o analógico enquanto corrige com o gyro, e o jogo recebe uma posição combinada. A mágica é que o jogo não precisa saber que isso está acontecendo — ele só vê o mouse se mexendo.
 
-<terminal>
+```terminal
 $ cat << 'EOF'
 Configuração típica de FPS no deck:
   Analógico direito: sensibilidade alta (~3.0), para viradas
@@ -63,7 +63,7 @@ Configuração típica de FPS no deck:
   Vertical scale:    0.70
   Trigger L2:        gyro off (enquanto mira por software)
 EOF
-</terminal>
+```
 
 :::atencao
 Alguns jogos não aceitam mouse e controle ao mesmo tempo — se o gyro estiver em modo `mouse` e o jogo travar ou piscar entre ícones de controle e teclado, troque o gyro para modo `joystick`. A precisão cai, mas a compatibilidade sobe.
@@ -73,11 +73,11 @@ Alguns jogos não aceitam mouse e controle ao mesmo tempo — se o gyro estiver 
 
 O giroscópio do deck recalibra sozinho sempre que você liga o console e o deixa parado por alguns segundos na mesa. Se o cursor começa a andar sozinho, o problema é quase sempre uma calibração que não rodou (porque o deck estava em movimento durante o boot) ou uma sensibilidade alta demais.
 
-<terminal>
+```terminal
 $ grep "drift\|calibrat" ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null
 [Steam Input] Gyro calibrated, drift 0.0012 rad/s
 [Steam Input] Gyro recalibration: drift 0.0009 rad/s
-</terminal>
+```
 
 Drift inferior a `0.005 rad/s` é clinicamente imperceptível durante o jogo. Se o valor começar a subir acima disso consistentemente, o problema pode ser o sensor acumulando erro térmico (o deck esquenta, a IMU dilata, a leitura muda) — nesse caso, uma recalibração forçada (desligar o deck, deixar esfriar, ligar sobre superfície plana) costuma resolver.
 

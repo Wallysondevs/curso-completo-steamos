@@ -7,6 +7,7 @@ Chegou a hora de amarrar tudo. As seções anteriores apresentaram as peças sep
 - Diagnosticar erros comuns de build e de runtime em containers
 - Definir um padrão pessoal de organização (diretório, versionamento, backup)
 
+:::
 ## O mapa mental: qual ferramenta para quê
 
 Antes de escrever código, vale fixar a regra de decisão que organiza todo o capítulo. A pergunta é sempre "onde esse programa deve viver?", e a resposta determina a ferramenta:

@@ -7,6 +7,7 @@ Quando falamos de "SDK do SteamOS", estamos falando de mais de uma coisa, e conf
 - Compilar um programa dinâmico e inspecionar as dependências com `ldd`
 - Configurar um ambiente de build reproduzível com variáveis de ambiente
 
+:::
 ## Três SDKs, três propósitos
 
 A palavra "SDK" aparece em três contextos distintos no universo SteamOS:

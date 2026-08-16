@@ -7,6 +7,7 @@ O hardware do Steam Deck — uma APU AMD Zen 2 com 4 núcleos e 8 threads, gráf
 - Usar ccache para acelerar recompilações incrementais
 - Compilar projetos Python/nativos em modo release sem esgotar a RAM
 
+:::
 ## Conhecendo a APU antes de compilar
 
 Antes de disparar um build, vale saber o que a máquina entrega. Os números-chave do Deck saem de `/proc/cpuinfo` e de `free`:

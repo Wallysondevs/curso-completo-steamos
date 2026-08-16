@@ -11,7 +11,7 @@ Nem toda entrada precisa ser um botão que dispara um comando. O Steam Input tem
 
 Você já viu o radial menu de relance na seção dos touchpads. Agora o detalhe que o torna poderoso: cada fatia pode ter um **label** visível, um **ícone**, e — mais importante — pode abrir um **sub-menu aninhado**. Isso permite uma árvore de comandos: uma fatia "Itens" que abre um segundo anel com poções, bombas e comida.
 
-<terminal>
+```terminal
 $ cat ~/.local/share/Steam/config/controller_configs/255120/SteamControllerGamepad.vdf 2>/dev/null | grep -A 30 '"radial"' | head -34
 "radial_menu"
 {
@@ -33,7 +33,7 @@ $ cat ~/.local/share/Steam/config/controller_configs/255120/SteamControllerGamep
     "slice_4"   { "binding" "key_press 8" "label" "Montaria" }
     "slice_5"   { "binding" "key_press 9" "label" "Diário" }
 }
-</terminal>
+```
 
 Esse exemplo (AppID 255120, um título de mundo aberto) tem um radial de 6 fatias, uma das quais — "Itens" — carrega um `sub_menu` inteiro com duas fatias próprias. O `on_screen_display` ligado faz o deck desenhar o anel na tela enquanto você o segura, com os labels aparecendo e destacando a fatia sob o polegar. É a interface de um console de verdade, construída por software.
 
@@ -43,7 +43,7 @@ Num jogo de estratégia ou MOBA, parte da tela é um minimapa, uma barra de habi
 
 O caso de amor clássico é o **minimapa do Dota 2 ou League of Legends**: normalmente o mapa vive no canto da tela, e clicar nele exige arrastar o mouse até lá e voltar. Com mouse region, você dedica (por exemplo) o touchpad esquerdo à região do minimapa — encostou, o cursor já está lá; clicou, já deu o comando; soltou, volta ao centro da tela.
 
-<terminal>
+```terminal
 $ cat << 'EOF'
 Exemplo de mouse region para minimapa (canto inferior esquerdo, 25% x 25% da tela):
   mode:           absolute_mouse_region
@@ -52,7 +52,7 @@ Exemplo de mouse region para minimapa (canto inferior esquerdo, 25% x 25% da tel
   region_width:   0.25
   region_height:  0.25
 EOF
-</terminal>
+```
 
 As coordenadas da região são frações da tela, de 0 a 1. `region_left = 0.00` + `region_top = 0.75` com `width/height = 0.25` descreve o quadrante inferior esquerdo. O Steam Input interpola a posição do dedo no touchpad para a posição correspondente *dentro* dessa região — então o touchpad inteiro vira o minimapa inteiro.
 
@@ -66,12 +66,12 @@ O radial é ótimo para até ~8 opções. Para mais que isso, o **touch menu** e
 
 É a ferramenta certa para barras de habilidades de MMO — jogos onde você tem 9, 12 ou 20 habilidades que normalmente seriam as teclas de 1 a 9, Shift+1..9, e assim por diante. Você pode ter um menu de 12 células (4×3) mapeado para as 12 primeiras teclas, e um segundo menu com Shift para as 12 seguintes.
 
-<terminal>
+```terminal
 $ grep -i "menu_style\|grid\|columns\|rows" ~/.local/share/Steam/config/controller_configs/*/SteamControllerGamepad.vdf 2>/dev/null | head -10
 "menu_style"    "grid"
 "columns"       "4"
 "rows"          "3"
-</terminal>
+```
 
 Esses campos aparecem quando você usa touch menu em grade: `menu_style` vira `grid`, e `columns`/`rows` definem a matriz — 4 colunas por 3 linhas dá 12 células. O toque é resolvido em linha e coluna, e a célula correspondente dispara seu `binding`.
 
@@ -83,11 +83,11 @@ Além de mouse e radial, o touchpad pode operar como:
 - **Joystick:** O touchpad emula um analógico — o dedo empurra a partir do centro e a posição vira a direção. Útil quando o jogo insiste em ler um analógico e não aceita mouse.
 - **Cursor (absoluto):** O touchpad mapeia 1:1 a tela inteira, como um trackpad de notebook em modo absoluto (menos comum em jogos, útil em menus).
 
-<terminal>
+```terminal
 $ # Teste de resposta do touchpad em modo d-pad (4 zonas)
 $ sudo timeout 5 evtest /dev/input/event3 2>&1 | grep -c "EV_ABS"
 240
-</terminal>
+```
 
 Ao posicionar o dedo nas quatro zonas, o kernel continua reportando o mesmo fluxo de `EV_ABS` — o que muda para "d-pad" não acontece no hardware, e sim na interpretação que o Steam Input faz das coordenadas. Isso volta ao princípio do capítulo: o hardware entrega posição; o software decide se aquilo é mouse, radial, d-pad ou analógico.
 

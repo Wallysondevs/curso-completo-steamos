@@ -7,6 +7,7 @@ Containers não servem apenas para desenvolver — eles também são a forma mai
 - Montar volumes para persistir saves e configurações fora do container
 - Entender o que é isolamento de GPU e por que nem tudo pode rodar em container
 
+:::
 ## Ferramentas descartáveis: containers "usar e jogar fora"
 
 Uma das utilidades mais práticas de containers no Deck é rodar uma ferramenta que você não quer instalar de forma permanente. O Podman baixa a imagem, executa e você descarta:

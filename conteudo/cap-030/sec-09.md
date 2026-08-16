@@ -7,6 +7,7 @@ Atualizar é fácil; voltar atrás é que exige técnica. O Flatpak guarda cada 
 - Identificar o commit em uso atual e validar a reversão
 - Saber quando o downgrade não é possível
 
+:::
 ## Por que o commit importa mais que a versão
 
 O número de versão (`3.0.2`) é um rótulo humano; o **commit** é a identidade exata da build. Duas builds podem exibir a mesma versão e diferir em qualquer byte — uma correção silenciosa, uma flag de compilação, um patch de segurança aplicado e não versionado. Por isso o downgrade no Flatpak não é feito por "versão antiga", e sim por **commit específico**: só o hash garante que você está apontando para o estado exato que deseja.

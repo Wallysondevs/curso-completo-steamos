@@ -13,14 +13,14 @@ Um **layout** é um mapeamento completo de controles para um jogo específico. U
 
 A hierarquia de escolha, quando você abre um jogo, costuma ser esta: primeiro o layout oficial da Valve (se existir), depois os templates genéricos do Steam Input, e por fim os layouts da comunidade. A ordem importa porque o layout oficial já foi testado pela Valve para aquele hardware específico, enquanto um layout da comunidade pode ter sido feito para um controle totalmente diferente do seu.
 
-<terminal>
+```terminal
 $ ls ~/.local/share/Steam/config/controller_configs/438700 2>/dev/null
 SteamControllerGamepad.vdf
 workshop
 $ ls ~/.local/share/Steam/config/controller_configs/438700/workshop 2>/dev/null
 2857644748_SteamControllerGamepad.vdf
 2974102155_SteamControllerGamepad.vdf
-</terminal>
+```
 
 Os arquivos de `workshop` seguem o padrão `<SteamID>`_`<arquivo>`. O número antes do primeiro travessão é o SteamID do autor/origem daquele item da Oficina Steam. Ou seja, aqueles dois layouts ali não foram feitos por você nem pela Valve — vieram da comunidade, e o nome do arquivo preserva de quem.
 
@@ -28,13 +28,13 @@ Os arquivos de `workshop` seguem o padrão `<SteamID>`_`<arquivo>`. O número an
 
 O **Gamepad with Mouse Trackpad** é o template que a Valve considera o padrão de fábrica do deck, e ele ilustra bem a filosofia oficial: alavancas e botões funcionam como um controle comum, mas o touchpad direito vira mouse, e o esquerdo pode abrir menu radial. É o layout que a maioria dos jogos sem suporte nativo recebe automaticamente.
 
-<terminal>
+```terminal
 $ grep -i "config loaded\|template\|official" ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | tail -8
 [Steam Input] Config loaded: official gamepad template
 [Steam Input] Config loaded: official gamepad template
 [Steam Input] Config loaded: 1389032 (official Steam Deck template)
 [Steam Input] No recommended config; falling back to "Gamepad with Camera Controls"
-</terminal>
+```
 
 A última linha revela um comportamento importante: quando a Valve **não** tem um layout recomendado para aquele jogo, o Steam Input não te deixa sem nada — ele cai num *fallback* automático ("Gamepad with Camera Controls"). É por isso que praticamente nenhum jogo abre "sem controle": existe sempre uma rede de segurança.
 
@@ -52,13 +52,13 @@ Escolher um layout da comunidade é quase sempre seguro, mas vale uma verificaç
 - Confira se o layout usa **giroscópio** e de que forma. Alguns ativam o gyro o tempo todo; outros só quando você toca o touchpad.
 - Teste a **ação de cada botão** por alguns minutos antes de mergulhar no jogo de verdade.
 
-<terminal>
+```terminal
 $ ls -la ~/.local/share/Steam/config/controller_configs/personalization 2>/dev/null
 total 16
 drwxr-xr-x  2 deck deck 4096 Jan 14 10:02 .
 drwxr-xr-x  4 deck deck 4096 Jan 14 10:02 ..
 -rw-r--r--  1 deck deck  712 Jan 14 10:02 Preferences.vdf
-</terminal>
+```
 
 O arquivo `Preferences.vdf` registra suas preferências globais de controle, como em que ordem os layouts salvos aparecem e quais templates você fixou. É o único arquivo da pasta `personalization`. Mexer nele à mão raramente compensa; ele está aqui mais como ponto de referência para backup.
 
@@ -66,13 +66,13 @@ O arquivo `Preferences.vdf` registra suas preferências globais de controle, com
 
 Tudo o que você configura fica salvo no seu perfil, mas só naquela máquina (ou na nuvem do Steam, se a sincronização estiver ligada). Para guardar uma cópia física, com fins de backup ou para compartilhar manualmente, você copia o `.vdf` correspondente.
 
-<terminal>
+```terminal
 $ mkdir -p ~/lab/layouts-backup
 $ cp ~/.local/share/Steam/config/controller_configs/1172470/SteamControllerGamepad.vdf ~/lab/layouts-backup/
 $ ls -l ~/lab/layouts-backup/
 total 8
 -rw-r--r--  1 deck deck 1824 Jan 15 18:40 SteamControllerGamepad.vdf
-</terminal>
+```
 
 Copiar o `.vdf` não "publica" o layout na comunidade — para isso é preciso usar o botão **Export**/**Share** dentro da interface de configuração, que envia o layout para a Oficina Steam e gera um link público. O arquivo copiado serve para restauração local: se você formatar o deck ou perder a sincronização, basta devolver o `.vdf` ao diretório do AppID correto.
 

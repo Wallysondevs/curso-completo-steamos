@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build.py — monta o site do Curso Completo de Ubuntu.
+build.py — monta o site do Curso Completo de SteamOS.
 
 O que ele faz, nesta ordem:
 
@@ -347,7 +347,7 @@ def main():
 
     # ---- relatório ----
     print('=' * 62)
-    print('  Curso Completo de Ubuntu — build')
+    print('  Curso Completo de SteamOS — build')
     print('=' * 62)
     print('  partes .................. %d' % len(partes))
     print('  capítulos ............... %d' % len(saida_caps))

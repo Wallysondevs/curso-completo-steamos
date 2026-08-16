@@ -6,6 +6,7 @@ Remover um Flatpak não é só apagar um ícone. O sistema de armazenamento em c
 - Limpar runtimes órfãos com `uninstall --unused`
 - Localizar e limpar dados residuais em `~/.var/app`
 
+:::
 ## `remove` e `uninstall` são o mesmo comando
 
 O Flatpak aceita tanto `flatpak remove` quanto `flatpak uninstall`. São sinônimos; produzem a mesma saída e aceitam as mesmas flags. A diferença é só estética — `remove` é mais curto de digitar, `uninstall` é o nome canônico na documentação.

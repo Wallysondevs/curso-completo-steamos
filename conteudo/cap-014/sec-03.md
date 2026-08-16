@@ -13,10 +13,10 @@ O deck tem, na traseira, quatro botões de pás: `L4` e `L5` do lado esquerdo, `
 
 Eles não são "botões extras" no sentido físico de um circuito novo — são entradas digitais como qualquer outra, apenas posicionadas onde os dedos que não fazem nada podem alcançá-las. É essa posição que os torna valiosos, não a eletrônica.
 
-<terminal>
+```terminal
 $ steam -gamepadui 2>/dev/null &
 [1] 4821
-</terminal>
+```
 
 O `steam -gamepadui` abre o Steam já no modo de interface para controle (a chamada "Big Picture" moderna do deck). Embora a configuração de grips em si seja feita pelos menus, subir o Steam assim é o jeito de garantir que você está na interface certa quando for mapear botões. Na prática, no deck, você já vive dentro dela o tempo todo.
 
@@ -26,7 +26,7 @@ O fluxo é: dentro do configurador de controles do jogo, escolha o grip (por exe
 
 Um caso clássico: em jogos que usam `Sprint` ou `Correr` no clique da alavanca (`L3`/`R3`), mover isso para um grip elimina o desgaste do clique e evita o erro de apertar a alavanca sem querer no meio da troca de direção.
 
-<terminal>
+```terminal
 $ cat ~/lab/layout-grip.vdf 2>/dev/null | head -30
 "controller_mappings"
 {
@@ -43,7 +43,7 @@ $ cat ~/lab/layout-grip.vdf 2>/dev/null | head -30
                 }
         }
 }
-</terminal>
+```
 
 Esse trecho (editado para fins didáticos) mostra a anatomia interna de um mapeamento: o grip pertence a um `group` com `mode` `four_buttons`, e cada botão tem um ou mais `activators` — gatilhos de ativação como `Full_Press` — que por sua vez carregam um `binding`, aqui um `key_press` da tecla `SPACE` rotulada como "Sprint". Você não precisa escrever isso à mão; a interface gera exatamente essa estrutura ao salvar.
 
@@ -54,12 +54,12 @@ O clique das alavancas é uma das entradas mais usadas e mais desconfortáveis d
 - **R4 = clique do analógico direito (R3).** Em FPS, o R3 costuma ser "mirar / mirar com a arma". Mover para o R4 deixa a mira firme e evita mudar a sensibilidade sem querer.
 - **L4 = clique do analógico esquerdo (L3).** O L3 é o clássico "correr". No grip, correr deixa de interferir no movimento.
 
-<terminal>
+```terminal
 $ grep -i "grip\|back button\|paddle" ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | tail -6
 [Steam Input] R4 mapped to key_press SPACE
 [Steam Input] L4 mapped to button_a
 [Steam Input] Grip zone calibrated (R4, R5, L4, L5)
-</terminal>
+```
 
 A linha final mostra que o Steam Input calibra os quatro grips como uma "zona" única. Isso importa porque a posição dos dedos varia de mão para mão — a calibração ajusta o ponto exato em que uma pressão conta como acionamento.
 
@@ -71,7 +71,7 @@ Se seus dedos médios encostam nos grips sem querer e disparam ações acidentai
 
 Abaixo de toda a camada do Steam Input, o hardware do deck é exposto ao Linux como um dispositivo de entrada comum. O `evtest` lê os eventos crus de qualquer `/dev/input/event*` e deixa você "ver" os botões físicos sendo pressionados em tempo real.
 
-<terminal>
+```terminal
 $ sudo evtest 2>/dev/null | head -20
 No device specified, trying to scan all of /dev/input/event*
 Available devices:
@@ -81,11 +81,11 @@ Available devices:
 /dev/input/event3:      Valve Software Steam Controller
 /dev/input/event4:      Valve Software Steam Controller
 Select the device event number [0-5]: 
-</terminal>
+```
 
 O deck aparece, para o kernel, como vários dispositivos "Valve Software Steam Controller" — normalmente um por grupo de entradas (botões, alavancas, touchpads, giroscópio). Isso reforça a ideia da seção anterior: o controle do deck não é um XInput nativo; é um conjunto de dispositivos de entrada que o Steam Input entende e depois traduz.
 
-<terminal>
+```terminal
 $ sudo evtest /dev/input/event2 2>/dev/null | head -12
 Input driver version is 1.0.1
 Input device ID: bus 0x3 vendor 0x28de product 0x1205 version 0x0111

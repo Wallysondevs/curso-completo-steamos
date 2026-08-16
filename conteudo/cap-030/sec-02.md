@@ -6,6 +6,7 @@ Instalar pelo terminal é a maior diferença prática entre o Flatpak de verdade
 - Instalar por ID, por remoto ou por arquivo local
 - Atualizar os metadados do remoto antes de instalar
 
+:::
 ## A sintaxe do install, por extenso
 
 A forma mais comum é instalar pelo Application ID, deixando o Flatpak resolver de qual remoto baixar:

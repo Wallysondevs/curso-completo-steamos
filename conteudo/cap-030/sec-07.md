@@ -7,6 +7,7 @@ O sandbox do Flatpak é o que torna o modelo seguro: cada app declara (ou pede e
 - Listar e remover overrides ativos
 - Diferenciar override de `--show-permissions`
 
+:::
 ## O override fica por cima do metadata
 
 Quando um Flatpak é instalado, ele traz um arquivo de metadata declarando as permissões base. O `override` cria um arquivo separado — em `~/.local/share/flatpak/overrides/<ID>` para overrides de usuário — que o Flatpak lê por cima do metadata original. O pacote permanece intocado: uma atualização do app não apaga seu override, e você pode reverter tudo a qualquer momento.

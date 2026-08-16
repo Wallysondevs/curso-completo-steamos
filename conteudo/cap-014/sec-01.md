@@ -15,12 +15,12 @@ O problema é que esse vocabulário é pobre. Ele não conhece touchpads, não c
 
 A Valve atacou isso por outro ângulo. Em vez de inventar outro driver que fosse a mesma coisa com outro nome, criou o **Steam Input**, uma camada de software que fica *entre* o controle e o jogo. O controle manda a leitura bruta de todos os seus componentes, e o Steam Input traduz isso para qualquer coisa: teclas de teclado, movimentos de mouse, comandos de controle de Xbox, atalhos, cadeias de comandos.
 
-<terminal>
+```terminal
 $ find ~/.local/share/Steam/steamapps/common -name "*.vdf" 2>/dev/null | head -20
 /home/deck/.local/share/Steam/steamapps/common/Steam Linux Runtime/run.sh.vdf
 /home/deck/.local/share/Steam/steamapps/common/SteamOS Device Support/controller.vdf
 /home/deck/.local/share/Steam/controller_base/workshop.vdf
-</terminal>
+```
 
 Os arquivos `.vdf` (formato *KeyValues* da Valve) aparecem espalhados por toda a instalação do Steam e guardam configuração, incluindo boa parte do que diz respeito a controles. A simples presença de um diretório chamado `controller_base` na raiz da instalação já diz muito: o suporte a controles não é um acessório, é parte estrutural do cliente Steam.
 
@@ -32,7 +32,7 @@ Existem dois caminhos diferentes pelos quais um comando do seu controle chega ao
 
 **Pela emulação XInput.** A grande maioria dos jogos *não* conhece o Steam Input. Para esses, o Steam Input finge ser um controle de Xbox: o jogo acha que está falando com um XInput legítimo, e nunca percebe que existe um touchpad ou um giroscópio sendo traduzido por trás. É isso que faz o Steam Deck rodar praticamente qualquer jogo de controle sem nenhuma configuração manual.
 
-<terminal>
+```terminal
 $ grep -i controller ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | tail -12
 [Steam Input] Device "Steam Deck Controller" connected, slot 0
 [Steam Input] Translating game actions for "Steam Deck Controller"
@@ -40,7 +40,7 @@ $ grep -i controller ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | t
 [Steam Input] Device "Steam Deck Controller" assigned to XInput slot 0
 [Steam Input] HID device opened: /dev/hidraw3
 [Steam Input] Gyro calibrated, drift 0.0012
-</terminal>
+```
 
 Nessa amostra de log, dá para ver o fluxo completo. O controle do deck é reconhecido pelo nome, recebe um *slot*, carrega um config oficial (identificado pelo ID numérico `1389032`), é atribuído a um *slot* XInput e, por fim, o giroscópio é calibrado. A linha do XInput expõe o mecanismo: para o jogo, o deck é "só mais um controle de Xbox".
 
@@ -52,17 +52,17 @@ Quando um jogo usa a Steam Input API, o `controller_ui.txt` mostra linhas de "ga
 
 Cada layout que você cria, baixa ou edita vive em arquivos dentro do seu perfil de usuário. O diretório raiz de tudo que envolve controle é:
 
-<terminal>
+```terminal
 $ ls ~/.local/share/Steam/config/controller_configs 2>/dev/null
 274190
 438700
 1172470
 personalization
-</terminal>
+```
 
 Cada diretório numerado acima é um **AppID** de jogo — o identificador numérico do jogo na loja do Steam. Dentro de cada um ficam as configurações de controle específicas daquele jogo. O diretório `personalization` guarda preferências que valem para todos os jogos, como a ordenação dos seus layouts salvos.
 
-<terminal>
+```terminal
 $ ls ~/.local/share/Steam/config/controller_configs/1172470 2>/dev/null
 SteamControllerGamepad.vdf
 workshop
@@ -75,7 +75,7 @@ $ head -c 400 ~/.local/share/Steam/config/controller_configs/1172470/SteamContro
         "description"           "Recommended layout for this game"
         "creator"               "76561198000000000"
         "controller_type"       "controller_steamcontroller_gordon"
-</terminal>
+```
 
 O arquivo `SteamControllerGamepad.vdf` descreve, numa estrutura hierárquica, o mapeamento de cada botão para cada ação. Manipular esses arquivos à mão é possível, mas raramente necessário — a interface faz isso por você. Ainda assim, saber que eles existem importa: é para lá que você olha para fazer backup, para copiar um layout de uma conta para outra ou para comparar duas versões.
 

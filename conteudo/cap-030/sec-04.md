@@ -6,6 +6,7 @@ Atualizar é mais barato que reinstalar, e o Flatpak foi projetado para isso: ca
 - Forçar a atualização de metadados com `update --appstream`
 - Saber como congelar um app em uma versão específica
 
+:::
 ## Atualizando tudo de uma vez
 
 O comando mais simples é também o mais usado: sem argumentos, ele varre a instalação ativa inteira, compara cada ref com o remoto de origem e pergunta se pode prosseguir.

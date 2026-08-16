@@ -6,6 +6,7 @@ Todo `install`, `update`, `remove` e `override` que você executou deixou um ras
 - Filtrar o histórico por tipo de operação
 - Usar o histórico como ponte para o downgrade
 
+:::
 ## O log transacional da instalação
 
 O `history` lê um arquivo de log que o Flatpak mantém em cada instalação (`/var/lib/flatpak/repo/history` para `system`, `~/.local/share/flatpak/repo/history` para `user`). Cada linha registra uma operação atômica — não uma tecla digitada, mas uma mudança de estado concluída.

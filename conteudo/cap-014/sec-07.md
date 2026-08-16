@@ -17,13 +17,13 @@ Um **action set** é um layout completo e autocontido. Você pode ter, por exemp
 
 Trocar de set reconstrói o mapa inteiro de controles de uma vez. Já uma **action layer** é uma *sobreposição*: enquanto estiver ativa, ela altera apenas os botões que você definiu, mantendo o resto exatamente como estava. É a ferramenta certa para mudanças pontuais e temporárias — por exemplo, segurar `[[L2]]` para que os quatro grips virem os comandos de mira/imobilização, e soltar para voltar ao normal.
 
-<terminal>
+```terminal
 $ grep -i "action_set\|action_layer" ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | tail -8
 [Steam Input] Action set "Default" active
 [Steam Input] Action set "Driving" activated by L4
 [Steam Input] Action layer "Aim" applied (hold L2)
 [Steam Input] Action layer "Aim" released
-</terminal>
+```
 
 O log mostra a semântica com clareza: um set é "ativado" (uma troca), uma layer é "aplicada" e "liberada" (uma sobreposição temporária). A diferença de verbos não é acidente — reflete como o Steam Input gerencia as duas coisas por baixo.
 
@@ -31,7 +31,7 @@ O log mostra a semântica com clareza: um set é "ativado" (uma troca), uma laye
 
 Na interface, você adiciona um action set tocando no nome do set atual e escolhendo **Add Action Set**. Depois nomeia cada set. A troca entre sets é feita, ela própria, por um comando: o comando **Change Action Set** (trocar conjunto de ações).
 
-<terminal>
+```terminal
 $ cat ~/.local/share/Steam/config/controller_configs/271590/SteamControllerGamepad.vdf 2>/dev/null | grep -A 20 '"action_sets"' | head -24
 "action_sets"
 {
@@ -48,7 +48,7 @@ $ cat ~/.local/share/Steam/config/controller_configs/271590/SteamControllerGamep
         "button_L4"     { "bindings" { "binding" "change_action_set Default" } }
     }
 }
-</terminal>
+```
 
 Aqui, no AppID 271590 (GTA V), o botão `L4` em cada set aponta de volta para o set `Default` — exceto no próprio `Default`, onde `L4` troca para `Driving`. Isso cria um ciclo mínimo: você cai no carro, aperta L4, dirige, aperta L4 de novo e volta a andar. O mesmo botão em sets diferentes faz coisas diferentes, porque cada set define seus próprios mapeamentos, incluindo o mapeamento de troca.
 
@@ -62,7 +62,7 @@ Enquanto o set é uma troca, a layer é quase sempre uma sobreposição *sob pre
 
 Um caso muito usado: num shooter com sistema de mira, segurar `[[L2]]` muda a sensibilidade do giroscópio (a layer "Aim" reduz a sensibilidade para mira precisa) e ainda reconfigura os grips para comandos táticos. Você solta o gatilho e tudo volta ao comportamento de movimento normal.
 
-<terminal>
+```terminal
 $ cat ~/.local/share/Steam/config/controller_configs/730/SteamControllerGamepad.vdf 2>/dev/null | grep -A 18 '"action_layers"' | head -22
 "action_layers"
 {
@@ -77,7 +77,7 @@ $ cat ~/.local/share/Steam/config/controller_configs/730/SteamControllerGamepad.
         "button_R5"     { "bindings" { "binding" "key_press Q, Toggle Sight" } }
     }
 }
-</terminal>
+```
 
 A layer `Aim` tem `activation` do tipo `hold_L2`: enquanto o gatilho esquerdo estiver segurado, ela vale. Dentro dela, apenas três coisas se alteram: a sensibilidade do giroscópio cai para `1.20`, e os grips R4 e R5 ganham comandos que não existiam no layout base. Todo o resto — analógicos, botões frontais, gatilho direito — permanece herdado do set Default.
 
@@ -93,10 +93,10 @@ Quando uma layer está ativa sobre um set, o Steam Input resolve a ambiguidade d
 
 Se a layer `Aim` define `button_R5`, e o set Default também define `button_R5`, o comando da layer vence enquanto ela estiver ativa. Ao liberar, volta o do set. É exatamente o comportamento que você quer — mas é fácil esquecer que uma layer "copiou" um botão em algum momento e passar minutos caçando por que o grip está fazendo coisa diferente só quando você segura o gatilho.
 
-<terminal>
+```terminal
 $ grep -c "binding" ~/.local/share/Steam/config/controller_configs/730/SteamControllerGamepad.vdf 2>/dev/null
 89
-</terminal>
+```
 
 Contar os `binding` de um `.vdf` dá a dimensão do mapa: 89 comandos distintos entre set base e layers. À medida que sets e layers se multiplicam, esse número sobe e a configuração vira um pequeno programa. A recomendação é manter um arquivo de anotações (ou comentários dentro do configurador) do que cada set e layer fazem — senão, daqui a três meses, você mesmo não reconhece a própria configuração.
 

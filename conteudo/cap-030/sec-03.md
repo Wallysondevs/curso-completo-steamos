@@ -6,6 +6,7 @@ Depois de instalar, você precisa saber o que está no disco, de qual versão e 
 - Extrair metadados completos de um app com `flatpak info`
 - Ler permissões e identificar versão e origem de um pacote instalado
 
+:::
 ## O que está instalado, afinal
 
 O `flatpak list` sozinho mostra os aplicativos da instalação ativa, mas o Flatpak guarda mais do que apps. Runtimes e extensões também são "refs" instalados, e o `list` consegue separá-los:

@@ -7,6 +7,7 @@ O Steam Deck é um computador completo que passa a maior parte do tempo ocioso e
 - Persistir dados de serviços em volumes e gerenciar atualizações
 - Lidar com o modo de suspensão e a durabilidade do hardware como servidor
 
+:::
 ## O Deck como servidor: vale a pena?
 
 Um servidor doméstico precisa de três coisas: rodar 24/7, ter armazenamento e estar na rede. O Deck entrega as três, com ressalvas. O ponto forte é o custo marginal zero — você já tem o hardware. O ponto fraco é o gerenciamento de energia: o Deck foi desenhado para dormir, não para ficar ligado eternamente.

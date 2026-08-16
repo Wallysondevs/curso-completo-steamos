@@ -23,7 +23,7 @@ O configurador expõe cinco tipos:
 
 Combinar três ou mais desses tipos num mesmo botão é possível. Na prática, dois ou três por botão já cobrem quase todos os cenários reais; mais do que isso fica difícil de lembrar durante o jogo.
 
-<terminal>
+```terminal
 $ grep -A 30 '"activators"' ~/.local/share/Steam/config/controller_configs/730/SteamControllerGamepad.vdf 2>/dev/null | head -35
 "activators"
 {
@@ -42,7 +42,7 @@ $ grep -A 30 '"activators"' ~/.local/share/Steam/config/controller_configs/730/S
         "gap"       "200"
     }
 }
-</terminal>
+```
 
 Cada ativador carrega seu `binding` (o comando) e parâmetros extras conforme o tipo: `Long_Press` tem `delay` (tempo em milissegundos que o botão precisa ficar pressionado para disparar), e `Double_Press` tem `gap` (intervalo máximo entre os dois toques). O Steam Input processa isso na ordem: primeiro avalia `Double_Press` (se houver um segundo toque), depois `Long_Press` (se o tempo de hold for atingido) e, por fim, `Regular Press` na hora de soltar.
 
@@ -53,7 +53,7 @@ Num FPS, o gatilho direito (`[[R2]]`) é o botão de atirar. Mas você pode quer
 - **Soft Pull** (puxada leve): aciona a ação "Mirar" (`key_press MOUSE2`).
 - **Full Pull** (puxada completa): aciona a ação "Atirar" (`key_press MOUSE1`).
 
-<terminal>
+```terminal
 $ cat << 'EOF'
 Exemplo: gatilho R2 com dois níveis
   Soft Pull  -> key_press MOUSE2 (mirar)
@@ -61,7 +61,7 @@ Exemplo: gatilho R2 com dois níveis
   Soft Pull threshold: 60 (de 0 a 255)
   Full Pull threshold: 200
 EOF
-</terminal>
+```
 
 O gatilho analógico do deck reporta valores de 0 a 255 (8 bits de resolução). O Steam Input permite definir dois limiares: um para considerar "puxada leve" e outro para "puxada completa". Entre 60 e 200, o gatilho está mirando; acima de 200, mirando E atirando. Essa separação é uma das configurações mais transformadoras para quem migrou de controle comum.
 
@@ -76,9 +76,9 @@ Para jogos que já têm um botão dedicado de mira (mirar com arma), você pode 
 - **Start Press no analógico:** Ativar "correr" no exato momento em que você empurra o analógico até o fim (threshold de 90%, por exemplo), em vez de esperar um clique.
 - **Release Press no gatilho:** Num jogo de carro, soltar o acelerador dispara o freio motor — ou num shooter tático, soltar o gatilho inicia a recarga.
 
-<terminal>
+```terminal
 $ grep -B 2 -A 8 "Release_Press\|Start_Press" ~/.local/share/Steam/config/controller_configs/*/SteamControllerGamepad.vdf 2>/dev/null | head -30
-</terminal>
+```
 
 Esse grep vasculha seus layouts salvos e mostra se (e onde) você já usou Start Press ou Release Press. A maioria das pessoas nunca configura isso, o que é curioso — porque são justamente esses dois ativadores que mais aproximam o controle do deck de um teclado bem configurado, onde cada movimento "pra baixo" e "pra cima" da tecla pode fazer algo diferente.
 

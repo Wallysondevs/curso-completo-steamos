@@ -16,7 +16,7 @@ Quando um botão "não funciona", a causa pode estar no hardware, no driver, no 
 3. **Verifique o caminho Steam Input API vs XInput.** O jogo está recebendo as ações?
 4. **Isole o jogo.** O mesmo botão funciona em outro título?
 
-<terminal>
+```terminal
 $ sudo timeout 8 evtest /dev/input/event3 2>&1 | grep "EV_KEY\|EV_ABS" | head -20
 Event: type 3 (EV_ABS), code 0 (ABS_X), value 1820
 Event: type 3 (EV_ABS), code 1 (ABS_Y), value 970
@@ -24,7 +24,7 @@ Event: type 1 (EV_KEY), code 304 (BTN_SOUTH), value 1
 Event: type 1 (EV_KEY), code 304 (BTN_SOUTH), value 0
 Event: type 1 (EV_KEY), code 305 (BTN_EAST), value 1
 Event: type 1 (EV_KEY), code 305 (BTN_EAST), value 0
-</terminal>
+```
 
 Se o `evtest` mostra os eventos aparecendo quando você aperta o botão, o hardware e o driver estão íntegros. O problema, então, está quase certamente no mapeamento ou no jogo — não é hora de abrir o deck. O par `value 1` seguido de `value 0` é a assinatura de um pressionar-e-soltar saudável: se você aperta e só vê `value 1` sem nunca ver o `value 0`, o botão está "grudado" logicamente.
 
@@ -32,14 +32,14 @@ Se o `evtest` mostra os eventos aparecendo quando você aperta o botão, o hardw
 
 Se o hardware está bem, o próximo suspeito é o layout. O log de controle diz qual config foi carregada e por qual caminho o jogo recebe os comandos.
 
-<terminal>
+```terminal
 $ grep -i "config loaded\|assigned\|slot\|error\|warn" ~/.local/share/Steam/logs/controller_ui.txt 2>/dev/null | tail -15
 [Steam Input] Device "Steam Deck Controller" connected, slot 0
 [Steam Input] Config loaded: 1172470 (official layout)
 [Steam Input] Device assigned to XInput slot 0
 [Steam Input] WARN: binding references missing localization
 [Steam Input] WARN: action "Sprint" not found in game's action set
-</terminal>
+```
 
 Duas linhas de `WARN` aqui são reveladoras e inofensivas na maioria dos casos. A primeira ("missing localization") indica que o layout usa um rótulo sem tradução — não afeta a função. A segunda é mais séria: o layout referencia uma ação chamada "Sprint" que o jogo não exporta no seu action set. Isso acontece quando você importa um layout de comunidade feito para outra versão do jogo, ou quando o jogo mudou a nomenclatura das ações numa atualização.
 
@@ -51,7 +51,7 @@ Erro de "action not found" é o motivo número um de um layout de comunidade "n�
 
 Se um layout sumiu (sincronização falhou, você deletou sem querer, formatou), o backup `.vdf` que você aprendeu a fazer na seção 02 entra em ação. A restauração é copiar o arquivo de volta e, se necessário, reiniciar o Steam para ele reler.
 
-<terminal>
+```terminal
 $ ls ~/lab/layouts-backup/ 2>/dev/null
 1172470_SteamControllerGamepad.vdf
 730_SteamControllerGamepad.vdf
@@ -60,7 +60,7 @@ $ cp ~/lab/layouts-backup/1172470_SteamControllerGamepad.vdf \
      ~/.local/share/Steam/config/controller_configs/1172470/SteamControllerGamepad.vdf
 $ pkill -x steam && steam -gamepadui 2>/dev/null &
 [1] 5113
-</terminal>
+```
 
 Repare no nome: no backup você renomeou para manter o AppID no começo (porque vários jogos têm arquivos com o mesmo nome `SteamControllerGamepad.vdf`). Ao restaurar, você devolve o nome canônico `SteamControllerGamepad.vdf` dentro da pasta do AppID correto. O `pkill -x steam` e o `steam -gamepadui` reiniciam o cliente no modo controle para forçar a releitura da configuração.
 
@@ -76,7 +76,7 @@ Configurações de partida que resolvem o essencial de cara:
 - **RPG/Mundo aberto:** radial menu no touchpad esquerdo para itens, grip `L4` = trocar set "A pé/Dirigindo", touchpad direito = mouse para navegar inventário.
 - **Estratégia/RTS:** touchpad direito = mouse com trackball "Low", touchpad esquerdo = mouse region no minimapa, botões frontais = grupos de unidade (Ctrl+1..9 via chord).
 
-<terminal>
+```terminal
 $ cat << 'EOF' > ~/lab/resumo-controles.txt
 # Resumo de controles — Steam Deck (minha config)
 # Gerado em: $(date +%Y-%m-%d)
@@ -102,7 +102,7 @@ RPG:
 Estratégia:
   - Touchpad direito = mouse (trackball Low)
   - Touchpad esquerdo = mouse region (minimapa)
-</terminal>
+```
 
 Manter um arquivo de texto com o resumo das suas configurações é o antídoto para o "eu configurei isso há três meses e não lembro como". É barato, vive no `~/lab`, e pode ser versionado ou sincronizado para qualquer lugar. A string `$(date +%Y-%m-%d)` evita que você perca a noção de quando aquilo foi escrito.
 

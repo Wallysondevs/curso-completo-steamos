@@ -7,6 +7,7 @@ Todo Flatpak que você instala veio de algum lugar. Esse "lugar" é um **remoto*
 - Conferir o conteúdo de um remoto com `flatpak remote-ls`
 - Diagnosticar problemas de conectividade em remotos
 
+:::
 ## O que é um remoto e quais estão ativos
 
 Um remoto é uma URL base que serve arquivos OSTree — o mesmo sistema de versionamento de arquivos que o rpm-ostree e o Silverblue usam. No SteamOS, o Flathub vem pré-configurado como remoto `system`:
