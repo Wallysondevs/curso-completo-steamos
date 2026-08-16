@@ -3,3 +3,9 @@
 *.swp
 .idea/
 .vscode/
+
+# Uso interno dos agentes — não publicar
+ESPECIFICACAO-CONTEUDO.md
+INSTRUCOES*.md
+ferramentas/
+
