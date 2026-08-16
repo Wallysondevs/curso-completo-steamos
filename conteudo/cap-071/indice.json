@@ -1,0 +1,79 @@
+{
+  "capitulo": 71,
+  "titulo": "Jogos nativos Linux vs streaming",
+  "resumo": "Quando rodar jogos localmente no Linux via Proton ou nativo, e quando transmitir via Steam Remote Play, Moonlight/Sunshine ou nuvem — comparando latência, qualidade de imagem, consumo de bateria e compatibilidade.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O espectro entre local e streaming",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["nativo", "proton", "streaming", "local", "cloud"]
+    },
+    {
+      "n": 2,
+      "titulo": "Jogos nativos Linux: catálogo e desempenho",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["vulkan", "opengl", "native", "steam-runtime", "porting"]
+    },
+    {
+      "n": 3,
+      "titulo": "Proton: a ponte entre Windows e Linux",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["proton", "wine", "dxvk", "vkd3d", "proton-ge"]
+    },
+    {
+      "n": 4,
+      "titulo": "Steam Remote Play e Steam Link",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["remoteplay", "steamlink", "latência", "codec", "banda"]
+    },
+    {
+      "n": 5,
+      "titulo": "Moonlight e Sunshine: streaming aberto",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["moonlight", "sunshine", "gamestream", "hevc", "av1"]
+    },
+    {
+      "n": 6,
+      "titulo": "Cloud gaming no Steam Deck",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["geforcenow", "xcloud", "boosteroid", "navegador", "cloud"]
+    },
+    {
+      "n": 7,
+      "titulo": "Latência, codecs e qualidade de imagem",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["latência", "codec", "bitrate", "h264", "hevc", "av1"]
+    },
+    {
+      "n": 8,
+      "titulo": "Bateria, calor e eficiência energética",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["bateria", "tdp", "consumo", "mangohud", "aquecimento"]
+    },
+    {
+      "n": 9,
+      "titulo": "Como decidir: checklist por jogo e situação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["decisão", "checklist", "trade-offs", "pipeline", "custo"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 44,
+  "titulo": "Lutris, Heroic e Bottles",
+  "resumo": "Comparação dos launchers de jogos fora do Steam: Lutris como all-in-one, Heroic focado em GOG e Epic, e Bottles para gerenciar prefixos Wine com granularidade.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Lutris: o canivete suíço de jogos",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["lutris", "launcher", "runner", "wine", "scripts"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando e configurando o Lutris",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["lutris", "flatpak", "gog", "epic", "legendary"]
+    },
+    {
+      "n": 3,
+      "titulo": "Heroic Games Launcher para GOG e Epic",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["heroic", "gog", "epic", "legendary", "gogdl"]
+    },
+    {
+      "n": 4,
+      "titulo": "Instalando e configurando o Heroic",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["heroic", "flatpak", "proton", "wine", "steam"]
+    },
+    {
+      "n": 5,
+      "titulo": "Bottles e gerenciadores de prefixo",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["bottles", "prefixo", "wine", "soda", "template"]
+    },
+    {
+      "n": 6,
+      "titulo": "Instalando e configurando o Bottles",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bottles", "dependencies", "backup", "winetricks", "soda"]
+    },
+    {
+      "n": 7,
+      "titulo": "Prefixos Wine na prática",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["wine", "dxvk", "vkd3d", "winecfg", "winetricks"]
+    },
+    {
+      "n": 8,
+      "titulo": "Comparativo: qual usar?",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["lutris", "heroic", "bottles", "comparativo", "escolha"]
+    },
+    {
+      "n": 9,
+      "titulo": "Organizando jogos, saves e backups",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["backup", "saves", "sdcard", "flatpak", "steam"]
+    }
+  ]
+}

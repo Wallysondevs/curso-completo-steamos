@@ -1,0 +1,79 @@
+{
+  "capitulo": 32,
+  "titulo": "Aplicativos essenciais para Steam Deck",
+  "resumo": "Firefox, VLC, VS Codium, GIMP, qBittorrent, OBS Studio, Discord, Spotify, ProtonUp-Qt e Decky Loader.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O kit básico do Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["flatpak", "flathub", "sandbox", "app id"]
+    },
+    {
+      "n": 2,
+      "titulo": "Navegador e navegação web",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["firefox", "flatpak", "xdg-settings", "perfil"]
+    },
+    {
+      "n": 3,
+      "titulo": "Vídeo e música",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vlc", "codec", "vaapi", "audio"]
+    },
+    {
+      "n": 4,
+      "titulo": "Edição de texto e código",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vscodium", "vscode", "flatpak-spawn", "extensao"]
+    },
+    {
+      "n": 5,
+      "titulo": "Edição de imagem",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gimp", "imagem", "batch", "pixel"]
+    },
+    {
+      "n": 6,
+      "titulo": "Download e torrent",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["qbittorrent", "torrent", "flatseal", "webui"]
+    },
+    {
+      "n": 7,
+      "titulo": "Comunicação e VoIP",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["discord", "voip", "microfone", "push-to-talk"]
+    },
+    {
+      "n": 8,
+      "titulo": "Streaming e captura (OBS)",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["obs", "pipewire", "vaapi", "gravacao"]
+    },
+    {
+      "n": 9,
+      "titulo": "Ecossistema Deck: ProtonUp-Qt e Decky Loader",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["proton", "protonup-qt", "decky loader", "proton-ge"]
+    }
+  ]
+}

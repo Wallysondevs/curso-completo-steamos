@@ -1,0 +1,79 @@
+{
+  "capitulo": 93,
+  "titulo": "Solução de problemas comuns",
+  "resumo": "Tela preta, boot loop, Wi-Fi sumiu, controle não responde, desempenho caiu.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Método para diagnosticar sem atalhos",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["diagnóstico", "metodologia", "reproduzir", "isolar", "journalctl"]
+    },
+    {
+      "n": 2,
+      "titulo": "Tela preta logo no boot",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["tela preta", "boot", "grub", "nomodeset", "gpu"]
+    },
+    {
+      "n": 3,
+      "titulo": "Boot loop e iniciação travada",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["boot loop", "failsafe", "grub", "kernel", "systemd"]
+    },
+    {
+      "n": 4,
+      "titulo": "O Wi-Fi sumiu da interface",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["wifi", "rfkill", "iw", "nmcli", "firmware"]
+    },
+    {
+      "n": 5,
+      "titulo": "Controle que não responde",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["controle", "bluetoothctl", "evtest", "steam input", "udev"]
+    },
+    {
+      "n": 6,
+      "titulo": "Desempenho que degradou de repente",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["desempenho", "throttling", "cpu", "temperatura", "sensors"]
+    },
+    {
+      "n": 7,
+      "titulo": "Lendo logs com journalctl",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["journalctl", "logs", "systemd", "falha", "bincident"]
+    },
+    {
+      "n": 8,
+      "titulo": "Resgate por chroot e recovery",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["chroot", "rescue", "recuperação", "grub", "fsck"]
+    },
+    {
+      "n": 9,
+      "titulo": "Restauração de fábrica e reinstalação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["restauração", "reinstalação", "factory reset", "imagem", "boot"]
+    }
+  ]
+}

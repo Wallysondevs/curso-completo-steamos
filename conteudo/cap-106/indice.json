@@ -1,0 +1,79 @@
+{
+  "capitulo": 106,
+  "titulo": "Recursos, canais e criadores recomendados",
+  "resumo": "Guides, canais de YouTube, sites e ferramentas essenciais.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Por que seguir quem já trilhou o caminho",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["curadoria", "ecossistema", "fontes", "radar"]
+    },
+    {
+      "n": 2,
+      "titulo": "Canais de YouTube que valem seu tempo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["youtube", "criadores", "gamingonlinux", "steamdeck"]
+    },
+    {
+      "n": 3,
+      "titulo": "Sites e portais de referência",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["protondb", "areweanticheatyet", "gamingonlinux", "referencia"]
+    },
+    {
+      "n": 4,
+      "titulo": "Proton e ferramentas de compatibilidade",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["proton", "protonup-qt", "protontricks", "proton-ge"]
+    },
+    {
+      "n": 5,
+      "titulo": "Launchers e gerenciamento de jogos",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["heroic", "lutris", "boilr", "steamtinkerlaunch"]
+    },
+    {
+      "n": 6,
+      "titulo": "Personalização, emulação e desempenho",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["decky", "emudeck", "cryoutilities", "plugins"]
+    },
+    {
+      "n": 7,
+      "titulo": "Monitoramento e diagnóstico de hardware",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mangohud", "goverlay", "corectrl", "gamescope"]
+    },
+    {
+      "n": 8,
+      "titulo": "Comunidades e onde pedir ajuda",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["reddit", "discord", "comunidade", "suporte"]
+    },
+    {
+      "n": 9,
+      "titulo": "Montando seu radar de informação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["rss", "radar", "informacao", "curadoria"]
+    }
+  ]
+}

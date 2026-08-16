@@ -1,0 +1,79 @@
+{
+  "capitulo": 43,
+  "titulo": "Jogos fora da Steam: GOG, Epic, Amazon",
+  "resumo": "Adicionar jogos não-Steam, instalar via Lutris e Heroic, resgatar títulos da Amazon Prime Gaming, integrar tudo na biblioteca com artwork e atalhos no Game Mode.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Adicionando jogos não-Steam manualmente",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam", "não-steam", "run gameid", "atalho", ".desktop"]
+    },
+    {
+      "n": 2,
+      "titulo": "GOG Galaxy e instaladores offline",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gog", "offline", "innoextract", "wine", "instalador"]
+    },
+    {
+      "n": 3,
+      "titulo": "Epic Games Store e o Heroic",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["epic", "heroic", "legendary", "proton", "wine-ge"]
+    },
+    {
+      "n": 4,
+      "titulo": "Instalando e configurando o Heroic",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["heroic", "flatpak", "discover", "wine-ge", "dxvk"]
+    },
+    {
+      "n": 5,
+      "titulo": "Lutris: o canivete suíço dos jogos",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["lutris", "runner", "wine", "proton", "install script"]
+    },
+    {
+      "n": 6,
+      "titulo": "Amazon Prime Gaming no Steam Deck",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["amazon", "prime gaming", "heroic", "lutris", "resgate"]
+    },
+    {
+      "n": 7,
+      "titulo": "Itch.io, Humble Bundle e outras lojas",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["itch.io", "humble", "bundle", "indie", "installer"]
+    },
+    {
+      "n": 8,
+      "titulo": "Steam ROM Manager e artwork automática",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["srm", "steam rom manager", "steamgriddb", "artwork", "grid"]
+    },
+    {
+      "n": 9,
+      "titulo": "Integração final: biblioteca unificada com arte",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["grid", "steamgriddb", "atalho", "library", "sgdb"]
+    }
+  ]
+}

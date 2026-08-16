@@ -1,0 +1,79 @@
+{
+  "capitulo": 33,
+  "titulo": "Navegadores, e-mail e comunicação",
+  "resumo": "Firefox vs Chrome, Thunderbird, Discord, Telegram, Slack e videoconferência no Steam Deck.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Escolhendo o navegador no Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["firefox", "chrome", "flatpak", "navegador", "codecs"]
+    },
+    {
+      "n": 2,
+      "titulo": "Firefox e a proteção de privacidade",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["firefox", "privacidade", "sandbox", "widevine", "doh"]
+    },
+    {
+      "n": 3,
+      "titulo": "Chrome e videoconferência no navegador",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["chrome", "vaapi", "meet", "zoom", "aceleracao"]
+    },
+    {
+      "n": 4,
+      "titulo": "E-mail com Thunderbird",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["thunderbird", "imap", "oauth2", "caldav", "mbx"]
+    },
+    {
+      "n": 5,
+      "titulo": "Discord e VoIP no Deck",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["discord", "voip", "pulseaudio", "flatseal", "pushtotalk"]
+    },
+    {
+      "n": 6,
+      "titulo": "Telegram e mensageiros no Flatpak",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["telegram", "signal", "slack", "element", "mensageiro"]
+    },
+    {
+      "n": 7,
+      "titulo": "Videoconferência com câmera externa",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["zoom", "webcam", "uvc", "pipewire", "video"]
+    },
+    {
+      "n": 8,
+      "titulo": "Permissões de áudio e webcam no Flatseal",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatseal", "override", "permissao", "device", "socket"]
+    },
+    {
+      "n": 9,
+      "titulo": "Web apps e streaming de jogos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["pwa", "xbox", "geforcenow", "kiosk", "streaming"]
+    }
+  ]
+}

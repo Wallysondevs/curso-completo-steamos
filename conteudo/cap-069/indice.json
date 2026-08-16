@@ -1,0 +1,79 @@
+{
+  "capitulo": 69,
+  "titulo": "Latência, redes e qualidade de streaming",
+  "resumo": "Codecs H.264/HEVC/AV1, bitrate, resolução, rede cabeada vs Wi-Fi e como otimizar a qualidade de streaming.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Latência, RTT e jitter",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["latencia", "rtt", "jitter", "ping"]
+    },
+    {
+      "n": 2,
+      "titulo": "Codecs H.264, HEVC e AV1",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["codec", "h264", "hevc", "av1", "vainfo"]
+    },
+    {
+      "n": 3,
+      "titulo": "Bitrate, resolução e frame rate",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["bitrate", "resolucao", "fps", "remoteplay"]
+    },
+    {
+      "n": 4,
+      "titulo": "Rede cabeada versus Wi-Fi",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["ethernet", "wifi", "deck", "jitter"]
+    },
+    {
+      "n": 5,
+      "titulo": "Diagnóstico de latência com ping",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ping", "icmp", "perda", "mdev"]
+    },
+    {
+      "n": 6,
+      "titulo": "Medindo throughput com iperf3",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["iperf3", "throughput", "tcp", "udp"]
+    },
+    {
+      "n": 7,
+      "titulo": "Estado do link com ethtool e ip addr",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ethtool", "ip", "ethernet", "duplex"]
+    },
+    {
+      "n": 8,
+      "titulo": "Inspecionando o rádio Wi-Fi com iw",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["iw", "iwconfig", "wifi", "sinal"]
+    },
+    {
+      "n": 9,
+      "titulo": "Otimização ponta a ponta do streaming",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["otimizacao", "checklist", "remoteplay", "debug"]
+    }
+  ]
+}

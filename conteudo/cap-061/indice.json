@@ -1,0 +1,79 @@
+{
+  "capitulo": 61,
+  "titulo": "Gerenciando espaço em disco",
+  "resumo": "Shader cache, compatdata, Downloads, flatpak cleanup, ncdu.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Para onde vai o espaço do Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["disco", "df", "du", "btrfs", "storage"]
+    },
+    {
+      "n": 2,
+      "titulo": "Shader cache: o que é e como limpar",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["shader cache", "vulkan", "shadercache", "dXVK", "steamos"]
+    },
+    {
+      "n": 3,
+      "titulo": "compatdata e prefixos Proton",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["compatdata", "proton", "prefix", "wine", "steamapps"]
+    },
+    {
+      "n": 4,
+      "titulo": "Downloads, lixo e arquivos órfãos",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["downloads", "órfãos", "find", "mtime", "limpeza"]
+    },
+    {
+      "n": 5,
+      "titulo": "Limpeza de Flatpak: runtimes e apps",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "uninstall", "runtime", "flatpak cleanup", "ostree"]
+    },
+    {
+      "n": 6,
+      "titulo": "Análise de disco com ncdu e du",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ncdu", "du", "disco", "maiores diretórios", "análise"]
+    },
+    {
+      "n": 7,
+      "titulo": "Bibliotecas Steam e mover jogos",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam library", "mover jogos", "microsd", "appmanifest", "acf"]
+    },
+    {
+      "n": 8,
+      "titulo": "Monitorar e automatizar a limpeza",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["journalctl", "logs", "systemd-timer", "automático", "monitoramento"]
+    },
+    {
+      "n": 9,
+      "titulo": "Recuperação de espaço e boas práticas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["recuperação", "du -x", "fstrim", "btrfs", "boas práticas"]
+    }
+  ]
+}

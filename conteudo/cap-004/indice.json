@@ -1,0 +1,79 @@
+{
+  "capitulo": 4,
+  "titulo": "Modelos do Steam Deck: LCD vs OLED",
+  "resumo": "Comparação completa de specs: tela, bateria, Wi-Fi, processador, pesos, edições de armazenamento e qual escolher.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Identificando seu modelo por linha de comando",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["inxi", "upower", "bateria", "aerith", "sephiroth"]
+    },
+    {
+      "n": 2,
+      "titulo": "Tela LCD vs OLED em detalhes",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["tela", "backlight", "oled", "ips", "hdr"]
+    },
+    {
+      "n": 3,
+      "titulo": "Bateria e autonomia",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bateria", "autonomia", "upower", "energy_full", "power_supply"]
+    },
+    {
+      "n": 4,
+      "titulo": "Processador Aerith e Sephiroth",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["lscpu", "cpu", "gpu", "rdna2", "tdp"]
+    },
+    {
+      "n": 5,
+      "titulo": "Wi-Fi 6E e conectividade",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["lspci", "wifi", "bluetooth", "nmcli", "802.11ax"]
+    },
+    {
+      "n": 6,
+      "titulo": "Edições de armazenamento (64GB a 1TB)",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["lsblk", "df", "nvme", "emmc", "smartctl"]
+    },
+    {
+      "n": 7,
+      "titulo": "Peso, ergonomia e acabamento",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dmidecode", "jupiter", "firmware", "bios", "ergonomia"]
+    },
+    {
+      "n": 8,
+      "titulo": "Refrigeração, ruído e temperatura",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["hwmon", "temperatura", "ventoinha", "fan", "pwm"]
+    },
+    {
+      "n": 9,
+      "titulo": "Qual modelo escolher",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["escolha", "compra", "diagnostico", "upgrade", "custo-beneficio"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 18,
+  "titulo": "Acessibilidade e opções do Modo Jogo",
+  "resumo": "Contraste, tamanhos de fonte, narração, filtros de cor, opções de controle adaptativo e jogabilidade acessível.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Menu de acessibilidade do SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["acessibilidade", "menu", "steamos", "ui", "modo jogo"]
+    },
+    {
+      "n": 2,
+      "titulo": "Narração e leitura de tela",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["narracao", "leitor de tela", "tts", "speech-dispatcher", "orca"]
+    },
+    {
+      "n": 3,
+      "titulo": "Contraste e temas de alto contraste",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["contraste", "alto contraste", "tema", "legibilidade", "ui"]
+    },
+    {
+      "n": 4,
+      "titulo": "Filtros de cor e daltonismo",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["daltonismo", "filtros de cor", "deuteranopia", "protanopia", "tritanopia"]
+    },
+    {
+      "n": 5,
+      "titulo": "Redimensionamento de texto e interface",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["fonte", "text-scaling", "dpi", "escala", "legibilidade"]
+    },
+    {
+      "n": 6,
+      "titulo": "Controle adaptativo e remapeamento",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["controle adaptativo", "remapeamento", "steam input", "gamepad", "botoes"]
+    },
+    {
+      "n": 7,
+      "titulo": "Acessibilidade por jogo no Modo Jogo",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["jogo", "modo jogo", "perfil", "steam input", "configuracoes por jogo"]
+    },
+    {
+      "n": 8,
+      "titulo": "Gamescope e acessibilidade do compositor",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["gamescope", "compositor", "wayland", "upscaling", "amd f sr"]
+    },
+    {
+      "n": 9,
+      "titulo": "Testando e validando acessibilidade",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["teste", "validacao", "diagnostico", "journalctl", "config"]
+    }
+  ]
+}

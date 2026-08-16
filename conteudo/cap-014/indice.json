@@ -1,0 +1,79 @@
+{
+  "capitulo": 14,
+  "titulo": "Steam Input — controles e layouts",
+  "resumo": "Layouts oficiais e da comunidade, botões traseiros, touchpads, giroscópio e modos de ação.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "A revolução do Steam Input",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam input", "xinput", "vdf", "emulação"]
+    },
+    {
+      "n": 2,
+      "titulo": "Layout oficial e layouts da comunidade",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["layout", "template", "comunidade", "workshop"]
+    },
+    {
+      "n": 3,
+      "titulo": "Botões traseiros (grip buttons)",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["grip", "evtest", "gamepadui", "botões"]
+    },
+    {
+      "n": 4,
+      "titulo": "Touchpads e trackpads",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["touchpad", "steam controller", "haptics", "radial"]
+    },
+    {
+      "n": 5,
+      "titulo": "Giroscópio e aim assist",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["giroscópio", "gyro", "drift", "smoothing"]
+    },
+    {
+      "n": 6,
+      "titulo": "Modos de ação e camadas",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["action set", "action layer", "ativador", "activator"]
+    },
+    {
+      "n": 7,
+      "titulo": "Action sets e action layers na prática",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["action set", "action layer", "hold layer", "troca"]
+    },
+    {
+      "n": 8,
+      "titulo": "Menus radiais, mouse regions e touch menus",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["radial menu", "mouse region", "touch menu", "grade"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico e recuperação de layouts",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["diagnóstico", "backup", "restauração", "receitas"]
+    }
+  ]
+}

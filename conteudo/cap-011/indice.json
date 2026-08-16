@@ -1,0 +1,79 @@
+{
+  "capitulo": 11,
+  "titulo": "Overlay de desempenho e monitoramento",
+  "resumo": "Níveis 1 a 4 do overlay, FPS, frametime, GPU/CPU, temperatura, VRAM, bateria e como interpretar cada métrica.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Os quatro níveis do overlay",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["overlay", "níveis", "gamescope", "fps", "frametime"]
+    },
+    {
+      "n": 2,
+      "titulo": "Ativando o overlay no Modo Jogo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["overlay", "modo jogo", "botão três pontos", "tdp"]
+    },
+    {
+      "n": 3,
+      "titulo": "Lendo FPS e frametime",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["fps", "frametime", "shader cache", "stutter"]
+    },
+    {
+      "n": 4,
+      "titulo": "1% low e jitter de frame",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["1% low", "jitter", "fps_metrics", "frametime"]
+    },
+    {
+      "n": 5,
+      "titulo": "Uso de GPU e CPU na APU",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["gpu", "cpu", "apu", "van gogh", "gargalo"]
+    },
+    {
+      "n": 6,
+      "titulo": "VRAM e memória do sistema",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["vram", "ram", "memória unificada", "shader cache", "oom"]
+    },
+    {
+      "n": 7,
+      "titulo": "Temperatura e throttling",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["temperatura", "throttling", "sensors", "journalctl", "gamescope"]
+    },
+    {
+      "n": 8,
+      "titulo": "Bateria e consumo em tempo real",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["bateria", "consumo", "tdp", "power_now", "autonomia"]
+    },
+    {
+      "n": 9,
+      "titulo": "MangoHud no Modo Desktop",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mangohud", "mangohud_config", "vkcube", "vulkan", "core_load"]
+    }
+  ]
+}

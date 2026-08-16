@@ -1,0 +1,79 @@
+{
+  "capitulo": 28,
+  "titulo": "O que é Flatpak e por que no SteamOS",
+  "resumo": "Flatpak, a via oficial de instalação de software no SteamOS imutável: sandbox, runtimes, isolamento e atualização sem quebrar o sistema.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O problema que o Flatpak resolve",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["flatpak", "pacman", "dependency-hell", "runtime", "sandbox"]
+    },
+    {
+      "n": 2,
+      "titulo": "Sandbox e isolamento",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["namespaces", "cgroups", "sandbox", "permissions", "flatpak-run"]
+    },
+    {
+      "n": 3,
+      "titulo": "Runtimes e SDKs",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["runtime", "sdk", "freedesktop", "kde", "gnome"]
+    },
+    {
+      "n": 4,
+      "titulo": "Por que Flatpak no sistema imutável",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["imutabilidade", "particao", "readonly", "pacman", "ostree"]
+    },
+    {
+      "n": 5,
+      "titulo": "Flatpak vs Snap vs AppImage",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "snap", "appimage", "snapd", "comparacao"]
+    },
+    {
+      "n": 6,
+      "titulo": "Flathub, o repositório universal",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flathub", "repositorio", "flatpak-remote", "verified", "gpg"]
+    },
+    {
+      "n": 7,
+      "titulo": "Gerenciando aplicativos Flatpak",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["flatpak-list", "flatpak-info", "flatpak-update", "flatpak-uninstall", "diagnostico"]
+    },
+    {
+      "n": 8,
+      "titulo": "Flatpak e os jogos da Steam",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam", "proton", "steam-runtime", "steamdeck", "launcher"]
+    },
+    {
+      "n": 9,
+      "titulo": "Criando Flatpaks com flatpak-builder",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["flatpak-builder", "manifest", "sdk", "flathub", "dev"]
+    }
+  ]
+}

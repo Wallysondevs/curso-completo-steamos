@@ -1,0 +1,79 @@
+{
+  "capitulo": 85,
+  "titulo": "Trocar tela, bateria e ventoinha",
+  "resumo": "Reparo de tela, substituição de bateria e ventoinha.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Ferramentas, segurança e desmontagem inicial",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["reparo", "desmontagem", "ifixit", "esd", "parafusos", "espatula", "steamdeck"]
+    },
+    {
+      "n": 2,
+      "titulo": "Abrindo a carcaça e o dissipador",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["carcaca", "clips", "parafusos", "escudo", "dissipador", "pasta-termica"]
+    },
+    {
+      "n": 3,
+      "titulo": "Desconectando a bateria com segurança",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bateria", "conector", "cabo", "descarga", "curto-circuito", "esd"]
+    },
+    {
+      "n": 4,
+      "titulo": "Substituindo a bateria",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["bateria", "adesivo", "substituicao", "calibracao", "decky", "health"]
+    },
+    {
+      "n": 5,
+      "titulo": "Troca da ventoinha e do conector",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["ventoinha", "fan", "cooler", "conector", "ruido", "lubrificacao"]
+    },
+    {
+      "n": 6,
+      "titulo": "Removendo e colando a tela nova",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["tela", "display", "adesivo", "fita", "glass", "lcd", "oled"]
+    },
+    {
+      "n": 7,
+      "titulo": "Cabos flat e o conector da tela",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["flat", "flex", "conector", "zif", "touch", "digitizador"]
+    },
+    {
+      "n": 8,
+      "titulo": "Remontagem e testes pós-reparo",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["remontagem", "teste", "diagnostico", "bios", "batocera", "qa"]
+    },
+    {
+      "n": 9,
+      "titulo": "Calibração de bateria e pós-troca",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["calibracao", "bateria", "upower", "health", "ciclos", "steamos"]
+    }
+  ]
+}

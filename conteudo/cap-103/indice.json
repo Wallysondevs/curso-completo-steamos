@@ -1,0 +1,79 @@
+{
+  "capitulo": 103,
+  "titulo": "Tabelas de referência de comandos",
+  "resumo": "Cheat sheet de flatpak, systemctl, journalctl e comandos essenciais.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Flatpak: comandos essenciais",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "flathub", "sandbox", "remotes"]
+    },
+    {
+      "n": 2,
+      "titulo": "systemctl: gerenciamento de serviços",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["systemctl", "systemd", "serviços", "daemon"]
+    },
+    {
+      "n": 3,
+      "titulo": "systemctl: estados, enable e máscaras",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["systemctl", "enable", "mask", "target"]
+    },
+    {
+      "n": 4,
+      "titulo": "journalctl: filtros e navegação",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["journalctl", "logs", "systemd-journald", "filtros"]
+    },
+    {
+      "n": 5,
+      "titulo": "journalctl: diagnóstico avançado",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["journalctl", "boot", "kernel", "vacuum"]
+    },
+    {
+      "n": 6,
+      "titulo": "Comandos essenciais: arquivos e diretórios",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ls", "cp", "mv", "find", "grep"]
+    },
+    {
+      "n": 7,
+      "titulo": "Comandos essenciais: processos e rede",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ps", "top", "kill", "ss", "ip"]
+    },
+    {
+      "n": 8,
+      "titulo": "Comandos essenciais: permissões e discos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["chmod", "chown", "df", "du", "mount"]
+    },
+    {
+      "n": 9,
+      "titulo": "Tabela consolidada e exercícios integrados",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["cheatsheet", "referência", "consolidado", "diagnóstico"]
+    }
+  ]
+}

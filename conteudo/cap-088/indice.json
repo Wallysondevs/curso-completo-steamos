@@ -1,0 +1,79 @@
+{
+  "capitulo": 88,
+  "titulo": "Temperatura e refrigeração",
+  "resumo": "Curvas de ventoinha, thermal paste, throttling.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Sensores de temperatura e hwmon",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["sensors", "hwmon", "lm-sensors", "sysfs", "temperatura"]
+    },
+    {
+      "n": 2,
+      "titulo": "Lendo a temperatura do APU",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["apd", "k10temp", "zenpower", "cpu", "gpu"]
+    },
+    {
+      "n": 3,
+      "titulo": "Arquitetura de refrigeração do Deck",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["heat pipe", "ventoinha", "dissipador", "airflow", "cadeira"]
+    },
+    {
+      "n": 4,
+      "titulo": "Como o sistema controla a ventoinha",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["fan", "pwm", "hwmon", "controlador", "rpm"]
+    },
+    {
+      "n": 5,
+      "titulo": "Curvas de ventoinha e jupiter",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["jupiter", "fan control", "curva", "tweak", "decky"]
+    },
+    {
+      "n": 6,
+      "titulo": "Thermal throttling na prática",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["throttling", "tctl", "trip point", "frequencia", "clock"]
+    },
+    {
+      "n": 7,
+      "titulo": "Thermal paste e condutividade",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["thermal paste", "pasta térmica", "condutividade", "aplicação"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico e limpeza de superaquecimento",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["superaquecimento", "limpeza", "poeira", "diagnóstico", "journalctl"]
+    },
+    {
+      "n": 9,
+      "titulo": "Monitoramento contínuo e tweaks",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mangohud", "monitoramento", "undervolt", "tdp", "powertop"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 96,
+  "titulo": "Journalctl, systemd e serviços",
+  "resumo": "Ler logs, habilitar/desabilitar serviços, timers, targets.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é o systemd e o processo 1",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["systemd", "systemctl", "pid 1", "unidades", "boot"]
+    },
+    {
+      "n": 2,
+      "titulo": "Units: identificando o tipo certo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["unit", "service", "target", "systemctl list-units", "tipo"]
+    },
+    {
+      "n": 3,
+      "titulo": "Lendo o estado de serviços com systemctl",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["systemctl", "status", "is-active", "is-enabled", "failed"]
+    },
+    {
+      "n": 4,
+      "titulo": "Start, stop, enable e disable na prática",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["systemctl", "start", "stop", "enable", "disable", "restart"]
+    },
+    {
+      "n": 5,
+      "titulo": "Journalctl: o coração dos logs",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["journalctl", "logs", "journal", "boot", "grep"]
+    },
+    {
+      "n": 6,
+      "titulo": "Filtrando o journal como um profissional",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["journalctl", "filtros", "prioridade", "since", "until", "follow"]
+    },
+    {
+      "n": 7,
+      "titulo": "Timers: agendando tarefas no systemd",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["systemd.timer", "timer", "cron", "OnCalendar", "agendamento"]
+    },
+    {
+      "n": 8,
+      "titulo": "Targets: do boot ao desligamento",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["target", "isolate", "default.target", "graphical", "runlevel"]
+    },
+    {
+      "n": 9,
+      "titulo": "Escrevendo e depurando seu primeiro unit",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["unit file", "systemd-analyze", "service", "override", "drop-in"]
+    }
+  ]
+}

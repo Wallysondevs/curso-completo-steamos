@@ -1,0 +1,79 @@
+{
+  "capitulo": 22,
+  "titulo": "Configurações do sistema KDE",
+  "resumo": "Aparência, fontes, cursores, temas globais, cores, decoração de janelas e personalização visual no SteamOS.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O hub de configurações do KDE",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["systemsettings", "kcmshell6", "kcm", "plasma", "configuração"]
+    },
+    {
+      "n": 2,
+      "titulo": "Temas globais e pacotes de aparência",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["global theme", "lookandfeeltool", "plasmashell", "kdeglobals", "tema"]
+    },
+    {
+      "n": 3,
+      "titulo": "Fontes, renderização e anti-aliasing",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["fontes", "noto sans", "fc-cache", "fc-list", "anti-aliasing", "dpi"]
+    },
+    {
+      "n": 4,
+      "titulo": "Cores e esquemas cromáticos",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["cores", "color scheme", "kwriteconfig6", "breezedark", "kcmshell6 colors"]
+    },
+    {
+      "n": 5,
+      "titulo": "Decoração de janelas e bordas",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["decoração", "janelas", "aurorae", "breeze", "kwinrc", "kwindecoration"]
+    },
+    {
+      "n": 6,
+      "titulo": "Cursores, ícones e elementos da interface",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["cursores", "ícones", "cursortheme", "breeze", "gtk", "svg"]
+    },
+    {
+      "n": 7,
+      "titulo": "Ajustes visuais por toolkit e aplicativo",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["widget style", "qt", "gtk", "flatpak", "ldd", "fusion"]
+    },
+    {
+      "n": 8,
+      "titulo": "Backup e restauração das configurações",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["backup", "kdeglobals", "kreadconfig6", "snapshot", "restauração"]
+    },
+    {
+      "n": 9,
+      "titulo": "Personalização completa no Steam Deck",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["deck", "touchscreen", "perfil", "script", "snapshot", "restauração"]
+    }
+  ]
+}

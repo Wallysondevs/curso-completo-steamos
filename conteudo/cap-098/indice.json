@@ -1,0 +1,79 @@
+{
+  "capitulo": 98,
+  "titulo": "Segurança e privacidade",
+  "resumo": "Senha de usuário, sudo, firewall, LUKS, permissões Flatpak.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Senhas e a identidade do usuário deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["senha", "passwd", "deck", "shadow", "pam"]
+    },
+    {
+      "n": 2,
+      "titulo": "sudo e escalonamento de privilégio",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["sudo", "root", "sudoers", "visudo", "steamos-readonly"]
+    },
+    {
+      "n": 3,
+      "titulo": "Firewall com nftables e ufw",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["firewall", "nftables", "ufw", "porta", "ssh"]
+    },
+    {
+      "n": 4,
+      "titulo": "Criptografia de disco com LUKS",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["luks", "cryptsetup", "criptografia", "chave", "partição"]
+    },
+    {
+      "n": 5,
+      "titulo": "Permissões e sandbox do Flatpak",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "sandbox", "flatseal", "permissões", "portal"]
+    },
+    {
+      "n": 6,
+      "titulo": "Permissões de arquivo e umask",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["chmod", "umask", "chown", "permissões", "acl"]
+    },
+    {
+      "n": 7,
+      "titulo": "Acesso remoto seguro com SSH",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ssh", "chave", "sshd", "ssh-keygen", "known_hosts"]
+    },
+    {
+      "n": 8,
+      "titulo": "Auditoria e logs de segurança",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["journalctl", "audit", "last", "faillock", "log"]
+    },
+    {
+      "n": 9,
+      "titulo": "Checklist de endurecimento final",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["checklist", "endurecimento", "validação", "script", "resumo"]
+    }
+  ]
+}

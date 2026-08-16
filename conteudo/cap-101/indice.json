@@ -1,0 +1,79 @@
+{
+  "capitulo": 101,
+  "titulo": "Referência rápida de atalhos e botões",
+  "resumo": "Todos os atalhos do Modo Jogo e Desktop, combinações de botões.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Navegação geral no Modo Jogo",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["modo jogo", "navegação", "steam button", "quick access", "atalhos"]
+    },
+    {
+      "n": 2,
+      "titulo": "Combinações com o botão Steam",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steam", "atalhos", "combo", "captura", "teclado virtual"]
+    },
+    {
+      "n": 3,
+      "titulo": "Atalhos do Quick Access Menu",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["quick access", "qam", "overlay", "desempenho", "brilho"]
+    },
+    {
+      "n": 4,
+      "titulo": "Atalhos de sistema e recovery",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["boot", "recovery", "bios", "boot menu", "reset"]
+    },
+    {
+      "n": 5,
+      "titulo": "Modo Desktop — atalhos de teclado",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["desktop", "kde", "plasma", "atalhos", "teclado"]
+    },
+    {
+      "n": 6,
+      "titulo": "Modo Desktop — atalhos do Konsole",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["konsole", "terminal", "atalhos", "bash", "emulador"]
+    },
+    {
+      "n": 7,
+      "titulo": "Mapeamento de botões com Steam Input",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam input", "mapeamento", "gamepad", "touchpad", "giroscópio"]
+    },
+    {
+      "n": 8,
+      "titulo": "Combinações avançadas e macros",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["macros", "chord", "action set", "layer", "radial"]
+    },
+    {
+      "n": 9,
+      "titulo": "Tabela consolidada de todos os atalhos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["referência", "tabela", "todos", "consolidado", "imprimível"]
+    }
+  ]
+}

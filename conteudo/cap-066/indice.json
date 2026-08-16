@@ -1,0 +1,79 @@
+{
+  "capitulo": 66,
+  "titulo": "GeForce NOW e Xbox Cloud Gaming",
+  "resumo": "Cloud gaming no Deck: navegador, atalhos para Modo Jogo, xCloud.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Cloud gaming no Deck — o que é possível",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["cloud gaming", "geforce now", "xcloud", "navegador", "deck"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando o GeForce NOW como app no Modo Jogo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["geforce now", "chrome", "kiosk", "steam", "atalho"]
+    },
+    {
+      "n": 3,
+      "titulo": "Controle, atalhos e navegação no GeForce NOW",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam input", "controle", "gamepad", "touchpad", "mouse"]
+    },
+    {
+      "n": 4,
+      "titulo": "Xbox Cloud Gaming pelo navegador no Deck",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["xcloud", "game pass", "edge", "navegador", "chrome"]
+    },
+    {
+      "n": 5,
+      "titulo": "Criando atalho do xCloud para o Modo Jogo",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["xcloud", "steam", "kiosk", "atalho", "game mode"]
+    },
+    {
+      "n": 6,
+      "titulo": "GeForce NOW versus xCloud no Deck",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["comparativo", "geforce now", "xcloud", "latencia", "catalogo"]
+    },
+    {
+      "n": 7,
+      "titulo": "Rede, latência e diagnóstico de streaming",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ping", "iperf3", "mtr", "latencia", "wifi", "bufferbloat"]
+    },
+    {
+      "n": 8,
+      "titulo": "Resolução, codecs e qualidade de imagem na nuvem",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["h264", "hevc", "av1", "bitrate", "resolucao", "decode"]
+    },
+    {
+      "n": 9,
+      "titulo": "Integração com o ecossistema SteamOS",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["decky", "emudeck", "proton", "steamos", "ecossistema"]
+    }
+  ]
+}

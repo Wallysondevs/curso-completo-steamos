@@ -1,0 +1,79 @@
+{
+  "capitulo": 64,
+  "titulo": "Streaming local: Steam Remote Play",
+  "resumo": "Jogar do PC no Deck via Remote Play, configuração, qualidade e troubleshooting.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Como o Remote Play funciona na prática",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["remote play", "streaming", "latência", "codec", "steam"]
+    },
+    {
+      "n": 2,
+      "titulo": "Preparando o PC hospedeiro para transmitir",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam link", "hardware encoding", "nvenc", "amd", "host"]
+    },
+    {
+      "n": 3,
+      "titulo": "Configurando o streaming no Steam Deck",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steamdeck", "cliente", "pareamento", "uinput", "controle"]
+    },
+    {
+      "n": 4,
+      "titulo": "Qualidade de imagem, resolução e bitrate",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bitrate", "resolução", "fps", "banda", "qualidade"]
+    },
+    {
+      "n": 5,
+      "titulo": "Entendendo e reduzindo a latência de entrada",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["latência", "input lag", "vsync", "framepacing", "deck"]
+    },
+    {
+      "n": 6,
+      "titulo": "Rede ideal para streaming local",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["wi-fi", "ethernet", "qos", "mesh", "5ghz"]
+    },
+    {
+      "n": 7,
+      "titulo": "Ajustes avançados nas opções do Remote Play",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["big picture", "video", "audio", "stream", "config"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnosticando problemas comuns de streaming",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["troubleshooting", "stutter", "log", "overlay", "ping"]
+    },
+    {
+      "n": 9,
+      "titulo": "Alternativas e integração com o ecossistema Valve",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["moonlight", "sunshine", "chiaki", "link", "ecossistema"]
+    }
+  ]
+}

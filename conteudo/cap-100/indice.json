@@ -1,0 +1,79 @@
+{
+  "capitulo": 100,
+  "titulo": "Comunidade: Reddit, fóruns, Discord e wiki",
+  "resumo": "Onde encontrar ajuda: r/SteamDeck, fóruns Steam, Discord, wiki e canais de YouTube.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O mapa da comunidade e por onde começar",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["comunidade", "reddit", "discord", "foruns", "youtube", "wiki"]
+    },
+    {
+      "n": 2,
+      "titulo": "Navegando no r/SteamDeck com flairs e busca",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["reddit", "steamdeck", "flair", "megathread", "busca"]
+    },
+    {
+      "n": 3,
+      "titulo": "Os fóruns oficiais da Steam e o bug report",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["foruns", "steam", "bug report", "valve", "appid"]
+    },
+    {
+      "n": 4,
+      "titulo": "Discord e a ajuda em tempo real",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["discord", "tempo real", "canal", "servidor", "log"]
+    },
+    {
+      "n": 5,
+      "titulo": "Wikis e a documentação consolidada da comunidade",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["wiki", "documentacao", "steam deck hq", "curadoria", "git"]
+    },
+    {
+      "n": 6,
+      "titulo": "Como capturar e compartilhar logs de ajuda",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["log", "journalctl", "proton_log", "paste", "diagnostico"]
+    },
+    {
+      "n": 7,
+      "titulo": "Canais de YouTube e o aprendizado visual",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["youtube", "video", "tutorial", "reparo", "benchmark"]
+    },
+    {
+      "n": 8,
+      "titulo": "O ecossistema de software comunitário",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bazzite", "emudeck", "decky", "proton-ge", "nao oficial"]
+    },
+    {
+      "n": 9,
+      "titulo": "Etiqueta da comunidade e fluxo de resolução",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["etiqueta", "fluxo", "gatekeeping", "pedir ajuda", "referencia"]
+    }
+  ]
+}

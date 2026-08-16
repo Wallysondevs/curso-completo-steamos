@@ -1,0 +1,79 @@
+{
+  "capitulo": 38,
+  "titulo": "Versões do Proton (oficial, Experimental, GE, Hotfix)",
+  "resumo": "Quando usar Stable, Experimental, GE (patches comunitários) e Hotfix para problemas urgentes.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "As quatro famílias do Proton",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["proton", "stable", "experimental", "ge", "hotfix", "steamplay"]
+    },
+    {
+      "n": 2,
+      "titulo": "Proton Stable e o ciclo de releases",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["proton stable", "versionamento", "config.vdf", "compatibilitytool.vdf"]
+    },
+    {
+      "n": 3,
+      "titulo": "Proton Experimental (bleeding edge)",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["proton experimental", "bleeding edge", "changelog", "dxvk"]
+    },
+    {
+      "n": 4,
+      "titulo": "Proton GE (GloriousEggroll)",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["proton ge", "gloriouseggroll", "codecs", "patentes", "compatibilitytools.d"]
+    },
+    {
+      "n": 5,
+      "titulo": "Hotfix e versões pontuais",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["hotfix", "regressão", "backport", "correção urgente"]
+    },
+    {
+      "n": 6,
+      "titulo": "Selecionando a versão para um jogo",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["compatibilidade", "comptoolmapping", "config.vdf", "appid", "propriedades"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atualizando as versões do Proton",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["atualização", "proton ge", "compatibilitytools.d", "journalctl", "prefixo"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico e troca de versão",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["diagnóstico", "prefixo wine", "compatdata", "log", "journalctl"]
+    },
+    {
+      "n": 9,
+      "titulo": "Por dentro do Proton: Wine, DXVK e VKD3D",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["wine", "dxvk", "vkd3d-proton", "upstream", "github", "componentes"]
+    }
+  ]
+}

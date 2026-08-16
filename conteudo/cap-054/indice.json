@@ -1,0 +1,79 @@
+{
+  "capitulo": 54,
+  "titulo": "Homebrew, traduções e mods de ROMs",
+  "resumo": "Traduções de fãs, ROM hacks, patches IPS/UPS e homebrew em emuladores.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O ecossistema homebrew: ROM hacks, traduções e homebrew no Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["rom hack", "tradução", "patch", "homebrew", "checksum", "softpatch"]
+    },
+    {
+      "n": 2,
+      "titulo": "Formatos de patch: IPS, UPS, BPS, PPF e XDelta",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ips", "ups", "bps", "ppf", "xdelta", "flips"]
+    },
+    {
+      "n": 3,
+      "titulo": "Ferramentas de patching no SteamOS",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["flips", "xdelta3", "flatpak", "steamos-readonly", "script", "automação"]
+    },
+    {
+      "n": 4,
+      "titulo": "Traduções de fãs e localização",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["fan translation", "font hack", "pt-br", "ppf", "xdelta", "romhacking.net"]
+    },
+    {
+      "n": 5,
+      "titulo": "ROM hacks e mods completos",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["overhaul", "total conversion", "randomizer", "seed", "expansão de rom", "save"]
+    },
+    {
+      "n": 6,
+      "titulo": "Homebrew: jogos e aplicações independentes",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["homebrew", "open source", "dolphin", "ppsspp", "itch.io", "dol", "elf"]
+    },
+    {
+      "n": 7,
+      "titulo": "RetroAchievements e integração com RetroArch",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["retroachievements", "hardcore mode", "cheevos", "override", "checksum"]
+    },
+    {
+      "n": 8,
+      "titulo": "Organização e gerenciamento de ROMs modificadas",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["organização", "nomenclatura", "changelog", "rsync", "syncthing", "igir"]
+    },
+    {
+      "n": 9,
+      "titulo": "Comunidade, fontes e considerações legais",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["comunidade", "legalidade", "crédito", "romhacking.net", "contribuição", "dump legal"]
+    }
+  ]
+}

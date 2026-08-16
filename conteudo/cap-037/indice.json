@@ -1,0 +1,79 @@
+{
+  "capitulo": 37,
+  "titulo": "O que é Proton / Steam Play",
+  "resumo": "Wine + DXVK + VKD3D: a pilha que roda jogos Windows no Linux, origem Valve/CodeWeavers e diferença para Wine vanilla.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Steam Play e Proton: os dois conceitos",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam play", "proton", "valve", "codeweavers", "steamdeck"]
+    },
+    {
+      "n": 2,
+      "titulo": "Wine: a camada de compatibilidade",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["wine", "prefixo", "winetricks", "wineprefix", "compatdata"]
+    },
+    {
+      "n": 3,
+      "titulo": "DXVK e a tradução DirectX para Vulkan",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["dxvk", "vulkan", "directx", "dxvk_hud", "fossilize"]
+    },
+    {
+      "n": 4,
+      "titulo": "VKD3D-Proton para DirectX 12",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["vkd3d", "directx12", "dxr", "ray tracing", "dxil"]
+    },
+    {
+      "n": 5,
+      "titulo": "FAudio, dxvk-nvapi e codecs auxiliares",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["faudio", "dxvk-nvapi", "codecs", "steam runtime", "mfplat"]
+    },
+    {
+      "n": 6,
+      "titulo": "O fluxo de execução do Proton",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["proton_log", "proton_verb", "run", "prefixo", "runtime"]
+    },
+    {
+      "n": 7,
+      "titulo": "Como a Valve contribuiu para o Wine",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["valve", "codeweavers", "winehq", "upstream", "patches"]
+    },
+    {
+      "n": 8,
+      "titulo": "A história do Steam Play de 2018 a 2025",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam play", "historia", "deck verified", "proton versions", "evolução"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico prático e referência de ferramentas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["diagnostico", "mangohud", "proton_log", "troubleshooting", "checklist"]
+    }
+  ]
+}

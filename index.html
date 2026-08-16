@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Curso Completo de SteamOS</title>
+<meta name="description" content="Curso completo de SteamOS em português: 108 capítulos e 972 subcapítulos, do primeiro boot do Steam Deck à personalização total.">
+<meta name="theme-color" content="#1A9FFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171A21" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<meta property="og:title" content="Curso Completo de SteamOS">
+<meta property="og:description" content="108 capítulos e 972 subcapítulos sobre SteamOS e Steam Deck, em português.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="assets/css/main.css?v=3">
+</head>
+<body>
+
+<a class="pular" href="#conteudo-principal">Pular para o conteúdo</a>
+
+<noscript>
+  <div style="padding:20px;background:#F99B11;color:#2C001E;text-align:center;font-weight:500">
+    Este curso precisa de JavaScript para montar o sumário dos 972 subcapítulos e carregar os
+    textos. Ative o JavaScript para navegar. Os textos também podem ser lidos direto em
+    <code>conteudo/cap-NNN/sec-MM.md</code>.
+  </div>
+</noscript>
+
+<div class="barra-leitura" id="barra-leitura" aria-hidden="true"><i></i></div>
+
+<header class="topo" id="topo">
+  <button class="botao-icone menu-mobile" id="btn-menu" aria-label="Abrir sumário" aria-expanded="false" aria-controls="lateral">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+
+  <a class="marca" href="#/" aria-label="Início do curso">
+    <svg class="logo-steamos" viewBox="0 0 100 100" role="img" aria-label="Logotipo do SteamOS"><rect x="4" y="4" width="92" height="92" rx="18" fill="none"/><g stroke-linecap="round"><circle cx="40" cy="60" r="16" fill="none" stroke="#66C0F4" stroke-width="5"/><circle cx="40" cy="60" r="5" fill="#66C0F4"/><circle cx="71" cy="40" r="11" fill="none" stroke="#B8B6B4" stroke-width="5"/><circle cx="71" cy="40" r="4" fill="#B8B6B4"/><path d="M40 60 L71 40" stroke="#B8B6B4" stroke-width="5"/></g></svg>
+    <span class="marca-texto">
+      <strong>steamos</strong>
+      <em>curso completo</em>
+    </span>
+  </a>
+
+  <div class="busca" role="search">
+    <svg class="busca-icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input type="search" id="campo-busca" placeholder="Buscar no curso…  ( / )" autocomplete="off"
+           aria-label="Buscar capítulos e subcapítulos" aria-expanded="false" aria-controls="resultados-busca">
+    <button class="busca-limpar" id="busca-limpar" aria-label="Limpar busca" hidden>&times;</button>
+    <div class="resultados" id="resultados-busca" role="listbox" hidden></div>
+  </div>
+
+  <div class="acoes-topo">
+    <button class="botao-icone" id="btn-tema" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+      <svg class="ic-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+      <svg class="ic-lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 1010.5 10.5z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="cortina" id="cortina" hidden></div>
+
+<div class="layout">
+
+  <!-- ============ SUMÁRIO LATERAL ============ -->
+  <aside class="lateral" id="lateral" aria-label="Sumário do curso">
+    <div class="lateral-topo">
+      <div class="progresso-caixa">
+        <div class="progresso-cabecalho">
+          <span>Seu progresso</span>
+          <strong id="progresso-pct">0%</strong>
+        </div>
+        <div class="progresso-trilho"><i id="progresso-barra" style="width:0%"></i></div>
+        <div class="progresso-detalhe" id="progresso-detalhe">0 de 0 subcapítulos concluídos</div>
+      </div>
+      <div class="filtros">
+        <button class="chip ativo" data-filtro="todos">Todos</button>
+        <button class="chip" data-filtro="completo">Prontos</button>
+        <button class="chip" data-filtro="pendente">A ler</button>
+      </div>
+    </div>
+    <nav class="arvore" id="arvore" aria-label="Capítulos"></nav>
+    <div class="lateral-rodape">
+      <button class="botao-fantasma" id="btn-expandir">Expandir tudo</button>
+      <button class="botao-fantasma" id="btn-recolher">Recolher tudo</button>
+    </div>
+  </aside>
+
+  <!-- ============ CONTEÚDO ============ -->
+  <main class="principal" id="conteudo-principal" tabindex="-1">
+    <article id="artigo" class="artigo"></article>
+    <nav class="nav-pares" id="nav-pares" aria-label="Navegação entre subcapítulos"></nav>
+    <footer class="rodape">
+      <p>... </p>
+      <p class="miudo">Todas as saídas de terminal deste material são <strong>ilustrativas</strong>: reproduzem fielmente o formato dos comandos reais, mas com dados de exemplo. Referência do curso: SteamOS 3.6 (Steam Deck OLED).</p>
+      <p class="miudo">Steam, Steam Deck e SteamOS são marcas da Valve Corporation. Este é um material educacional independente.</p>
+    </footer>
+  </main>
+
+  <!-- ============ ÍNDICE DA PÁGINA ============ -->
+  <aside class="indice-pagina" id="indice-pagina" aria-label="Índice desta página">
+    <div class="ip-titulo">Nesta página</div>
+    <nav id="ip-lista"></nav>
+  </aside>
+
+</div>
+
+<button class="voltar-topo" id="voltar-topo" aria-label="Voltar ao topo" hidden>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="dados/sumario.js?v=3"></script>
+<script src="assets/js/markdown.js?v=3"></script>
+<script src="assets/js/app.js?v=3"></script>
+</body>
+</html>

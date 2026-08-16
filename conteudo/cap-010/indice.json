@@ -1,0 +1,79 @@
+{
+  "capitulo": 10,
+  "titulo": "Gamescope — o compositor do Modo Jogo",
+  "resumo": "O microcompositor Wayland da Valve que roda a interface do Steam, com upscaling FSR, HDR, modo janela aninhado e linha de comando.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O microcompositor Wayland do SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["gamescope", "wayland", "compositor", "steamos", "xwayland"]
+    },
+    {
+      "n": 2,
+      "titulo": "Upscaling FSR integrado ao compositor",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gamescope", "fsr", "upscaling", "vkmark", "tdp"]
+    },
+    {
+      "n": 3,
+      "titulo": "Modo janela aninhado para testes",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["gamescope", "nested", "winit", "headless", "debug"]
+    },
+    {
+      "n": 4,
+      "titulo": "Fullscreen real e Adaptive Sync",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["gamescope", "fullscreen", "adaptive-sync", "vrr", "drm"]
+    },
+    {
+      "n": 5,
+      "titulo": "HDR e gerenciamento de cores",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["gamescope", "hdr", "pq", "rec2020", "tone-mapping"]
+    },
+    {
+      "n": 6,
+      "titulo": "Linha de comando e flags essenciais",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gamescope", "flags", "resolucao", "fsr", "cl"]
+    },
+    {
+      "n": 7,
+      "titulo": "Integração com MangoHud para métricas",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mangohud", "gamescope", "overlay", "logging", "throttling"]
+    },
+    {
+      "n": 8,
+      "titulo": "Arquitetura interna wlroots e Vulkan",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["gamescope", "wlroots", "vulkan", "radv", "drm"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico de problemas gráficos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["gamescope", "debug", "journalctl", "flickering", "gpu-reset"]
+    }
+  ]
+}

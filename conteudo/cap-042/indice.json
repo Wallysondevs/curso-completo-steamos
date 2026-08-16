@@ -1,0 +1,79 @@
+{
+  "capitulo": 42,
+  "titulo": "Resolvendo problemas comuns com Proton",
+  "resumo": "Tela preta, crash, FMV não toca, erro de C++, anticheat incompatível e logs do Proton.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Diagnóstico inicial de problemas",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["proton", "proton_log", "appid", "compatdata", "diagnóstico"]
+    },
+    {
+      "n": 2,
+      "titulo": "Tela preta e crash no launch",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["dxvk_async", "vulkaninfo", "proton_ge", "tela preta", "crash"]
+    },
+    {
+      "n": 3,
+      "titulo": "Vídeos e cutscenes que não tocam",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["fmv", "mf-install", "codecs", "media foundation", "proton_ge"]
+    },
+    {
+      "n": 4,
+      "titulo": "Conhecendo o prefixo e o protontricks",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["prefixo", "pfx", "protontricks", "winetricks", "vcrun"]
+    },
+    {
+      "n": 5,
+      "titulo": "Ajustes finos com variáveis do Proton",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["esync", "wined3d", "faudio", "winedebug", "variáveis"]
+    },
+    {
+      "n": 6,
+      "titulo": "Erro de runtime Visual C++",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vcrun2022", "vcruntime140", "msvcp140", "c++", "d3dx9"]
+    },
+    {
+      "n": 7,
+      "titulo": "Consultando ProtonDB e GitHub",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["protondb", "github", "ratings", "issues", "comunidade"]
+    },
+    {
+      "n": 8,
+      "titulo": "Anticheat e incompatibilidade",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["easyanticheat", "battleye", "anticheat", "steamdb", "multiplayer"]
+    },
+    {
+      "n": 9,
+      "titulo": "Proton Tricks, winetricks e o ciclo do Proton",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["protontricks", "winetricks", "wineprefix", "experimental", "fluxograma"]
+    }
+  ]
+}

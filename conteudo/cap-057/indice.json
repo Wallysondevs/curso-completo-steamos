@@ -1,0 +1,133 @@
+{
+  "capitulo": 57,
+  "titulo": "Discos externos e montagem automática",
+  "resumo": "USB-C, montagem manual e automática de discos externos no SteamOS, configuração do fstab, permissões Flatpak e diagnóstico de falhas.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Dispositivos de bloco e pontos de montagem",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": [
+        "lsblk",
+        "dispositivo de bloco",
+        "ponto de montagem",
+        "/dev",
+        "partições"
+      ]
+    },
+    {
+      "n": 2,
+      "titulo": "Identificando discos e partições com lsblk e blkid",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": [
+        "lsblk",
+        "blkid",
+        "fdisk",
+        "UUID",
+        "PARTUUID"
+      ]
+    },
+    {
+      "n": 3,
+      "titulo": "Montagem e desmontagem manual com mount e umount",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": [
+        "mount",
+        "umount",
+        "mountpoint",
+        "ponto de montagem",
+        "opções de montagem"
+      ]
+    },
+    {
+      "n": 4,
+      "titulo": "Escolhendo o sistema de arquivos do disco externo",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": [
+        "ext4",
+        "exfat",
+        "ntfs",
+        "btrfs",
+        "mkfs"
+      ]
+    },
+    {
+      "n": 5,
+      "titulo": "Montagem automática via fstab",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": [
+        "fstab",
+        "mount -a",
+        "nofail",
+        "systemctl daemon-reload",
+        "fsck"
+      ]
+    },
+    {
+      "n": 6,
+      "titulo": "Hotplug e montagem automática no SteamOS",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": [
+        "udisks2",
+        "KDE",
+        "USB-C",
+        "hotplug",
+        "automount"
+      ]
+    },
+    {
+      "n": 7,
+      "titulo": "Permissões Flatpak para acessar discos externos",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": [
+        "flatpak",
+        "sandbox",
+        "filesystem",
+        "override",
+        "permissões"
+      ]
+    },
+    {
+      "n": 8,
+      "titulo": "NTFS e exFAT no Steam Deck: permissões e armadilhas",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": [
+        "ntfs",
+        "exfat",
+        "ntfs-3g",
+        "uid",
+        "umask"
+      ]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico e remoção segura de discos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": [
+        "diagnóstico",
+        "dmesg",
+        "journalctl",
+        "fsck",
+        "sync"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 1,
+  "titulo": "O que é o Steam Deck?",
+  "resumo": "Hardware, specs, LCD vs OLED, controles, touchpads, giroscópio e o lugar do Deck no ecossistema de PC gaming portátil.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Hardware externo e controles físicos",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steam deck", "controles", "touchpads", "lsusb", "evtest"]
+    },
+    {
+      "n": 2,
+      "titulo": "A APU AMD e o coração do Deck",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["apu", "zen 2", "tdp", "lscpu", "lspci"]
+    },
+    {
+      "n": 3,
+      "titulo": "LCD versus OLED — os dois modelos",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["lcd", "oled", "galileo", "jupiter", "bateria"]
+    },
+    {
+      "n": 4,
+      "titulo": "Memória, armazenamento e o slot microSD",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["ram", "nvme", "microsd", "df", "lsblk"]
+    },
+    {
+      "n": 5,
+      "titulo": "Touchpads, giroscópio e Steam Input",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam input", "giroscopio", "touchpads", "libinput", "evtest"]
+    },
+    {
+      "n": 6,
+      "titulo": "Dock, saída de vídeo e periféricos",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["usb-c", "dock", "displayport", "xrandr"]
+    },
+    {
+      "n": 7,
+      "titulo": "Especificações técnicas completas em tabela",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["specs", "lscpu", "dmidecode", "hdparm", "lspci"]
+    },
+    {
+      "n": 8,
+      "titulo": "O Deck no ecossistema de PC gaming portátil",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["rog ally", "proton", "steamos", "linux", "concorrentes"]
+    },
+    {
+      "n": 9,
+      "titulo": "Ligando pela primeira vez e o terminal",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["primeiro boot", "imutabilidade", "systemd-analyze", "deck", "konsole"]
+    }
+  ]
+}

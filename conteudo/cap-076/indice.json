@@ -1,0 +1,79 @@
+{
+  "capitulo": 76,
+  "titulo": "CryoUtilities e otimizações de sistema",
+  "resumo": "Swap, swappiness, huge pages, TRIM e o que cada tweak realmente faz no SteamOS.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que o CryoUtilities faz",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["cryoutilities", "tweak", "decky", "steamos", "otimização"]
+    },
+    {
+      "n": 2,
+      "titulo": "Swap e zram por dentro",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["swap", "zram", "memória", "ram", "compression"]
+    },
+    {
+      "n": 3,
+      "titulo": "Swappiness na prática",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["swappiness", "vm.swappiness", "sysctl", "kernel", "cachê"]
+    },
+    {
+      "n": 4,
+      "titulo": "Huge pages e memória transparente",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["huge pages", "thp", "transparent", "mmap", "tlb"]
+    },
+    {
+      "n": 5,
+      "titulo": "TRIM e a saúde do SSD",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["trim", "fstrim", "ssd", "discard", "nvme"]
+    },
+    {
+      "n": 6,
+      "titulo": "VRAM e o buffer UMA",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vram", "uma", "gpu", "bios", "apu"]
+    },
+    {
+      "n": 7,
+      "titulo": "O que cada tweak realmente muda",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["tweak", "impacto", "benchmark", "efeito", "mito"]
+    },
+    {
+      "n": 8,
+      "titulo": "Medindo o impacto real",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["benchmark", "mangohud", "fm", "medição", "fps"]
+    },
+    {
+      "n": 9,
+      "titulo": "Alternativas e como reverter",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["reverter", "valores", "padrão", "alternativa", "limpeza"]
+    }
+  ]
+}

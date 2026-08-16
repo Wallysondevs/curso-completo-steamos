@@ -1,0 +1,79 @@
+{
+  "capitulo": 104,
+  "titulo": "Melhores práticas e hábitos",
+  "resumo": "Hábitos que mantêm o Deck saudável, organizado e rápido.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "A rotina semanal de manutenção",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["rotina", "manutenção", "checklist", "semanal", "cron"]
+    },
+    {
+      "n": 2,
+      "titulo": "Organização de diretórios e convenções",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["diretórios", "convenções", "organização", "home", "lab"]
+    },
+    {
+      "n": 3,
+      "titulo": "Limpeza de pacotes e cache",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["limpeza", "pacman", "cache", "pacotes", "órfãos"]
+    },
+    {
+      "n": 4,
+      "titulo": "Atualizações com disciplina e rollback",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["atualização", "rollback", "pacman", "snapper", "timeshift"]
+    },
+    {
+      "n": 5,
+      "titulo": "Monitoramento proativo com scripts",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["monitoramento", "script", "alerta", "cron", "thermal"]
+    },
+    {
+      "n": 6,
+      "titulo": "Backup com rsync e snapshots",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["backup", "rsync", "snapshot", "btrfs", "restauração"]
+    },
+    {
+      "n": 7,
+      "titulo": "Gerenciando o armazenamento do Deck",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["armazenamento", "disco", "ncdu", "du", "shadercache"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico rápido de problemas",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["diagnóstico", "log", "journalctl", "dmesg", "troubleshooting"]
+    },
+    {
+      "n": 9,
+      "titulo": "Disciplina operacional e checklist final",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["disciplina", "checklist", "automação", "documentação", "hábito"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 39,
+  "titulo": "ProtonDB — compatibilidade na prática",
+  "resumo": "Como usar o ProtonDB para ler reports, filtrar por Steam Deck, interpretar medalhas e tweaks da comunidade, distinguir do selo Verified da Valve e contribuir com seus próprios relatos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é ProtonDB e como consultar",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["protondb", "api", "compatibilidade", "appid", "curl"]
+    },
+    {
+      "n": 2,
+      "titulo": "As medalhas: Platinum a Borked",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["medalhas", "tier", "score", "confidence", "trending"]
+    },
+    {
+      "n": 3,
+      "titulo": "Filtrando reports por Steam Deck",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steamdeck", "filtro", "reports", "gpu", "steamos"]
+    },
+    {
+      "n": 4,
+      "titulo": "Lendo e interpretando reports",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["reports", "confiabilidade", "sintoma", "solução", "proton"]
+    },
+    {
+      "n": 5,
+      "titulo": "Tweaks e parâmetros da comunidade",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["flags", "launchoptions", "ge-proton", "protontricks", "winetricks"]
+    },
+    {
+      "n": 6,
+      "titulo": "Contribuindo com seus próprios reports",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["contribuição", "report", "comunidade", "formulário", "openid"]
+    },
+    {
+      "n": 7,
+      "titulo": "ProtonDB e o selo Verified da Valve",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["verified", "valve", "playable", "unsupported", "checklist"]
+    },
+    {
+      "n": 8,
+      "titulo": "Padrões de compatibilidade por gênero e motor",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["motor", "anticheat", "launcher", "unreal", "unity"]
+    },
+    {
+      "n": 9,
+      "titulo": "Ferramentas e integrações no Steam Deck",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["decky", "badges", "protondb-cli", "augmentedsteam", "script"]
+    }
+  ]
+}

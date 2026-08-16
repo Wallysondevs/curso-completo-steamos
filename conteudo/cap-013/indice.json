@@ -1,0 +1,79 @@
+{
+  "capitulo": 13,
+  "titulo": "Perfis de desempenho por jogo",
+  "resumo": "Criar e gerenciar perfis individuais, herança global vs local, exportar/importar configurações.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Perfil global vs perfil por jogo",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["vdf", "global", "fallback", "libraryfolders", "steamdeck"]
+    },
+    {
+      "n": 2,
+      "titulo": "Criando um perfil individual",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["localconfig", "appid", "userdata", "PerformanceProfile"]
+    },
+    {
+      "n": 3,
+      "titulo": "Herança de configurações",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["herança", "override", "camada", "fpsLimit", "tdpLimit"]
+    },
+    {
+      "n": 4,
+      "titulo": "Ajustes de TDP, GPU e FPS",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["tdp", "gpu", "fps", "hwmon", "sysfs", "powercap"]
+    },
+    {
+      "n": 5,
+      "titulo": "Configurações recomendadas por gênero",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["recomendação", "gênero", "rpg", "fps", "indie", "proton"]
+    },
+    {
+      "n": 6,
+      "titulo": "FSR e filtros de escala por jogo",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["fsr", "upscaling", "gamescope", "sharpness", "nis"]
+    },
+    {
+      "n": 7,
+      "titulo": "Exportando e importando perfis",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["exportar", "importar", "comunidade", "diff", "localconfig"]
+    },
+    {
+      "n": 8,
+      "titulo": "Tags e coleções para organizar",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["tags", "coleções", "sharedconfig", "backup", "taxonomia"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico de problemas comuns",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["troubleshooting", "powercap", "gamescope", "vsync", "diagnóstico"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 102,
+  "titulo": "Glossário de termos",
+  "resumo": "APU, TDP, Proton, Flatpak, Gamescope, VRR e todos os termos técnicos do ecossistema SteamOS explicados em linguagem direta.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Hardware — APU, SoC e gerenciamento térmico",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["apu", "soc", "tdp", "smt", "zen", "rdna", "boost"]
+    },
+    {
+      "n": 2,
+      "titulo": "GPU e vídeo — VRR, HDR e compressão de tela",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vrr", "freesync", "hdr", "dsc", "hdmi", "displayport"]
+    },
+    {
+      "n": 3,
+      "titulo": "Proton e a camada de compatibilidade",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["proton", "wine", "dxvk", "vkd3d", "prefix", "steam play"]
+    },
+    {
+      "n": 4,
+      "titulo": "Flatpak, sandbox e distribuição de apps",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "sandbox", "flathub", "runtimes", "portals"]
+    },
+    {
+      "n": 5,
+      "titulo": "Gamescope, Wayland e o compositor do Deck",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gamescope", "wayland", "compositor", "fsr", "nis", "hdr"]
+    },
+    {
+      "n": 6,
+      "titulo": "Sistema de arquivos e esquema de partições",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["a/b root", "ext4", "btrfs", "squashfs", "overlayfs", "partitions"]
+    },
+    {
+      "n": 7,
+      "titulo": "Imutabilidade, atualizações atômicas e rollback",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["imutabilidade", "ostree", "rauc", "delta", "rollback", "steamos-update"]
+    },
+    {
+      "n": 8,
+      "titulo": "Steam — Input, Cloud e shader cache",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam input", "big picture", "steam cloud", "shader cache", "steam play"]
+    },
+    {
+      "n": 9,
+      "titulo": "Desempenho — MangoHud, governor e frame pacing",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["mangohud", "governor", "throttling", "frame pacing", "dpm", "mangoapp"]
+    }
+  ]
+}

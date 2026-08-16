@@ -1,0 +1,79 @@
+{
+  "capitulo": 90,
+  "titulo": "Garantia, RMA e suporte Valve",
+  "resumo": "Política de garantia, processo de RMA, peças oficiais e canais de suporte da Valve.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que a garantia cobre",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["garantia", "cobertura", "valve", "steam deck", "termos"]
+    },
+    {
+      "n": 2,
+      "titulo": "Identificando modelo e número de série",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["serial", "model", "dmidecode", "sku", "product"]
+    },
+    {
+      "n": 3,
+      "titulo": "Diagnóstico antes de abrir chamado",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["diagnóstico", "journalctl", "dmesg", "teste", "isolar"]
+    },
+    {
+      "n": 4,
+      "titulo": "Abrindo o ticket no suporte Steam",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["ticket", "help.steampowered", "suporte", "evidência", "anexo"]
+    },
+    {
+      "n": 5,
+      "titulo": "O processo de RMA passo a passo",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["rma", "envio", "rom", "etiqueta", "rastreio"]
+    },
+    {
+      "n": 6,
+      "titulo": "Backup e reset antes do envio",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["backup", "reset", "factory", "dd", "segurança"]
+    },
+    {
+      "n": 7,
+      "titulo": "Peças oficiais e reparo por conta própria",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ifixit", "peças", "reparo", "troca", "tela"]
+    },
+    {
+      "n": 8,
+      "titulo": "Garantia em outros países e regiões",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["região", "importação", "diretiva", "cdc", "legal"]
+    },
+    {
+      "n": 9,
+      "titulo": "Checklist final e pós-RMA",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["checklist", "recebimento", "validação", "resumo"]
+    }
+  ]
+}

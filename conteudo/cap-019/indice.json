@@ -1,0 +1,79 @@
+{
+  "capitulo": 19,
+  "titulo": "Introdução ao Modo Desktop",
+  "resumo": "Trocar para Desktop, primeiras impressões do KDE Plasma, teclado virtual, touchpads como mouse e navegação básica.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Trocar do Modo Jogo para Desktop",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["gamescope", "kde plasma", "wayland", "sessao", "steam -shutdown"]
+    },
+    {
+      "n": 2,
+      "titulo": "Primeiras impressões do KDE Plasma",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["kde", "plasma", "plasma-plasmashell", "krunner", "painel"]
+    },
+    {
+      "n": 3,
+      "titulo": "Wayland, KWin e a sessão gráfica",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["wayland", "kwin", "gamescope", "loginctl", "plasmashell"]
+    },
+    {
+      "n": 4,
+      "titulo": "Teclado virtual em campo de texto",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["teclado virtual", "steam+x", "overlay", "systemsettings"]
+    },
+    {
+      "n": 5,
+      "titulo": "Touchpads como mouse e clique",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["touchpad", "mouse", "sensibilidade", "systemsettings"]
+    },
+    {
+      "n": 6,
+      "titulo": "Navegação básica e o menu de aplicativos",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 8,
+      "tags": ["dolphin", "krunner", "navegador", "downloads"]
+    },
+    {
+      "n": 7,
+      "titulo": "Janelas, áreas de trabalho e o painel",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["janelas", "areas de trabalho", "painel", "bateria"]
+    },
+    {
+      "n": 8,
+      "titulo": "O terminal Konsole e primeiros comandos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["konsole", "terminal", "pwd", "ls", "cd", "sudo"]
+    },
+    {
+      "n": 9,
+      "titulo": "Voltar ao Modo Jogo e encerrar sessões",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["systemctl", "steamos-session-select", "poweroff", "ps"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 15,
+  "titulo": "Mapeamento avançado e layouts da comunidade",
+  "resumo": "Camadas de ação, radial menus, touch menus, modo deslocamento, atalhos, macros e criação de layouts próprios.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Conjuntos de ação e o modelo SteamInput",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["action sets", "steaminput", "xinput", "evtest", "vdf"]
+    },
+    {
+      "n": 2,
+      "titulo": "Camadas de ação sobrepostas",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["action layers", "chord", "hold", "grip buttons", "neptune"]
+    },
+    {
+      "n": 3,
+      "titulo": "Radial menus e touch menus",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["radial menu", "touch menu", "trackpad", "abs_x", "abs_y"]
+    },
+    {
+      "n": 4,
+      "titulo": "Mouse region e modo deslocamento",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mouse region", "scroll", "minimapa", "absoluto", "haptics"]
+    },
+    {
+      "n": 5,
+      "titulo": "Macros, modos de disparo e toggle",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["macro", "turbo", "release press", "toggle", "activators"]
+    },
+    {
+      "n": 6,
+      "titulo": "Giroscópio como mouse e joystick",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["giroscopio", "imu", "mouse", "dead zone", "drift"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atalhos do modo Desktop no Deck",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["desktop", "kde", "atalhos", "steam+x", "chord"]
+    },
+    {
+      "n": 8,
+      "titulo": "Publicando e baixando layouts da comunidade",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["workshop", "comunidade", "vdf", "publicar", "template"]
+    },
+    {
+      "n": 9,
+      "titulo": "Criando um layout do zero em 5 passos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["metodo", "template", "iteracao", "backup", "exportar"]
+    }
+  ]
+}

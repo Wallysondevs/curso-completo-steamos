@@ -1,0 +1,634 @@
+{
+  "titulo": "Curso Completo de SteamOS",
+  "subtitulo": "Domine o Steam Deck — do primeiro boot à personalização total",
+  "idioma": "pt-BR",
+  "secoesPorCapitulo": 9,
+  "partes": [
+    {
+      "n": 1,
+      "titulo": "Conhecendo o Steam Deck e SteamOS",
+      "descricao": "O terreno onde tudo se apoia: o que é o Steam Deck, o que é SteamOS, a história da Valve, os modelos de hardware, primeiro boot e visão geral do sistema.",
+      "capitulos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "n": 2,
+      "titulo": "Modo Jogo em Profundidade",
+      "descricao": "Gamescope, overlay de desempenho, TDP, perfis por jogo, Steam Input, limitadores de FPS, suspend/retomar e acessibilidade no Modo Jogo.",
+      "capitulos": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "n": 3,
+      "titulo": "Modo Desktop — KDE Plasma",
+      "descricao": "Área de trabalho KDE Plasma, Dolphin, configurações do sistema, rede, som, monitores externos, periféricos e atalhos de teclado.",
+      "capitulos": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "n": 4,
+      "titulo": "Flatpak e Aplicativos",
+      "descricao": "O ecossistema Flatpak como via oficial de instalação: Discover, CLI flatpak, Flatseal, apps essenciais, produtividade, mídia e desenvolvimento.",
+      "capitulos": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "n": 5,
+      "titulo": "Proton e Jogos de Windows",
+      "descricao": "Proton/Steam Play: versões, GE, ProtonDB, ProtonUp-Qt, parâmetros avançados, resolução de problemas, jogos fora da Steam e mods.",
+      "capitulos": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "n": 6,
+      "titulo": "Emulação e Retro Gaming",
+      "descricao": "Emulação no Deck: EmuDeck, RetroArch, emuladores standalone, ROMs, Steam ROM Manager, arcade, Switch e homebrew.",
+      "capitulos": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "n": 7,
+      "titulo": "Armazenamento e Arquivos",
+      "descricao": "Sistema de arquivos imutável, microSD, discos externos, transferência, sincronização, backup, espaço em disco, dual boot e Windows.",
+      "capitulos": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "n": 8,
+      "titulo": "Streaming e Jogos na Nuvem",
+      "descricao": "Remote Play, Moonlight/Sunshine, GeForce NOW, xCloud, streaming de consoles, latência e quando usar streaming vs rodar local.",
+      "capitulos": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "n": 9,
+      "titulo": "Personalização Avançada",
+      "descricao": "Decky Loader, CSS Loader, temas, animações, CryoUtilities, undervolting, kernel, scripts, sistemas alternativos e homebrew.",
+      "capitulos": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ]
+    },
+    {
+      "n": 10,
+      "titulo": "Hardware, Acessórios e Reparo",
+      "descricao": "Docks, cases, controles externos, upgrade de SSD, troca de tela e bateria, refrigeração, personalização física e garantia.",
+      "capitulos": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "n": 11,
+      "titulo": "Manutenção, Diagnóstico e Recuperação",
+      "descricao": "Modo de recuperação, reset de fábrica, solução de problemas, logs, terminal, systemd, rede avançada, segurança e benchmarks.",
+      "capitulos": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "n": 12,
+      "titulo": "Referência e Comunidade",
+      "descricao": "Comunidade, atalhos, glossário, tabelas de referência, melhores práticas, comparativos e próximos passos.",
+      "capitulos": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ]
+    }
+  ],
+  "capitulos": {
+    "1": {
+      "titulo": "O que é o Steam Deck?",
+      "resumo": "Hardware, specs, LCD vs OLED, controles, touchpads, giroscópio e o lugar do Deck no ecossistema de PC gaming portátil."
+    },
+    "2": {
+      "titulo": "O que é SteamOS?",
+      "resumo": "Arch Linux como base (Holo), sistema de arquivos imutável, atualizações atômicas A/B, Gamescope, KDE Plasma e Flatpak como via oficial de apps."
+    },
+    "3": {
+      "titulo": "História da Valve e o ecossistema Steam",
+      "resumo": "Da Valve ao Steam, Steam Machines, Steam Link, o caminho até o Deck e como o SteamOS se encaixa na estratégia da empresa."
+    },
+    "4": {
+      "titulo": "Modelos do Steam Deck: LCD vs OLED",
+      "resumo": "Comparação completa de specs: tela, bateria, Wi-Fi, processador, pesos, edições de armazenamento e qual escolher."
+    },
+    "5": {
+      "titulo": "Ligando e configurando pela primeira vez",
+      "resumo": "Setup inicial: idioma, Wi-Fi, conta Steam, fuso horário, primeira atualização e primeiros ajustes essenciais."
+    },
+    "6": {
+      "titulo": "Navegação no Modo Jogo",
+      "resumo": "Interface Steam: biblioteca, loja, menu rápido (botão …), atalhos com botão Steam, notificações e amigos."
+    },
+    "7": {
+      "titulo": "Conta Steam, biblioteca e loja",
+      "resumo": "Steam Guard, família Steam, wishlist, tags, coleções, filtros e como escolher jogos verificados para Deck."
+    },
+    "8": {
+      "titulo": "Atualizações do sistema SteamOS",
+      "resumo": "Canais Stable, Beta e Preview, partições A/B, rollback, delta updates e como lidar com atualizações problemáticas."
+    },
+    "9": {
+      "titulo": "Visão geral do hardware do Steam Deck",
+      "resumo": "APU AMD Van Gogh/Aerith, RAM LPDDR5, SSD NVMe, tela IPS/OLED, bateria, thermal throttling e controladores internos."
+    },
+    "10": {
+      "titulo": "Gamescope — o compositor do Modo Jogo",
+      "resumo": "O que é Gamescope, Wayland embutido, scaling FSR integrado, HDR, modo janela aninhado e linha de comando."
+    },
+    "11": {
+      "titulo": "Overlay de desempenho e monitoramento",
+      "resumo": "Níveis 1 a 4 do overlay, FPS, frametime, GPU/CPU, temperatura, VRAM, bateria e como interpretar cada métrica."
+    },
+    "12": {
+      "titulo": "TDP, GPU clock e controle de energia",
+      "resumo": "Thermal Design Power, fixar clock da GPU, undervolt e o impacto real em FPS e bateria por jogo."
+    },
+    "13": {
+      "titulo": "Perfis de desempenho por jogo",
+      "resumo": "Criar e gerenciar perfis individuais, herança global vs local, exportar/importar configurações."
+    },
+    "14": {
+      "titulo": "Steam Input — controles e layouts",
+      "resumo": "Layouts oficiais e da comunidade, botões traseiros, touchpads, giroscópio e modos de ação."
+    },
+    "15": {
+      "titulo": "Mapeamento avançado e layouts da comunidade",
+      "resumo": "Camadas de ação, radial menus, touch menus, modo deslocamento, atalhos, macros e criação de layouts próprios."
+    },
+    "16": {
+      "titulo": "Limitador de FPS, refresh rate e VRR",
+      "resumo": "Limite de 30/40/60 FPS, refresh rate variável, frame pacing e por que 40 FPS a 40 Hz é o sweet spot."
+    },
+    "17": {
+      "titulo": "Suspender/retomar e gestão de sessão",
+      "resumo": "Como funciona o suspend/resume, o que acontece com o jogo e a RAM, bateria em suspensão e troubleshooting."
+    },
+    "18": {
+      "titulo": "Acessibilidade e opções do Modo Jogo",
+      "resumo": "Contraste, tamanhos de fonte, narração, filtros de cor, opções de controle adaptativo e jogabilidade acessível."
+    },
+    "19": {
+      "titulo": "Introdução ao Modo Desktop",
+      "resumo": "Trocar para Desktop, primeiras impressões do KDE Plasma, teclado virtual, touchpads como mouse e navegação básica."
+    },
+    "20": {
+      "titulo": "Área de trabalho KDE Plasma no Steam Deck",
+      "resumo": "Painel, menu iniciar, bandeja do sistema, múltiplas áreas de trabalho, widgets e personalização essencial."
+    },
+    "21": {
+      "titulo": "Dolphin — gerenciador de arquivos",
+      "resumo": "Navegação, abas, split view, filtros, preview, integração com serviços remotos e terminal embutido."
+    },
+    "22": {
+      "titulo": "Configurações do sistema KDE",
+      "resumo": "Aparência, fontes, cursores, temas globais, cores, decoração de janelas e personalização visual."
+    },
+    "23": {
+      "titulo": "Rede e conectividade no Modo Desktop",
+      "resumo": "NetworkManager, Wi-Fi, VPN, proxy, rede cabeada com dock e diagnóstico de conectividade."
+    },
+    "24": {
+      "titulo": "Som, microfone e dispositivos de áudio",
+      "resumo": "PipeWire, seleção de entrada/saída, volume por app, Bluetooth, codecs e troubleshooting."
+    },
+    "25": {
+      "titulo": "Monitores externos, dock e multimonitor",
+      "resumo": "Resolução, refresh rate, HDR externo, posicionamento, scaling por monitor e problemas comuns."
+    },
+    "26": {
+      "titulo": "Periféricos, impressoras e Bluetooth",
+      "resumo": "Parear controle, teclado, mouse, fone, impressora via CUPS, webcam e troubleshooting."
+    },
+    "27": {
+      "titulo": "Atalhos de teclado e produtividade no Deck",
+      "resumo": "Atalhos KDE, atalhos customizados, Steam+X e dicas de produtividade com dock."
+    },
+    "28": {
+      "titulo": "O que é Flatpak e por que no SteamOS",
+      "resumo": "Sandbox, runtimes, isolamento, updates sem quebrar o sistema imutável, diferença para pacman, Snap e AppImage."
+    },
+    "29": {
+      "titulo": "Discover — a loja de aplicativos do KDE",
+      "resumo": "Navegação, busca, categorias, Flathub, atualizações automáticas e instalação com dois cliques."
+    },
+    "30": {
+      "titulo": "Flatpak pela linha de comando",
+      "resumo": "flatpak search, install, remove, update, list, info, history, remote-add, override e downgrade."
+    },
+    "31": {
+      "titulo": "Flatseal — gerenciando permissões",
+      "resumo": "Filesystem, rede, Wayland/X11, D-Bus, dispositivos e como auditar permissões de cada Flatpak."
+    },
+    "32": {
+      "titulo": "Aplicativos essenciais para Steam Deck",
+      "resumo": "Firefox, VLC, VS Codium, GIMP, qBittorrent, OBS Studio, Discord, Spotify, ProtonUp-Qt e Decky Loader."
+    },
+    "33": {
+      "titulo": "Navegadores, e-mail e comunicação",
+      "resumo": "Firefox vs Chrome, Thunderbird, Discord, Telegram, Slack e videoconferência."
+    },
+    "34": {
+      "titulo": "Suíte de escritório e produtividade",
+      "resumo": "LibreOffice, OnlyOffice, Obsidian, editores de código e o Deck como estação de trabalho leve."
+    },
+    "35": {
+      "titulo": "Aplicativos de mídia, arte e criação",
+      "resumo": "VLC, Kodi, streaming, Krita, Blender e edição de vídeo com Kdenlive."
+    },
+    "36": {
+      "titulo": "Desenvolvimento e containers (Docker/Podman)",
+      "resumo": "Compilar e programar no Deck, containers, ferramentas de desenvolvimento e o Deck como mini servidor."
+    },
+    "37": {
+      "titulo": "O que é Proton / Steam Play",
+      "resumo": "Wine + DXVK + VKD3D: a pilha que roda jogos Windows no Linux, origem Valve/CodeWeavers e diferença para Wine vanilla."
+    },
+    "38": {
+      "titulo": "Versões do Proton (oficial, Experimental, GE, Hotfix)",
+      "resumo": "Quando usar Stable, Experimental, GE (patches comunitários) e Hotfix para problemas urgentes."
+    },
+    "39": {
+      "titulo": "ProtonDB — compatibilidade na prática",
+      "resumo": "Ler reports, filtros por Deck, medalhas Platinum a Borked, tweaks da comunidade e como contribuir."
+    },
+    "40": {
+      "titulo": "ProtonUp-Qt e Proton-GE",
+      "resumo": "Instalar, baixar GE, atualizar, selecionar GE como padrão ou por jogo, desinstalar versões antigas."
+    },
+    "41": {
+      "titulo": "Parâmetros de inicialização e configurações avançadas",
+      "resumo": "PROTON_ENABLE_NVAPI, DXVK_ASYNC, gamemoderun, RADV_PERFTEST, WINE_FULLSCREEN_FSR e outros parâmetros."
+    },
+    "42": {
+      "titulo": "Resolvendo problemas comuns com Proton",
+      "resumo": "Tela preta, crash, FMV não toca, erro de C++, anticheat incompatível e logs do Proton."
+    },
+    "43": {
+      "titulo": "Jogos fora da Steam: GOG, Epic, Amazon",
+      "resumo": "Adicionar jogos não-Steam, instalar via Lutris/Heroic, Amazon Games e integrar na biblioteca com artwork."
+    },
+    "44": {
+      "titulo": "Lutris, Heroic e Bottles",
+      "resumo": "Comparação: Lutris (all-in-one), Heroic (GOG+Epic), Bottles (Wine prefix manager detalhado)."
+    },
+    "45": {
+      "titulo": "Mods, patches e ferramentas de compatibilidade",
+      "resumo": "Mod managers, trainers, ferramentas de comunidade (Proton Tricks, WineTricks) e jogos com anticheat."
+    },
+    "46": {
+      "titulo": "Emulação no Steam Deck — panorama",
+      "resumo": "Por que o Deck é ideal para emulação, formatos suportados, desempenho por geração, RetroArch vs standalone."
+    },
+    "47": {
+      "titulo": "EmuDeck — instalando e configurando",
+      "resumo": "Easy vs Custom mode, SD vs SSD, seleção de emuladores, configuração automática de controles, update."
+    },
+    "48": {
+      "titulo": "RetroArch — o canivete suíço da emulação",
+      "resumo": "Cores, shaders CRT, runahead, achievements, netplay e configuração por núcleo no Deck."
+    },
+    "49": {
+      "titulo": "Emuladores standalone",
+      "resumo": "PCSX2, RPCS3, Dolphin, Cemu, Xemu, Xenia e melhores configurações para Deck."
+    },
+    "50": {
+      "titulo": "Organização de ROMs, BIOS e saves",
+      "resumo": "Estrutura de pastas do EmuDeck, onde colocar cada arquivo, backup de saves e saves na nuvem."
+    },
+    "51": {
+      "titulo": "Steam ROM Manager — capas na biblioteca Steam",
+      "resumo": "Adicionar jogos emulados na biblioteca Steam com capas, banners e ícones. Parsers e preview."
+    },
+    "52": {
+      "titulo": "Arcade, MAME e FBNeo",
+      "resumo": "Romsets, bios, merged vs split, FBNeo vs MAME, Neo Geo, CPS e configuração no RetroArch."
+    },
+    "53": {
+      "titulo": "Emulação de Nintendo Switch e consoles modernos",
+      "resumo": "Yuzu/Ryujinx: instalação, firmware, keys, configuração por jogo e desempenho no Deck."
+    },
+    "54": {
+      "titulo": "Homebrew, traduções e mods de ROMs",
+      "resumo": "Traduções de fãs, ROM hacks, patches IPS/UPS e homebrew em emuladores."
+    },
+    "55": {
+      "titulo": "Sistema de arquivos do SteamOS",
+      "resumo": "Root imutável, /home, /var, ~/.steam, ~/.local e onde cada coisa fica."
+    },
+    "56": {
+      "titulo": "Cartão microSD — formatação e uso",
+      "resumo": "Formatar no Modo Jogo vs Desktop, ext4 vs Btrfs vs exFAT, mover jogos, velocidade e cards recomendados."
+    },
+    "57": {
+      "titulo": "Discos externos e montagem automática",
+      "resumo": "USB-C, montagem, fstab, permissões Flatpak para disco externo e ejetar com segurança."
+    },
+    "58": {
+      "titulo": "Transferindo arquivos",
+      "resumo": "Warpinator, KDE Connect, SSH/SFTP, Syncthing, pendrive e como enviar ROMs para o Deck."
+    },
+    "59": {
+      "titulo": "Sincronização com nuvem",
+      "resumo": "Syncthing, Nextcloud, Dropbox via Flatpak, rclone e saves automáticos na nuvem."
+    },
+    "60": {
+      "titulo": "Backup, restauração e clone do SSD",
+      "resumo": "dd, Clonezilla, rescuezilla, backup de saves, clone para upgrade e restauração."
+    },
+    "61": {
+      "titulo": "Gerenciando espaço em disco",
+      "resumo": "Shader cache, compatdata, Downloads, flatpak cleanup, ncdu e mover shader cache para SD."
+    },
+    "62": {
+      "titulo": "Dual boot e múltiplos sistemas operacionais",
+      "resumo": "rEFInd, Clover, seleção de boot e como desfazer dual boot."
+    },
+    "63": {
+      "titulo": "Windows no Steam Deck",
+      "resumo": "Instalar Windows, drivers da Valve, SteamDeckTools, desempenho e quando vale a pena."
+    },
+    "64": {
+      "titulo": "Streaming local: Steam Remote Play",
+      "resumo": "Jogar do PC no Deck via Remote Play, configuração, qualidade e resolução de problemas."
+    },
+    "65": {
+      "titulo": "Moonlight e Sunshine — streaming de um PC",
+      "resumo": "Alternativa open-source ao Remote Play: instalar Sunshine no PC e Moonlight no Deck, com codecs e bitrate."
+    },
+    "66": {
+      "titulo": "GeForce NOW e Xbox Cloud Gaming",
+      "resumo": "Cloud gaming no Deck: navegador, atalhos para Modo Jogo, Xbox Cloud Gaming (xCloud) e latência."
+    },
+    "67": {
+      "titulo": "PlayStation Remote Play e outros consoles",
+      "resumo": "Chiaki para PS4/PS5, streaming de Xbox local e outras soluções de console no Deck."
+    },
+    "68": {
+      "titulo": "Streaming do Steam Deck para outros dispositivos",
+      "resumo": "Transmitir a tela do Deck para TV, PC ou celular e usar o Deck como servidor de streaming."
+    },
+    "69": {
+      "titulo": "Latência, redes e qualidade de streaming",
+      "resumo": "Codecs (H.264/HEVC/AV1), bitrate, resolução, rede cabeada vs Wi-Fi e como otimizar a experiência."
+    },
+    "70": {
+      "titulo": "Parsec e alternativas de streaming",
+      "resumo": "Parsec, Steam Link, alternativas de baixa latência e jogos cooperativos remotos."
+    },
+    "71": {
+      "titulo": "Jogos nativos Linux vs streaming",
+      "resumo": "Quando rodar local vs streamar, vantagens de cada e como decidir para cada jogo."
+    },
+    "72": {
+      "titulo": "Cloud saves e sincronização de progresso",
+      "resumo": "Steam Cloud, saves de jogos não-Steam, sincronizar progresso entre dispositivos e backup automático."
+    },
+    "73": {
+      "titulo": "Decky Loader — o gerenciador de plugins",
+      "resumo": "Instalação, loja de plugins, permissões, troubleshooting e plugins essenciais."
+    },
+    "74": {
+      "titulo": "CSS Loader e temas visuais",
+      "resumo": "Temas para interface Steam, biblioteca, teclado virtual, sons customizados e criação de temas."
+    },
+    "75": {
+      "titulo": "Animações de boot, suspend e som",
+      "resumo": "Animation Changer, substituir boot/suspend, sons de UI e assets da comunidade."
+    },
+    "76": {
+      "titulo": "CryoUtilities e otimizações de sistema",
+      "resumo": "Swap, swappiness, huge pages, TRIM e o que cada tweak realmente faz."
+    },
+    "77": {
+      "titulo": "Undervolting, overclock e APU tuning",
+      "resumo": "Smokeless UMAF, RyzenAdj, PPT/TDC/EDC, curva de ventoinha e equilíbrio desempenho/temperatura."
+    },
+    "78": {
+      "titulo": "Kernel personalizado e módulos",
+      "resumo": "linux-neptune, Xanmod, DKMS, módulos para hardware exótico e compilação de módulos."
+    },
+    "79": {
+      "titulo": "Scripts e automação no Steam Deck",
+      "resumo": "Bash, systemd user services, udev rules, autostart e atalhos para scripts via Steam."
+    },
+    "80": {
+      "titulo": "Bazzite, ChimeraOS e sistemas alternativos",
+      "resumo": "Distros focadas em gaming portátil, prós e contras vs SteamOS e como experimentar."
+    },
+    "81": {
+      "titulo": "Homebrew e personalização profunda do SteamOS",
+      "resumo": "Jailbreak do modo leitura, ferramentas da comunidade e os limites do sistema imutável."
+    },
+    "82": {
+      "titulo": "Acessórios essenciais: docks, cases e grips",
+      "resumo": "Docks USB-C, cases, grips, películas, protetores e acessórios que valem a pena."
+    },
+    "83": {
+      "titulo": "Controles externos e periféricos de jogo",
+      "resumo": "Parear DualSense/Xbox, teclado e mouse gaming, volantes e periféricos no Deck."
+    },
+    "84": {
+      "titulo": "Upgrade de hardware (SSD, analógicos)",
+      "resumo": "Trocar SSD 2230, analógicos hall effect, botões e componentes internos."
+    },
+    "85": {
+      "titulo": "Trocar tela, bateria e ventoinha",
+      "resumo": "Reparo de tela, substituição de bateria e ventoinha com guias passo a passo."
+    },
+    "86": {
+      "titulo": "Reparo e manutenção física",
+      "resumo": "Ferramentas, iFixit, diagnóstico de falhas físicas e manutenção preventiva."
+    },
+    "87": {
+      "titulo": "Bateria: saúde, economia e substituição",
+      "resumo": "Ciclos de carga, calibração, dicas de economia e quando trocar a bateria."
+    },
+    "88": {
+      "titulo": "Temperatura e refrigeração",
+      "resumo": "Curvas de ventoinha, thermal paste, throttling e refrigeração em sessões longas."
+    },
+    "89": {
+      "titulo": "Capas, skins e personalização física",
+      "resumo": "Skins, botões customizados, cases transparentes e personalização estética."
+    },
+    "90": {
+      "titulo": "Garantia, RMA e suporte Valve",
+      "resumo": "Política de garantia, processo de RMA, peças oficiais e o que cobre a Valve."
+    },
+    "91": {
+      "titulo": "Modo de recuperação e imagem de restauração",
+      "resumo": "USB de recovery da Valve, boot pelo volume (-), reimage vs reinstall e o que cada opção preserva."
+    },
+    "92": {
+      "titulo": "Reset de fábrica e reinstalação limpa",
+      "resumo": "Factory reset pelo menu Steam, reinstalar do zero, particionamento e pós-instalação."
+    },
+    "93": {
+      "titulo": "Solução de problemas comuns",
+      "resumo": "Tela preta, boot loop, Wi-Fi sumiu, controle não responde, desempenho caiu: diagnóstico rápido."
+    },
+    "94": {
+      "titulo": "Logs do sistema e ferramentas de diagnóstico",
+      "resumo": "dmesg, journalctl, steam-logs, mangohud para benchmark e CoreCtrl."
+    },
+    "95": {
+      "titulo": "Terminal no SteamOS — comandos essenciais",
+      "resumo": "Konsole, comandos no root imutável, variáveis de ambiente Steam, alias úteis e o que NÃO rodar com sudo."
+    },
+    "96": {
+      "titulo": "Journalctl, systemd e serviços",
+      "resumo": "Ler logs, habilitar/desabilitar serviços, timers, targets e troubleshooting de boot."
+    },
+    "97": {
+      "titulo": "Rede avançada, SSH e firewall",
+      "resumo": "sshd no Deck, chaves SSH, nftables, tailscale/VPN e acesso remoto."
+    },
+    "98": {
+      "titulo": "Segurança e privacidade no Steam Deck",
+      "resumo": "Senha de usuário, sudo, firewall, LUKS, permissões Flatpak e mindset de segurança."
+    },
+    "99": {
+      "titulo": "Benchmarking e testes de desempenho",
+      "resumo": "Ferramentas de benchmark, testes de estabilidade e como medir ganhos de otimização."
+    },
+    "100": {
+      "titulo": "Comunidade: Reddit, fóruns, Discord e wiki",
+      "resumo": "Onde encontrar ajuda: r/SteamDeck, fóruns Steam, Discord, wiki e canais de YouTube."
+    },
+    "101": {
+      "titulo": "Referência rápida de atalhos e botões",
+      "resumo": "Todos os atalhos do Modo Jogo e Desktop, combinações de botões e gestures."
+    },
+    "102": {
+      "titulo": "Glossário de termos",
+      "resumo": "APU, TDP, Proton, Flatpak, Gamescope, VRR e todos os termos do ecossistema Steam Deck."
+    },
+    "103": {
+      "titulo": "Tabelas de referência de comandos",
+      "resumo": "Cheat sheet de flatpak, systemctl, journalctl e comandos essenciais do SteamOS."
+    },
+    "104": {
+      "titulo": "Melhores práticas e hábitos",
+      "resumo": "Hábitos que mantêm o Deck saudável, organizado e rápido ao longo do tempo."
+    },
+    "105": {
+      "titulo": "Solução de problemas: índice rápido",
+      "resumo": "Índice sintoma → causa → solução para os problemas mais comuns do Deck."
+    },
+    "106": {
+      "titulo": "Recursos, canais e criadores recomendados",
+      "resumo": "Guides, canais de YouTube, sites e ferramentas essenciais da comunidade."
+    },
+    "107": {
+      "titulo": "Comparativo: Deck vs concorrentes",
+      "resumo": "Steam Deck vs ROG Ally, Legion Go e outros handhelds: quando o Deck ainda vence."
+    },
+    "108": {
+      "titulo": "Próximos passos e projetos avançados",
+      "resumo": "O que fazer depois do curso: servidor, home lab, desenvolvimento e projetos avançados."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 80,
+  "titulo": "Bazzite, ChimeraOS e sistemas alternativos",
+  "resumo": "Distros focadas em gaming portátil, prós e contras versus SteamOS.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O ecossistema além do SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["linux", "gaming", "distros", "immutable", "steamos", "bazzite", "chimeraos"]
+    },
+    {
+      "n": 2,
+      "titulo": "Bazzite: visão geral e variantes",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["bazzite", "fedora atomic", "ostree", "rpm-ostree", "universal blue"]
+    },
+    {
+      "n": 3,
+      "titulo": "Instalando o Bazzite e o ujust",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["bazzite", "ujust", "just", "rpm-ostree", "rebasing", "flatpak"]
+    },
+    {
+      "n": 4,
+      "titulo": "ChimeraOS: gamescope e modo console",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["chimeraos", "gamescope", "steamos-session", "arch", "console"]
+    },
+    {
+      "n": 5,
+      "titulo": "SteamOS, Bazzite e ChimeraOS comparados",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["comparativo", "steamos", "bazzite", "chimeraos", "imutável", "update"]
+    },
+    {
+      "n": 6,
+      "titulo": "Gamescope e a sessão de jogo",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gamescope", "wayland", "session", "hdr", "fsr", "compositor"]
+    },
+    {
+      "n": 7,
+      "titulo": "Camada de pacotes e rollback seguro",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ostree", "rpm-ostree", "rollback", "pin", "layer", "atomic"]
+    },
+    {
+      "n": 8,
+      "titulo": "Drivers, HDR e periféricos alternativos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["hdr", "amd", "mesa", "vrr", "kernel", "driver", "gamepad"]
+    },
+    {
+      "n": 9,
+      "titulo": "Escolher uma distro e migrar",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["migração", "backup", "dual boot", "particionamento", "decisão"]
+    }
+  ]
+}

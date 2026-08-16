@@ -1,0 +1,79 @@
+{
+  "capitulo": 34,
+  "titulo": "Suíte de escritório e produtividade",
+  "resumo": "LibreOffice, OnlyOffice, Obsidian, editores de código e o Deck como estação de trabalho leve.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Instalando aplicativos com Flatpak no SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["flatpak", "flathub", "libreoffice", "instalação", "modo desktop"]
+    },
+    {
+      "n": 2,
+      "titulo": "Writer: processador de texto profissional",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["writer", "libreoffice", "estilos", "pdf", "odt"]
+    },
+    {
+      "n": 3,
+      "titulo": "Calc: planilhas, fórmulas e tabelas dinâmicas",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["calc", "planilha", "fórmulas", "csv", "tabela dinâmica"]
+    },
+    {
+      "n": 4,
+      "titulo": "OnlyOffice e compatibilidade com Microsoft Office",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["onlyoffice", "docx", "compatibilidade", "ooXML", "microsoft office"]
+    },
+    {
+      "n": 5,
+      "titulo": "Notas e conhecimento com Obsidian",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["obsidian", "markdown", "vault", "backlinks", "grafo"]
+    },
+    {
+      "n": 6,
+      "titulo": "Joplin, Zotero e referências acadêmicas",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["joplin", "zotero", "zettlr", "bibliografia", "sincronização"]
+    },
+    {
+      "n": 7,
+      "titulo": "PDF, EPUB e leitura de documentos",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["okular", "evince", "pdf", "epub", "foliate", "ghostscript"]
+    },
+    {
+      "n": 8,
+      "titulo": "Editores de código: Kate, VS Codium e Neovim",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["vs codium", "kate", "neovim", "git", "lsp"]
+    },
+    {
+      "n": 9,
+      "titulo": "O Deck como estação de trabalho completa",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["dock", "kde", "áreas virtuais", "workstation", "automação"]
+    }
+  ]
+}

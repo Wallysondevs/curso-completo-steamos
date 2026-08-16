@@ -1,0 +1,79 @@
+{
+  "capitulo": 105,
+  "titulo": "Solução de problemas: índice rápido",
+  "resumo": "Índice sintoma → causa → solução para os problemas mais comuns.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Boot e inicialização: tela preta, boot loop, travamentos",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["boot", "tela preta", "boot loop", "inicialização", "recovery", "grub"]
+    },
+    {
+      "n": 2,
+      "titulo": "Rede: Wi-Fi, Bluetooth e conectividade",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["wifi", "bluetooth", "rede", "iwctl", "nmcli", "rfkill"]
+    },
+    {
+      "n": 3,
+      "titulo": "Desempenho: lentidão, aquecimento, throttling",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["desempenho", "tpd", "throttling", "temperatura", "fps", "stutter"]
+    },
+    {
+      "n": 4,
+      "titulo": "Controles: inputs, drift, botões que não respondem",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["controles", "drift", "evtest", "steam input", "gamepad", "touchpad"]
+    },
+    {
+      "n": 5,
+      "titulo": "Armazenamento: disco cheio, microSD e corrupção",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["disco", "microsd", "nvme", "corrupção", "fsck", "shadercache"]
+    },
+    {
+      "n": 6,
+      "titulo": "Áudio e vídeo: sem som, tela distorcida, saída externa",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["audio", "pipewire", "video", "hdmi", "xrandr", "resolução"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atualizações e pacotes: update quebrado, pacman, flatpak",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["atualização", "steamos-update", "flatpak", "pacman", "rollback"]
+    },
+    {
+      "n": 8,
+      "titulo": "Modo Desktop: KDE Plasma, travamentos e periféricos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["kde", "plasma", "desktop", "travamento", "periféricos", "x11", "wayland"]
+    },
+    {
+      "n": 9,
+      "titulo": "Tabela consolidada e procedimentos de emergência",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["consolidado", "emergência", "fluxograma", "tabela mestra", "recuperação"]
+    }
+  ]
+}

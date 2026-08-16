@@ -1,0 +1,79 @@
+{
+  "capitulo": 21,
+  "titulo": "Dolphin — gerenciador de arquivos",
+  "resumo": "Navegação, abas, split view, filtros, preview, integração com serviços remotos e terminal embutido.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Conhecendo o Dolphin e o KIO",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["dolphin", "kio", "dolphinrc", "kde frameworks", "steamdeck"]
+    },
+    {
+      "n": 2,
+      "titulo": "Navegação e atalhos do Dolphin",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["atalhos", "breadcrumb", "tree", "F7", "detalhes"]
+    },
+    {
+      "n": 3,
+      "titulo": "Abas e split view",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["abas", "split", "F3", "Ctrl+T", "arrastar"]
+    },
+    {
+      "n": 4,
+      "titulo": "Filtros e busca com Baloo",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["filtro", "busca", "baloo", "balooctl", "Ctrl+F"]
+    },
+    {
+      "n": 5,
+      "titulo": "Pré-visualização de arquivos",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["preview", "thumbnails", "F11", "Ctrl+Shift+P", "kde-thumbnailer"]
+    },
+    {
+      "n": 6,
+      "titulo": "Serviços remotos com FTP, SSH e Samba",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["sftp", "fish", "smb", "kio", "sshfs", "ftp"]
+    },
+    {
+      "n": 7,
+      "titulo": "O terminal embutido com F4",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["F4", "konsole", "terminal", "rsync", "konsolepart"]
+    },
+    {
+      "n": 8,
+      "titulo": "Menu de contexto e service menus",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["servicemenus", "desktop", "kbuildsycoca5", "X-KDE-Priority", "kio"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico de problemas comuns",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["troubleshooting", "painel", "F9", "link-simbolico", "permissões"]
+    }
+  ]
+}

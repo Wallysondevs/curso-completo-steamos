@@ -1,0 +1,79 @@
+{
+  "capitulo": 46,
+  "titulo": "Emulação no Steam Deck — panorama",
+  "resumo": "Por que o Deck é ideal para emulação, formatos suportados, desempenho por geração, RetroArch vs standalone.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Emulação no Deck: o terreno e as regras",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["emulação", "rom", "bios", "core", "libretro", "flatpak"]
+    },
+    {
+      "n": 2,
+      "titulo": "RetroArch via Flatpak: instalação e primeiros cores",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["retroarch", "flatpak", "libretro", "core", "system", "steam"]
+    },
+    {
+      "n": 3,
+      "titulo": "EmuDeck e Steam Rom Manager: automação total",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["emudeck", "srm", "steam rom manager", "parser", "bios checker"]
+    },
+    {
+      "n": 4,
+      "titulo": "Desempenho por geração: régua completa no Deck",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["desempenho", "geração", "fps", "overlay", "shaders", "upscale"]
+    },
+    {
+      "n": 5,
+      "titulo": "RetroArch ou standalone: a decisão por plataforma",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["retroarch", "standalone", "dolphin", "pcsx2", "rpcs3", "libretro"]
+    },
+    {
+      "n": 6,
+      "titulo": "Controles: Steam Input, mapeamento e perfis",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steam input", "mapeamento", "controles", "retropad", "n64", "trackpad"]
+    },
+    {
+      "n": 7,
+      "titulo": "PS2 no Deck: PCSX2, BIOS e ajustes finos",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["pcsx2", "ps2", "bios", "vulkan", "renderer", "upscale"]
+    },
+    {
+      "n": 8,
+      "titulo": "GameCube e Wii: Dolphin no limite portátil",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["dolphin", "gamecube", "wii", "framerate", "shaders", "wiimote"]
+    },
+    {
+      "n": 9,
+      "titulo": "Backups, saves e o ciclo completo da biblioteca",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["backup", "rsync", "save state", "cache", "diagnóstico", "fluxo"]
+    }
+  ]
+}

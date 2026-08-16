@@ -1,0 +1,79 @@
+{
+  "capitulo": 68,
+  "titulo": "Streaming do Deck para outros dispositivos",
+  "resumo": "Transmitir a tela do Deck para TV, PC ou celular usando Remote Play, Steam Link e configurações de rede, com o Deck como servidor.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Como funciona o streaming do Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["remote play", "steam link", "streaming", "codec", "latencia"]
+    },
+    {
+      "n": 2,
+      "titulo": "Preparando o Deck como servidor",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steam settings", "remote play", "streaming", "resolucao", "bitrate"]
+    },
+    {
+      "n": 3,
+      "titulo": "Transmitindo para outro PC com Link",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam link", "remote play", "cliente", "pareamento", "big picture"]
+    },
+    {
+      "n": 4,
+      "titulo": "Transmitindo para TV com Steam Link",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steam link", "tv", "pareamento", "controle", "hdmi"]
+    },
+    {
+      "n": 5,
+      "titulo": "Transmitindo para o celular",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steam link app", "android", "ios", "touch", "controle"]
+    },
+    {
+      "n": 6,
+      "titulo": "Portas e rede por trás do streaming",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ss", "portas", "udp", "tcp", "streaming"]
+    },
+    {
+      "n": 7,
+      "titulo": "Latência, qualidade e codecs",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["latencia", "bitrate", "codec", "h264", "hevc"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnosticando falhas de streaming",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["diagnostico", "logs", "journalctl", "ping", "mtu"]
+    },
+    {
+      "n": 9,
+      "titulo": "Streaming fora de casa pela internet",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["remote play together", "upnp", "port forwarding", "internet", "vpn"]
+    }
+  ]
+}

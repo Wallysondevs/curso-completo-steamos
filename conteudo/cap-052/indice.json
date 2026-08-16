@@ -1,0 +1,79 @@
+{
+  "capitulo": 52,
+  "titulo": "Arcade, MAME e FBNeo",
+  "resumo": "Romsets, bios, merged vs split, FBNeo vs MAME, Neo Geo, CPS e configuração no RetroArch.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é um romset",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["romset", "dump", "crc", "rom", "arcade"]
+    },
+    {
+      "n": 2,
+      "titulo": "BIOS de arcade e por que obrigatórias",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bios", "neogeo", "pgm", "qsound", "arquivo"]
+    },
+    {
+      "n": 3,
+      "titulo": "Merged, split e non-merged",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["merged", "split", "non-merged", "clone", "parent"]
+    },
+    {
+      "n": 4,
+      "titulo": "MAME e FBNeo frente a frente",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["mame", "fbneo", "libretro", "accuracia", "performance"]
+    },
+    {
+      "n": 5,
+      "titulo": "Neo Geo no RetroArch",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["neo geo", "aes", "mvs", "unibios", "bios"]
+    },
+    {
+      "n": 6,
+      "titulo": "CPS-1, CPS-2 e CPS-3 da Capcom",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["cps1", "cps2", "cps3", "qsound", "capcom"]
+    },
+    {
+      "n": 7,
+      "titulo": "Configurando o núcleo MAME",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["mame", "retroarch", "core", "mame.ini", "opts"]
+    },
+    {
+      "n": 8,
+      "titulo": "Configurando o núcleo FBNeo",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["fbneo", "retroarch", "core", "neogeo", "overclock"]
+    },
+    {
+      "n": 9,
+      "titulo": "Verificação, playlists e organização",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["clrmamepro", "dat", "playlist", "scan", "romcenter"]
+    }
+  ]
+}

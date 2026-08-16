@@ -1,0 +1,79 @@
+{
+  "capitulo": 51,
+  "titulo": "Steam ROM Manager — capas na biblioteca Steam",
+  "resumo": "Adicionar jogos emulados na biblioteca Steam com capas, banners e ícones usando parsers e preview.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é e onde se encaixa",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam rom manager", "srm", "emulação", "biblioteca steam", "atalho"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalação e primeiros passos",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "srm", "instalação", "config", "appimage"]
+    },
+    {
+      "n": 3,
+      "titulo": "Parsers e como funcionam",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["parser", "glob", "regex", "rom", "emulador"]
+    },
+    {
+      "n": 4,
+      "titulo": "Configurando parsers para EmuDeck",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["emudeck", "parser", "retroarch", "dolphin", "yuzu"]
+    },
+    {
+      "n": 5,
+      "titulo": "Ajuste fino de títulos e filtros",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["regex", "filtro", "título", "glob", "exceção"]
+    },
+    {
+      "n": 6,
+      "titulo": "Preview e validação antes de gravar",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["preview", "validação", "artwork", "steam", "atalho"]
+    },
+    {
+      "n": 7,
+      "titulo": "Capas, banners e ícones sob medida",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["artwork", "steamgriddb", "capa", "banner", "ícone"]
+    },
+    {
+      "n": 8,
+      "titulo": "Gerando atalhos e arte no Steam",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["shortcuts.vdf", "appid", "grid", "steam", "atalho"]
+    },
+    {
+      "n": 9,
+      "titulo": "Manutenção e solução de problemas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["diagnóstico", "log", "shortcuts.vdf", "corrompido", "backup"]
+    }
+  ]
+}

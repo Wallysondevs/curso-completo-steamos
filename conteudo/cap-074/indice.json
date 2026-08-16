@@ -1,0 +1,79 @@
+{
+  "capitulo": 74,
+  "titulo": "CSS Loader e temas visuais",
+  "resumo": "Temas para interface Steam, biblioteca, teclado virtual, sons.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é o CSS Loader",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["css loader", "decky", "plugin", "steamos", "tema"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando Decky Loader e o plugin",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["decky loader", "instalacao", "plugin", "curl", "systemd"]
+    },
+    {
+      "n": 3,
+      "titulo": "Como um tema CSS funciona",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["css", "sp", "webview", "selector", "steamui"]
+    },
+    {
+      "n": 4,
+      "titulo": "Temas da biblioteca e interface",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["biblioteca", "interface", "tema", "hero", "capas"]
+    },
+    {
+      "n": 5,
+      "titulo": "Personalizando o teclado virtual",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["teclado", "virtual", "keyboard", "skin", "layout"]
+    },
+    {
+      "n": 6,
+      "titulo": "Sons e pacotes de áudio",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["audio loader", "som", "musica", "navegacao", "ui"]
+    },
+    {
+      "n": 7,
+      "titulo": "Criando seu próprio tema",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["criar tema", "css", "json", "tema customizado", "manifest"]
+    },
+    {
+      "n": 8,
+      "titulo": "Temas pela linha de comando",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["linha de comando", "homebrew", "diretorios", "symlink", "grep"]
+    },
+    {
+      "n": 9,
+      "titulo": "Backup, atualização e rollback",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["backup", "rollback", "atualizacao", "conflito", "restauracao"]
+    }
+  ]
+}

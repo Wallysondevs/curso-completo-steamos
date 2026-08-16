@@ -1,0 +1,79 @@
+{
+  "capitulo": 77,
+  "titulo": "Undervolting, overclock e APU tuning",
+  "resumo": "Smokeless UMAF, RyzenAdj, PPT/TDC/EDC e curva de ventoinha para extrair performance da APU no SteamOS.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Smokeless UMAF: acesso e navegação",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["smokeless", "umaf", "bios", "uefi"]
+    },
+    {
+      "n": 2,
+      "titulo": "PPT, TDC e EDC: limites de potência",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["ppt", "tdc", "edc", "potencia", "apu"]
+    },
+    {
+      "n": 3,
+      "titulo": "RyzenAdj: tuning por software",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["ryzenadj", "tuning", "apu", "steamos"]
+    },
+    {
+      "n": 4,
+      "titulo": "Undervolting: curva de tensão e estabilidade",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["undervolting", "tensao", "estabilidade", "curve"]
+    },
+    {
+      "n": 5,
+      "titulo": "Overclock de GPU integrada: clocks e performance",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["overclock", "gpu", "igpu", "clock"]
+    },
+    {
+      "n": 6,
+      "titulo": "Curva de ventoinha: controle térmico",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ventoinha", "fan", "termico", "temperatura"]
+    },
+    {
+      "n": 7,
+      "titulo": "Testes de estabilidade e validação",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["estresse", "benchmark", "validacao", "estabilidade"]
+    },
+    {
+      "n": 8,
+      "titulo": "Perfis e automação no boot",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["script", "systemd", "perfil", "automatizacao"]
+    },
+    {
+      "n": 9,
+      "titulo": "Riscos, garantia e recuperação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["risco", "garantia", "recuperacao", "brick"]
+    }
+  ]
+}

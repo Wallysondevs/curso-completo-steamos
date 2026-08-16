@@ -1,0 +1,79 @@
+{
+  "capitulo": 91,
+  "titulo": "Modo de recuperação e imagem de restauração",
+  "resumo": "Baixar a imagem de recovery da Valve, iniciar pelo botão de volume e escolher entre reimagem completa e reinstalação do SteamOS.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é o modo de recuperação",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["recuperação", "recovery", "steamos", "imagem", "oobe"]
+    },
+    {
+      "n": 2,
+      "titulo": "Baixando a imagem de restauração",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["download", "recovery image", "bz2", "checksum", "valve"]
+    },
+    {
+      "n": 3,
+      "titulo": "Criando o pendrive bootável",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dd", "rufus", "balenaetcher", "usb", "flash"]
+    },
+    {
+      "n": 4,
+      "titulo": "Iniciando pelo modo de recuperação",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["boot manager", "volume", "boot", "usb", "steamdeck"]
+    },
+    {
+      "n": 5,
+      "titulo": "A área de trabalho de recuperação",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["recovery desktop", "ícones", "steamos", "opções", "kde"]
+    },
+    {
+      "n": 6,
+      "titulo": "Reimagem completa do Steam Deck",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["reimage", "factory reset", "wipe", "partição", "formato"]
+    },
+    {
+      "n": 7,
+      "titulo": "Reinstalar o SteamOS preservando dados",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["reinstall", "preservar", "jogos", "steamos", "upgrade"]
+    },
+    {
+      "n": 8,
+      "titulo": "Apagar dados locais do usuário",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["clear user data", "home", "reset", "dados", "privacidade"]
+    },
+    {
+      "n": 9,
+      "titulo": "Terminal de reparo e pós-recuperação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["terminal", "repair", "boot", "dual boot", "verificação"]
+    }
+  ]
+}

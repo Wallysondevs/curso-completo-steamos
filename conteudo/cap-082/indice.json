@@ -1,0 +1,79 @@
+{
+  "capitulo": 82,
+  "titulo": "Acessórios essenciais: docks, cases e grips",
+  "resumo": "Docks USB-C, cases, grips, películas, protetores e acessórios que valem a pena.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Por que acessórios importam no Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["acessorios", "usb-c", "power delivery", "ergonomia", "lsusb"]
+    },
+    {
+      "n": 2,
+      "titulo": "Docks USB-C e saída de vídeo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["dock", "displayport", "hdmi", "xrandr", "alt-mode"]
+    },
+    {
+      "n": 3,
+      "titulo": "Energia, Power Delivery e hubs",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["power delivery", "ucsi", "usb-c", "carregamento", "bateria"]
+    },
+    {
+      "n": 4,
+      "titulo": "Armazenamento externo e microSD",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["microsd", "nvme", "lsblk", "f3", "benchmark"]
+    },
+    {
+      "n": 5,
+      "titulo": "Cases, grips e capas protetoras",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["case", "grip", "capas", "resfriamento", "ergonomia"]
+    },
+    {
+      "n": 6,
+      "titulo": "Películas e protetores de tela",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["pelicula", "protetor", "tela", "tempered glass", "oled"]
+    },
+    {
+      "n": 7,
+      "titulo": "Teclados, mouses e controles USB",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["teclado", "mouse", "controle", "steam input", "lsusb"]
+    },
+    {
+      "n": 8,
+      "titulo": "Áudio, DACs e acessórios Bluetooth",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["audio", "dac", "bluetooth", "pipewire", "pactl"]
+    },
+    {
+      "n": 9,
+      "titulo": "Montando o setup completo e avaliando custo",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["setup", "custo-beneficio", "diagnostico", "dmesg", "firmware"]
+    }
+  ]
+}

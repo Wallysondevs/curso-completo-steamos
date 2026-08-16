@@ -1,0 +1,79 @@
+{
+  "capitulo": 6,
+  "titulo": "Navegação no Modo Jogo",
+  "resumo": "Interface Steam: biblioteca, loja, menu rápido (botão …), atalhos com botão Steam, notificações e amigos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "A interface Steam em Modo Jogo",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["modo jogo", "big picture", "gamescope", "steam", ".steam"]
+    },
+    {
+      "n": 2,
+      "titulo": "Biblioteca, coleções e filtros",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["biblioteca", "libraryfolders.vdf", "coleções", "appmanifest", "playtime"]
+    },
+    {
+      "n": 3,
+      "titulo": "O menu rápido (botão ...)",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["menu rápido", "qam", "overlay", "fps", "bateria"]
+    },
+    {
+      "n": 4,
+      "titulo": "Atalhos do botão Steam",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["botão steam", "chord", "teclado virtual", "screenshot", "bigpicture"]
+    },
+    {
+      "n": 5,
+      "titulo": "Notificações, amigos e chat",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["notificações", "amigos", "chat", "steamwebhelper", "journalctl"]
+    },
+    {
+      "n": 6,
+      "titulo": "A loja dentro do Deck",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["loja", "compatibilidade", "appid", "appcache", "wishlist"]
+    },
+    {
+      "n": 7,
+      "titulo": "O compositor Gamescope por baixo do Modo Jogo",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["gamescope", "compositor", "drm", "xwayland", "pstree"]
+    },
+    {
+      "n": 8,
+      "titulo": "Personalizando a experiência do Modo Jogo",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["personalização", "localconfig.vdf", "steam input", "userdata", "backup"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico e registro do Modo Jogo",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["diagnóstico", "logs", "journalctl", "ps", "grep"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 29,
+  "titulo": "Discover — a loja de aplicativos do KDE",
+  "resumo": "Navegação, busca, categorias, Flathub, atualizações automáticas e instalação com dois cliques.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Conhecendo o Discover",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["discover", "plasma-discover", "kde", "flatpak", "libdiscover"]
+    },
+    {
+      "n": 2,
+      "titulo": "Buscando e filtrando apps",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["busca", "flatpak search", "filtro", "flathub"]
+    },
+    {
+      "n": 3,
+      "titulo": "Categorias e curadoria",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["appstream", "categorias", "flatpak remote-ls", "verified", "kde store"]
+    },
+    {
+      "n": 4,
+      "titulo": "Fontes: Flathub e mais",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["flathub", "remote", "flatpak remotes", "remote-add", "runtime"]
+    },
+    {
+      "n": 5,
+      "titulo": "Instalando com dois cliques",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["instalacao", "flatpak install", "ostree", "sandbox"]
+    },
+    {
+      "n": 6,
+      "titulo": "Atualizações automáticas",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["atualizacao", "flatpak update", "pkcon get-updates", "pkcon refresh"]
+    },
+    {
+      "n": 7,
+      "titulo": "Gerenciando o que está instalado",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["flatpak list", "flatpak uninstall", "flatpak info", "espaco em disco"]
+    },
+    {
+      "n": 8,
+      "titulo": "Permissões do sandbox Flatpak",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["permissoes", "flatpak override", "sandbox", "portal", "bubblewrap"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico e manutenção",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 9,
+      "tags": ["diagnostico", "flatpak repair", "manutencao", "flatpak run"]
+    }
+  ]
+}

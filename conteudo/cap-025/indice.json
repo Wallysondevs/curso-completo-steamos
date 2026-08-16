@@ -1,0 +1,79 @@
+{
+  "capitulo": 25,
+  "titulo": "Monitores externos, dock e multimonitor",
+  "resumo": "Resolução, refresh rate, HDR externo, posicionamento, scaling por monitor e problemas comuns.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Detectando monitores com kscreen-doctor -o",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["kscreen-doctor", "eDP", "displayport alt mode", "xrandr", "drm"]
+    },
+    {
+      "n": 2,
+      "titulo": "Resolução e refresh rate",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["resolução", "refresh rate", "modo", "cvt", "4K"]
+    },
+    {
+      "n": 3,
+      "titulo": "HDR em monitores externos",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["hdr", "edid", "rgb", "wcg", "10 bits"]
+    },
+    {
+      "n": 4,
+      "titulo": "Posicionamento e modos de tela",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["espelhamento", "extensão", "posicionamento", "rotação", "geometry"]
+    },
+    {
+      "n": 5,
+      "titulo": "Scaling por monitor",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["scaling", "dpi", "ppi", "escala fracionária", "xwayland"]
+    },
+    {
+      "n": 6,
+      "titulo": "Docks USB-C e suas limitações",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["dock", "usb-c", "mst", "displayport alt mode", "bandwidth"]
+    },
+    {
+      "n": 7,
+      "titulo": "Problemas comuns de multimonitor",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["flicker", "hotplug", "vrr", "debug", "kscreen reset"]
+    },
+    {
+      "n": 8,
+      "titulo": "Configuração avançada com kscreen-console",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["kscreen-console", "json", "automação", "dbus"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico profundo de falhas de vídeo",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["link training", "edid checksum", "hotplug oscilante", "cabo", "bypass"]
+    }
+  ]
+}

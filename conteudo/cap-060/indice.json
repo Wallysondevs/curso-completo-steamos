@@ -1,0 +1,79 @@
+{
+  "capitulo": 60,
+  "titulo": "Backup, restauração e clone do SSD",
+  "resumo": "Clone de disco com dd e Clonezilla, backup de saves do Steam e migração para SSD maior.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que há no SSD do Deck e por que fazer backup",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["backup", "ssd", "partições", "steamos", "smartctl"]
+    },
+    {
+      "n": 2,
+      "titulo": "Clonando o disco inteiro com dd",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dd", "clone", "imagem", "block-device", "fsync"]
+    },
+    {
+      "n": 3,
+      "titulo": "dd com segurança: blocos, progresso e compressão",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["dd", "pigz", "pv", "gzip", "iflag"]
+    },
+    {
+      "n": 4,
+      "titulo": "Backup de saves e da steamlibrary",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["save", "steam-cloud", "rsync", "proton", "compatdata"]
+    },
+    {
+      "n": 5,
+      "titulo": "Clonezilla: clone guiado e imagens comprimidas",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["clonezilla", "partclone", "imagem", "boot", "restore"]
+    },
+    {
+      "n": 6,
+      "titulo": "Criando mídia de restauração e bootando dela",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["usb", "ventoy", "gparted", "boot", "restauração"]
+    },
+    {
+      "n": 7,
+      "titulo": "Restaurando uma imagem para o SSD",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["dd", "partclone", "resize2fs", "restore", "recovery"]
+    },
+    {
+      "n": 8,
+      "titulo": "Migração para um SSD maior",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["upgrade", "growpart", "resize2fs", "btrfs", "clone"]
+    },
+    {
+      "n": 9,
+      "titulo": "Estratégia de backup completa e verificada",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["3-2-1", "checksum", "cron", "retenção", "recuperação"]
+    }
+  ]
+}

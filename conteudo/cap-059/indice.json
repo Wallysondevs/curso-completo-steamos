@@ -1,0 +1,79 @@
+{
+  "capitulo": 59,
+  "titulo": "Sincronização com nuvem",
+  "resumo": "Syncthing, Nextcloud, Dropbox via Flatpak, rclone e salvamento automático de saves e configurações.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Por que sincronizar um Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["nuvem", "saves", "sincronização", "backup", "steamcloud"]
+    },
+    {
+      "n": 2,
+      "titulo": "Syncthing na nuvem particular",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["syncthing", "syncthing-gtk", "p2p", "flatpak", "gui"]
+    },
+    {
+      "n": 3,
+      "titulo": "Pastas, dispositivos e conflitos",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["syncthing", "conflito", "ignorar", "versionamento", "pastas"]
+    },
+    {
+      "n": 4,
+      "titulo": "Nextcloud como servidor próprio",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["nextcloud", "webdav", "cliente", "servidor", "ssl"]
+    },
+    {
+      "n": 5,
+      "titulo": "Dropbox e outros da loja Flatpak",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["dropbox", "flatpak", "discover", "onedrive", "mega"]
+    },
+    {
+      "n": 6,
+      "titulo": "rclone por linha de comando",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["rclone", "rclone config", "s3", "google drive", "mount"]
+    },
+    {
+      "n": 7,
+      "titulo": "Espelhando pastas com rclone",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["rclone", "sync", "copy", "bisync", "crontab"]
+    },
+    {
+      "n": 8,
+      "titulo": "Saves automáticos e systemd",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["systemd", "timer", "service", "saves", "automatização"]
+    },
+    {
+      "n": 9,
+      "titulo": "Estratégia completa de backup",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["backup", "3-2-1", "restore", "disaster recovery", "checklist"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 99,
+  "titulo": "Benchmarking e testes de desempenho",
+  "resumo": "Ferramentas de benchmark, testes de estabilidade, medir ganhos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Por que medir desempenho",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["benchmark", "métricas", "baseline", "variância", "latência"]
+    },
+    {
+      "n": 2,
+      "titulo": "Estabelecendo um baseline confiável",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["baseline", "repetição", "sincronia", "nice", "controle"]
+    },
+    {
+      "n": 3,
+      "titulo": "Benchmark de CPU",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["cpu", "sysbench", "openssl", "stress-ng", "threads"]
+    },
+    {
+      "n": 4,
+      "titulo": "Benchmark de disco e E/S",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["fio", "hdparm", "dd", "iops", "latência"]
+    },
+    {
+      "n": 5,
+      "titulo": "Benchmark de memória",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["memória", "latência", "bandwidth", "sysbench", "cache"]
+    },
+    {
+      "n": 6,
+      "titulo": "Benchmark de GPU e jogos",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["gpu", "mangohud", "vulkan", "frametime", "fps"]
+    },
+    {
+      "n": 7,
+      "titulo": "Testes de estabilidade sob carga",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["estabilidade", "stress-ng", "temperatura", "throttling", "soak"]
+    },
+    {
+      "n": 8,
+      "titulo": "Monitorando métricas durante o teste",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["sensors", "turbostat", "sar", "monitor", "throttling"]
+    },
+    {
+      "n": 9,
+      "titulo": "Interpretando resultados e validando ganhos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["interpretação", "regressão", "estatística", "mediana", "desvio"]
+    }
+  ]
+}

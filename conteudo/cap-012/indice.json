@@ -1,0 +1,79 @@
+{
+  "capitulo": 12,
+  "titulo": "TDP, GPU clock e controle de energia",
+  "resumo": "Thermal Design Power, fixar clock da GPU, undervolt e o impacto real em FPS e bateria por jogo.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é TDP e por que limitá-lo",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["tdp", "apu", "aerith", "watts", "lscpu"]
+    },
+    {
+      "n": 2,
+      "titulo": "Menu rápido e o ryzenadj",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["ryzenadj", "stapm", "ppt", "tdp", "steamos-readonly"]
+    },
+    {
+      "n": 3,
+      "titulo": "Fixando o clock da GPU",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["gpu clock", "gamescope", "mangohud", "pp_dpm_sclk", "amdgpu"]
+    },
+    {
+      "n": 4,
+      "titulo": "Undervolting na prática",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["undervolt", "curve optimizer", "coall", "ryzenadj", "tensão"]
+    },
+    {
+      "n": 5,
+      "titulo": "Impacto do TDP no FPS",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["fps", "frametime", "benchmark", "mangohud", "gargalo"]
+    },
+    {
+      "n": 6,
+      "titulo": "TDP e duração da bateria",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["bateria", "watt-hora", "upower", "power_supply", "autonomia"]
+    },
+    {
+      "n": 7,
+      "titulo": "RyzenAdj e controle fino de temperatura",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["tctl-temp", "thermal_zone", "sensors", "tdc", "edc"]
+    },
+    {
+      "n": 8,
+      "titulo": "Curvas de ventoinha e leitura de sensores",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["ventoinha", "fan", "pwm", "hwmon", "rpm"]
+    },
+    {
+      "n": 9,
+      "titulo": "Perfis por jogo e automação de energia",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["systemd", "perfil", "localconfig.vdf", "automação", "boot"]
+    }
+  ]
+}

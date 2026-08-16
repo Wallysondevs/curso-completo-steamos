@@ -1,0 +1,79 @@
+{
+  "capitulo": 20,
+  "titulo": "Área de trabalho KDE Plasma no Steam Deck",
+  "resumo": "Painel, menu iniciar, bandeja do sistema, múltiplas áreas de trabalho, widgets e personalização essencial.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O Plasma no SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["plasmashell", "kde", "kwin", "kwriteconfig5", "plasma"]
+    },
+    {
+      "n": 2,
+      "titulo": "O painel e o menu iniciar",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["painel", "pacote", "widget", "spacer", "desktop-appletsrc"]
+    },
+    {
+      "n": 3,
+      "titulo": "O menu Kickoff em detalhes",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["kickoff", "menu", "desktop", "kbuildsycoca5", "favoritos"]
+    },
+    {
+      "n": 4,
+      "titulo": "A bandeja do sistema",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["bandeja", "applet", "qdbus", "plasmashell", "tray"]
+    },
+    {
+      "n": 5,
+      "titulo": "Múltiplas áreas de trabalho",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["areas-de-trabalho", "atividades", "kwinrc", "kstart", "pager"]
+    },
+    {
+      "n": 6,
+      "titulo": "Widgets e a galeria do Plasma",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["widget", "plasmoid", "applet", "kbuildsycoca5", "desktop-appletsrc"]
+    },
+    {
+      "n": 7,
+      "titulo": "O launchpad de janelas (Overview)",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["overview", "kwin", "apresentar-janelas", "presentwindows", "compositor"]
+    },
+    {
+      "n": 8,
+      "titulo": "Atalhos globais do Plasma",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["krunner", "atalhos", "kglobalshortcutsrc", "kglobalaccel", "qdbus"]
+    },
+    {
+      "n": 9,
+      "titulo": "Personalização essencial e backup",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["tema", "dpi", "fontes", "backup", "kdeglobals"]
+    }
+  ]
+}

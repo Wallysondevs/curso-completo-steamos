@@ -1,0 +1,79 @@
+{
+  "capitulo": 27,
+  "titulo": "Atalhos de teclado e produtividade no Deck",
+  "resumo": "Atalhos KDE, atalhos customizados, Steam+X e dicas de produtividade com dock.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Atalhos padrão do KDE",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["kglobalaccel", "qdbus", "kde", "atalhos", "kglobalshortcutsrc"]
+    },
+    {
+      "n": 2,
+      "titulo": "Atalhos do gerenciador de janelas",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["kwin", "janelas", "ladrilhar", "desktop virtual", "wayland"]
+    },
+    {
+      "n": 3,
+      "titulo": "Criando atalhos customizados",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["kwriteconfig6", "systemsettings", "custom", "kcm_keys", "atalhos"]
+    },
+    {
+      "n": 4,
+      "titulo": "Steam+X e o teclado virtual",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steam+x", "teclado virtual", "xdotool", "maliit", "wayland"]
+    },
+    {
+      "n": 5,
+      "titulo": "KRunner e atalhos de busca",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["krunner", "busca", "kcm_krunner", "calculadora", "plugins"]
+    },
+    {
+      "n": 6,
+      "titulo": "Produtividade com dock e teclado",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dock", "multitelas", "setxkbmap", "teclado externo", "quick tile"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atalhos do Steam no Game Mode",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["game mode", "gamescope", "steam", "overlay", "lupa"]
+    },
+    {
+      "n": 8,
+      "titulo": "Lendo e editando o kglobalshortcutsrc",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["kglobalshortcutsrc", "kwriteconfig6", "kreadconfig6", "configuracao", "diff"]
+    },
+    {
+      "n": 9,
+      "titulo": "Fluxos de produtividade combinados",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["fluxo", "macro", "xdotool", "produtividade", "diagnostico"]
+    }
+  ]
+}

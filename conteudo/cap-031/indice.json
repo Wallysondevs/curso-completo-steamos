@@ -1,0 +1,79 @@
+{
+  "capitulo": 31,
+  "titulo": "Flatseal — gerenciando permissões",
+  "resumo": "Filesystem, rede, Wayland/X11, D-Bus, dispositivos e como auditar permissões de cada Flatpak.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Por que auditar permissões",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "flatseal", "sandbox", "override", "permissões"]
+    },
+    {
+      "n": 2,
+      "titulo": "Permissões de filesystem",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["filesystem", "home", "host", "xdg", "flatpak"]
+    },
+    {
+      "n": 3,
+      "titulo": "Rede, sockets e D-Bus",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["network", "dbus", "system-bus", "session-bus", "sockets"]
+    },
+    {
+      "n": 4,
+      "titulo": "Wayland versus X11 e o Portal XDG",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["wayland", "x11", "fallback-x11", "portal", "xdg"]
+    },
+    {
+      "n": 5,
+      "titulo": "Dispositivos e compartilhamento",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dri", "input", "kvm", "shm", "devices"]
+    },
+    {
+      "n": 6,
+      "titulo": "Variáveis de ambiente",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["environment", "ld_preload", "env", "unset-env", "override"]
+    },
+    {
+      "n": 7,
+      "titulo": "Auditando e endurecendo apps",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["auditoria", "hardening", "flatpak list", "reset", "override"]
+    },
+    {
+      "n": 8,
+      "titulo": "Instalação endurecida e escopos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["system", "user", "instalação", "overrides", "flatpak"]
+    },
+    {
+      "n": 9,
+      "titulo": "Referência rápida e erros comuns",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["referência", "erros", "manutenção", "uninstall", "audita"]
+    }
+  ]
+}

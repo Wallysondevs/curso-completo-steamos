@@ -1,0 +1,79 @@
+{
+  "capitulo": 2,
+  "titulo": "O que é SteamOS?",
+  "resumo": "Arch Linux como base (Holo), sistema de arquivos imutável, atualizações atômicas A/B, Gamescope, KDE Plasma e Flatpak como via oficial de apps.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Arch Linux e a base Holo",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["arch linux", "holo", "os-release", "linux-neptune"]
+    },
+    {
+      "n": 2,
+      "titulo": "O sistema de arquivos imutável",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["imutavel", "steamos-readonly", "particoes", "lsblk"]
+    },
+    {
+      "n": 3,
+      "titulo": "Atualizações atômicas A/B",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["atualizacao atomica", "a/b", "rauc", "steamos-update"]
+    },
+    {
+      "n": 4,
+      "titulo": "Gamescope e o Modo Jogo",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["gamescope", "compositor", "modo jogo", "journalctl"]
+    },
+    {
+      "n": 5,
+      "titulo": "KDE Plasma e o Modo Desktop",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["kde plasma", "modo desktop", "kwin", "wayland"]
+    },
+    {
+      "n": 6,
+      "titulo": "Flatpak como via oficial de apps",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["flatpak", "flathub", "sandbox", "discover"]
+    },
+    {
+      "n": 7,
+      "titulo": "A armadilha do pacman",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["pacman", "steamos-readonly", "imutavel", "a/b"]
+    },
+    {
+      "n": 8,
+      "titulo": "Steamos-update e o rollback",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steamos-update", "rollback", "rauc", "flatpak update"]
+    },
+    {
+      "n": 9,
+      "titulo": "Um sistema, dois modos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steamos", "modo jogo", "modo desktop", "arquitetura"]
+    }
+  ]
+}

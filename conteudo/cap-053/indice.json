@@ -1,0 +1,79 @@
+{
+  "capitulo": 53,
+  "titulo": "Emulação de Nintendo Switch e consoles modernos",
+  "resumo": "Yuzu/Ryujinx: instalação, firmware, keys, configuração por jogo e desempenho.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Emulação de Switch no contexto do Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["emulacao", "switch", "yuzu", "ryujinx", "legalidade"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando Yuzu e Ryujinx no SteamOS",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["yuzu", "ryujinx", "flatpak", "discover", "emudeck"]
+    },
+    {
+      "n": 3,
+      "titulo": "Firmware e chaves de produção",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["firmware", "prod.keys", "title.keys", "mitm", "dump"]
+    },
+    {
+      "n": 4,
+      "titulo": "Dumping de jogos e saves do seu console",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["nxdumptool", "nsp", "xci", "saves", "hekate"]
+    },
+    {
+      "n": 5,
+      "titulo": "Configuração gráfica e de desempenho",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vulkan", "opengl", "shaders", "fsr", "tdp", "gamemode"]
+    },
+    {
+      "n": 6,
+      "titulo": "Configuração por jogo",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["per-game", "resolucao", "docked", "titleid", "config"]
+    },
+    {
+      "n": 7,
+      "titulo": "Controles, giroscópio e Steam Input",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steam input", "giroscopio", "joycon", "cemu", "sdlinput"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnosticando shaders, crashes e áudio",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["shader cache", "stutter", "log", "audio", "crash"]
+    },
+    {
+      "n": 9,
+      "titulo": "Além do Switch: 3DS, Wii U, Vita e PS3",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["citra", "cemu", "vita3k", "rpcs3", "dolphin"]
+    }
+  ]
+}

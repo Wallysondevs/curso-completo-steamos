@@ -1,0 +1,79 @@
+{
+  "capitulo": 83,
+  "titulo": "Controles externos e periféricos de jogo",
+  "resumo": "Parear DualSense e Xbox, conectar teclado, mouse e volantes e ajustar mapeamento e latência.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Panorama dos controles no SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["controle", "gamepad", "steam input", "hid", "bluetooth"]
+    },
+    {
+      "n": 2,
+      "titulo": "Pareando um DualSense via Bluetooth",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["dualsense", "ps5", "bluetoothctl", "pareamento", "hidraw"]
+    },
+    {
+      "n": 3,
+      "titulo": "Conectando controles Xbox e genéricos",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["xbox", "xpad", "xow", "xone", "dongle"]
+    },
+    {
+      "n": 4,
+      "titulo": "A camada Steam Input e o remapeamento",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam input", "remap", "gyro", "trilho", "big picture"]
+    },
+    {
+      "n": 5,
+      "titulo": "Enxergando os dispositivos com lsusb e evtest",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["lsusb", "evtest", "udevadm", "input", "hidraw"]
+    },
+    {
+      "n": 6,
+      "titulo": "Teclado e mouse gaming no modo desktop",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["teclado", "mouse", "dpi", "ratbag", "polling"]
+    },
+    {
+      "n": 7,
+      "titulo": "Volantes e pedais com force feedback",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["volante", "force feedback", "ff", "oversteer", "logitech"]
+    },
+    {
+      "n": 8,
+      "titulo": "Latência, polling e taxa de atualização",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["latência", "polling", "chrt", "rt", "nice"]
+    },
+    {
+      "n": 9,
+      "titulo": "Regras udev e diagnóstico de periféricos",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["udev", "regra", "permissão", "diagnóstico", "dmesg"]
+    }
+  ]
+}

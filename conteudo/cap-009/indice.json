@@ -1,0 +1,79 @@
+{
+  "capitulo": 9,
+  "titulo": "Visão geral do hardware do Steam Deck",
+  "resumo": "APU AMD Van Gogh/Aerith, RAM LPDDR5, SSD NVMe, tela IPS/OLED, bateria, thermal throttling e controladores internos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "A APU AMD e os processadores Zen 2",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["apu", "aerith", "sephiroth", "zen2", "lscpu", "cpuinfo"]
+    },
+    {
+      "n": 2,
+      "titulo": "RDNA 2 e o desempenho gráfico",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["rdna2", "gpu", "amdgpu", "vulkaninfo", "glxinfo", "tfops"]
+    },
+    {
+      "n": 3,
+      "titulo": "RAM LPDDR5 unificada",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["lpddr5", "uma", "free", "meminfo", "dmidecode", "swap"]
+    },
+    {
+      "n": 4,
+      "titulo": "SSD NVMe e armazenamento",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["nvme", "ssd", "lsblk", "smart", "emmc", "m2-2230"]
+    },
+    {
+      "n": 5,
+      "titulo": "A tela e o painel",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["lcd", "oled", "edid", "xrandr", "backlight", "hdr"]
+    },
+    {
+      "n": 6,
+      "titulo": "Bateria e gerenciamento de energia",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["bateria", "upower", "tdp", "power_supply", "energia"]
+    },
+    {
+      "n": 7,
+      "titulo": "Thermal throttling e refrigeração",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["throttling", "temperatura", "sensors", "thermal_zone", "ventoinha"]
+    },
+    {
+      "n": 8,
+      "titulo": "Controladores internos e sensores",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["controladores", "hid", "lsusb", "iio", "acelerometro", "giroscopio"]
+    },
+    {
+      "n": 9,
+      "titulo": "Inventário completo e diagnóstico rápido",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["lshw", "inxi", "diagnostico", "inventario", "cross-check"]
+    }
+  ]
+}

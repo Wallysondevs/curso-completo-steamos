@@ -1,0 +1,79 @@
+{
+  "capitulo": 95,
+  "titulo": "Terminal no SteamOS — comandos essenciais",
+  "resumo": "Konsole, comandos no root imutável, variáveis de ambiente, o que NÃO rodar com sudo.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Konsole e a filosofia do terminal",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["konsole", "terminal", "bash", "shell", "kde"]
+    },
+    {
+      "n": 2,
+      "titulo": "Navegação: ls, cd, pwd e tree",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ls", "cd", "pwd", "tree", "navegação"]
+    },
+    {
+      "n": 3,
+      "titulo": "Arquivos: cp, mv, rm, mkdir e touch",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["cp", "mv", "rm", "mkdir", "touch"]
+    },
+    {
+      "n": 4,
+      "titulo": "Leitura: cat, less, head, tail e grep",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["cat", "less", "head", "tail", "grep"]
+    },
+    {
+      "n": 5,
+      "titulo": "Sistema de arquivos imutável do SteamOS",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steamos-readonly", "imutável", "overlay", "root", "pacman"]
+    },
+    {
+      "n": 6,
+      "titulo": "Variáveis de ambiente e PATH",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["variáveis", "PATH", "env", "export", "ambiente"]
+    },
+    {
+      "n": 7,
+      "titulo": "Permissões e o perigo do sudo",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["sudo", "chmod", "chown", "permissões", "root"]
+    },
+    {
+      "n": 8,
+      "titulo": "Redirecionamento, pipes e subshells",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["pipe", "redirecionamento", "stdout", "stderr", "subshell"]
+    },
+    {
+      "n": 9,
+      "titulo": "Aliases, histórico e personalização",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["alias", "histórico", "bashrc", "personalização", "fish"]
+    }
+  ]
+}

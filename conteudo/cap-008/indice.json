@@ -1,0 +1,79 @@
+{
+  "capitulo": 8,
+  "titulo": "Atualizações do sistema SteamOS",
+  "resumo": "Canais Stable, Beta e Preview, partições A/B, rollback, delta updates e como lidar com atualizações problemáticas.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Atualização atômica e o steamos-update",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steamos-update", "steamos-readonly", "build_id", "atômica"]
+    },
+    {
+      "n": 2,
+      "titulo": "Os três canais: Stable, Beta e Preview",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["stable", "beta", "preview", "set-branch", "canal"]
+    },
+    {
+      "n": 3,
+      "titulo": "Partições A/B e atualização atômica",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["lsblk", "rootfs-a", "rootfs-b", "var-a", "var-b"]
+    },
+    {
+      "n": 4,
+      "titulo": "Como uma atualização é aplicada",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steamos-update", "journalctl", "signature", "staged"]
+    },
+    {
+      "n": 5,
+      "titulo": "Rollback para a versão anterior",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["rollback", "steamos-update", "boot counting", "recovery"]
+    },
+    {
+      "n": 6,
+      "titulo": "Delta updates e economia de dados",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["delta", "segmentos", "download", "hash", "build_id"]
+    },
+    {
+      "n": 7,
+      "titulo": "O que fazer quando uma atualização quebra",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["checkout", "rollback", "reinstalação", "recuperação", "journalctl"]
+    },
+    {
+      "n": 8,
+      "titulo": "Atualizando quando o root é imutável",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steamos-readonly", "btrfs", "imutável", "snapshot"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico completo com rauc status",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["rauc", "rauc status", "booted", "slot", "good"]
+    }
+  ]
+}

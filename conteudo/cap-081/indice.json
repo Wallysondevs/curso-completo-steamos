@@ -1,0 +1,79 @@
+{
+  "capitulo": 81,
+  "titulo": "Homebrew e personalização profunda",
+  "resumo": "Jailbreak do modo leitura, ferramentas da comunidade e limites do sistema.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O modo somente-leitura do SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["readonly", "overlayfs", "imutável", "steamos-readonly", "partição"]
+    },
+    {
+      "n": 2,
+      "titulo": "Desabilitando o modo leitura",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["jailbreak", "steamos-readonly disable", "sudo", "root", "montagem"]
+    },
+    {
+      "n": 3,
+      "titulo": "Pacman e os repositórios do SteamOS",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["pacman", "pacman-key", "holo", "archlinux", "keyring"]
+    },
+    {
+      "n": 4,
+      "titulo": "Decky Loader e plugins",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["decky", "plugin loader", "homebrew", "plugins", "curl"]
+    },
+    {
+      "n": 5,
+      "titulo": "ProtonUp-Qt e camadas de compatibilidade",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["protonup-qt", "ge-proton", "luxtorpeda", "proton-ge", "flatpak"]
+    },
+    {
+      "n": 6,
+      "titulo": "EmuDeck e lançadores comunitários",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["emudeck", "emulationstation", "roms", "retroarch", "launcher"]
+    },
+    {
+      "n": 7,
+      "titulo": "Flatpak e Discover contra o Pacman",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "discover", "aura", "sobrevivência", "atualização"]
+    },
+    {
+      "n": 8,
+      "titulo": "Utilitários CLI e scripts da comunidade",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["cryo-utilities", "script", "github", "swap", "tweaks"]
+    },
+    {
+      "n": 9,
+      "titulo": "Sobrevivendo às atualizações do sistema",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["update", "recovery", "limpeza", "uninstall", "limite"]
+    }
+  ]
+}

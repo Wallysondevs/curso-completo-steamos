@@ -1,0 +1,79 @@
+{
+  "capitulo": 62,
+  "titulo": "Dual boot e múltiplos sistemas operacionais",
+  "resumo": "rEFInd, Clover, seleção de boot e como desfazer dual boot.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Fundamentos de dual boot no Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dual boot", "firmware", "efi", "boot manager", "boot loader"]
+    },
+    {
+      "n": 2,
+      "titulo": "Particionando o disco para múltiplos sistemas",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["parted", "lsblk", "gpt", "ntfs", "btrfs"]
+    },
+    {
+      "n": 3,
+      "titulo": "Instalando Windows junto com o SteamOS",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["windows", "ntfs", "bitlocker", "secure boot", "ventoy"]
+    },
+    {
+      "n": 4,
+      "titulo": "Instalando outra distribuição Linux junto com o SteamOS",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["grub", "btrfs", "esp", "efibootmgr", "distro"]
+    },
+    {
+      "n": 5,
+      "titulo": "Gerenciador de boot rEFInd",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["refind", "refind.conf", "icons", "scanfor", "boot manager"]
+    },
+    {
+      "n": 6,
+      "titulo": "Clover e systemd-boot como gerenciadores",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["clover", "systemd-boot", "bootctl", "loader.conf", "esp"]
+    },
+    {
+      "n": 7,
+      "titulo": "Seleção de boot e troubleshooting do menu",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["efibootmgr", "boot order", "nvram", "rescue", "black screen"]
+    },
+    {
+      "n": 8,
+      "titulo": "Como desfazer dual boot e recuperar espaço",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["parted", "rm", "efibootmgr", "delete partition", "perigo"]
+    },
+    {
+      "n": 9,
+      "titulo": "Cenários avançados e múltiplos sistemas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["múltiplos sistemas", "wsl", "vm", "kexec", "backup"]
+    }
+  ]
+}

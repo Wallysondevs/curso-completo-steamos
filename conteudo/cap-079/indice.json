@@ -1,0 +1,79 @@
+{
+  "capitulo": 79,
+  "titulo": "Scripts e automação no Steam Deck",
+  "resumo": "Do Bash ao systemd, udev e autostart, este capítulo ensina a automatizar o Steam Deck de forma confiável, integrando Desktop e Gaming Mode.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Um Linux (quase) comum",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steamos", "arch", "imutabilidade", "systemd"]
+    },
+    {
+      "n": 2,
+      "titulo": "O esqueleto mínimo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["bash", "set", "shebang", "grep"]
+    },
+    {
+      "n": 3,
+      "titulo": "Serviço de sistema vs serviço de usuário",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["systemctl", "systemd", "timer", "journalctl"]
+    },
+    {
+      "n": 4,
+      "titulo": "O modelo de eventos do udev",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["udev", "udevadm", "regras", "hardware"]
+    },
+    {
+      "n": 5,
+      "titulo": "Os três pontos de entrada do autostart",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["autostart", "desktop", "xdg", "profile"]
+    },
+    {
+      "n": 6,
+      "titulo": "O que um Deck precisa manter",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["manutencao", "shader", "cache", "timer"]
+    },
+    {
+      "n": 7,
+      "titulo": "O que é o Gaming Mode, tecnicamente",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["gamescope", "gaming-mode", "sessao", "play"]
+    },
+    {
+      "n": 8,
+      "titulo": "A mentalidade do detetive",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["debug", "trap", "journalctl", "systemd-analyze"]
+    },
+    {
+      "n": 9,
+      "titulo": "Menor privilégio: o fundamento",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["seguranca", "privilegio", "sudo", "segredo"]
+    }
+  ]
+}

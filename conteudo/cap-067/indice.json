@@ -1,0 +1,79 @@
+{
+  "capitulo": 67,
+  "titulo": "PlayStation Remote Play e outros consoles",
+  "resumo": "Chiaki para PS4/PS5, streaming de Xbox local e outras soluções.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Remote Play além da Steam",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["chiaki", "remote play", "ps4", "ps5", "streaming", "protocolo"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando e configurando o Chiaki",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["chiaki", "flatpak", "discover", "instalação", "configuração"]
+    },
+    {
+      "n": 3,
+      "titulo": "Pareamento com PS4 e PS5",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["chiaki", "psn", "account id", "pareamento", "ps4", "ps5", "remote play"]
+    },
+    {
+      "n": 4,
+      "titulo": "Qualidade de vídeo e desempenho no Chiaki",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["chiaki", "bitrate", "codec", "h265", "h264", "latência", "720p", "1080p"]
+    },
+    {
+      "n": 5,
+      "titulo": "Streaming local de Xbox no Steam Deck",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["greenlight", "xbplay", "xbox", "xcloud", "remote play", "streaming"]
+    },
+    {
+      "n": 6,
+      "titulo": "Moonlight e Sunshine como alternativa universal",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["moonlight", "sunshine", "gamestream", "nvidia", "amd", "gamepad"]
+    },
+    {
+      "n": 7,
+      "titulo": "Mapeamento de controles e perfis de gamepad",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam input", "gamepad", "controle", "mapeamento", "touchpad", "gyro"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnosticando latência, áudio e artefatos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["diagnóstico", "latência", "áudio", "artefatos", "ping", "iperf3"]
+    },
+    {
+      "n": 9,
+      "titulo": "Automação e integração com Steam",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam", "atalho", "gaming mode", "script", "automatização", "launcher"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 89,
+  "titulo": "Capas, skins e personalização física",
+  "resumo": "Skins, botões customizados, cases transparentes.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Os três eixos de personalização",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["skin", "decky", "case", "botão", "css loader"]
+    },
+    {
+      "n": 2,
+      "titulo": "Anatomia da interface do modo jogo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steamui", "steam -version", "read-only", "css", "chromium"]
+    },
+    {
+      "n": 3,
+      "titulo": "Instalando e mantendo o Decky Loader",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["decky loader", "plugin", "homebrew", "install_release.sh", "plugin_loader"]
+    },
+    {
+      "n": 4,
+      "titulo": "Skins com CSS Loader",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["css loader", "skin", "tema", "perfil", "settings.json"]
+    },
+    {
+      "n": 5,
+      "titulo": "Troca de botões físicos",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["botão", "ph00", "flex", "spudger", "troca"]
+    },
+    {
+      "n": 6,
+      "titulo": "Cases transparentes e shell swaps",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["case", "shell", "jupiter", "galileo", "dissipador"]
+    },
+    {
+      "n": 7,
+      "titulo": "LEDs, adesivos e retroiluminação",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["led", "brightnessctl", "adesivo", "película", "vinil"]
+    },
+    {
+      "n": 8,
+      "titulo": "Garantia e backup antes de personalizar",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["garantia", "backup", "restauração", "pasta térmica", "log"]
+    },
+    {
+      "n": 9,
+      "titulo": "Checklist completo e script de validação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["checklist", "validação", "script", "check.sh", "comunidade"]
+    }
+  ]
+}

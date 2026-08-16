@@ -1,0 +1,79 @@
+{
+  "capitulo": 16,
+  "titulo": "Limitador de FPS, refresh rate e VRR",
+  "resumo": "Limite de 30/40/60 FPS, refresh rate variável, frame pacing e por que 40 FPS a 40 Hz é o sweet spot.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "FPS vs refresh rate",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["fps", "refresh rate", "xrandr", "tearing", "frame time"]
+    },
+    {
+      "n": 2,
+      "titulo": "O sweet spot de 40 FPS a 40 Hz",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["40 fps", "40 hz", "frame pacing", "painel oled", "gamescope"]
+    },
+    {
+      "n": 3,
+      "titulo": "Frame pacing e frame time",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["frame pacing", "frame time", "stutter", "mangohud", "gamescope"]
+    },
+    {
+      "n": 4,
+      "titulo": "VRR, tearing e screen tearing",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["vrr", "tearing", "freesync", "adaptive sync", "v-sync"]
+    },
+    {
+      "n": 5,
+      "titulo": "Limitador de FPS do SteamOS",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["limitador", "fps_limit", "mangohud", "pp_dpm_sclk", "modo jogo"]
+    },
+    {
+      "n": 6,
+      "titulo": "Mangohud e MANGOHUD_CONFIG",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["mangohud", "MANGOHUD_CONFIG", "fps_limit", "vulkan layer", "overlay"]
+    },
+    {
+      "n": 7,
+      "titulo": "Gamescope e o Modo Jogo",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["gamescope", "modo jogo", "compositor", "wayland", "vrr"]
+    },
+    {
+      "n": 8,
+      "titulo": "Refresh rate, xrandr e o display",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["xrandr", "refresh rate", "edid", "pp_dpm_sclk", "displayport"]
+    },
+    {
+      "n": 9,
+      "titulo": "Quando usar 30, 40 ou 60 FPS",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["30 fps", "40 fps", "60 fps", "hdr", "oled", "bateria"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 47,
+  "titulo": "EmuDeck — instalando e configurando",
+  "resumo": "Easy vs Custom mode, SD vs SSD, seleção de emuladores, configuração automática de controles, update.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é EmuDeck e quem precisa dele",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["emudeck", "steam deck", "retroarch", "emuladores", "steam rom manager"]
+    },
+    {
+      "n": 2,
+      "titulo": "Easy Mode versus Custom Mode",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["easy mode", "custom mode", "instalacao", "sdcard", "ssd"]
+    },
+    {
+      "n": 3,
+      "titulo": "SD card, SSD e onde instalar as ROMs",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["microsd", "ssd", "nvme", "btrfs", "ext4", "roms"]
+    },
+    {
+      "n": 4,
+      "titulo": "Seleção de emuladores e núcleos individuais",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["emuladores", "retroarch", "ppsspp", "pcsx2", "dolphin", "yuzu"]
+    },
+    {
+      "n": 5,
+      "titulo": "Configuração automática de controles e hotkeys",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["controles", "steam input", "hotkeys", "save state", "fast forward"]
+    },
+    {
+      "n": 6,
+      "titulo": "Steam ROM Manager e a integração com a biblioteca",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam rom manager", "srm", "parsers", "artwork", "library"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atualização, migração e backup do EmuDeck",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["update", "migracao", "backup", "emudeck", "rsync"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico de problemas e logs de execução",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["logs", "journalctl", "troubleshooting", "bios", "firmware"]
+    },
+    {
+      "n": 9,
+      "titulo": "Ferramentas CLI e automação de pós-instalação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["cli", "flatpak", "bwrap", "xmlstarlet", "jq", "steam"]
+    }
+  ]
+}

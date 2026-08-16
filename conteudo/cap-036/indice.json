@@ -1,0 +1,79 @@
+{
+  "capitulo": 36,
+  "titulo": "Desenvolvimento e containers (Docker/Podman)",
+  "resumo": "Compilar e programar no Deck, containers, ferramentas de desenvolvimento e o Deck como mini servidor.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Programando no Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "steamos-devkit", "builder", "sdk", "root imutável"]
+    },
+    {
+      "n": 2,
+      "titulo": "Ferramentas de desenvolvimento (Git, SDK)",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["git", "ssh", "ed25519", "gcc", "make"]
+    },
+    {
+      "n": 3,
+      "titulo": "Docker e Podman",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["podman", "docker", "alpine", "containers"]
+    },
+    {
+      "n": 4,
+      "titulo": "Distrobox e ambientes isolados",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["distrobox", "toolbox", "arch", "pacman", "base-devel"]
+    },
+    {
+      "n": 5,
+      "titulo": "Compilando código na APU",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["make", "ninja", "meson", "ccache", "apu"]
+    },
+    {
+      "n": 6,
+      "titulo": "Containers para jogos e ferramentas",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["podman", "minecraft", "jellyfin", "gpu", "binds"]
+    },
+    {
+      "n": 7,
+      "titulo": "O Deck como mini servidor",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["jellyfin", "samba", "systemd", "servidor", "lingering"]
+    },
+    {
+      "n": 8,
+      "titulo": "SDK do SteamOS e Toolchain",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["toolchain", "steam runtime", "ldd", "gcc", "glibc"]
+    },
+    {
+      "n": 9,
+      "titulo": "Fluxo de desenvolvimento completo",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["git", "podman", "sdk", "debug", "ci"]
+    }
+  ]
+}

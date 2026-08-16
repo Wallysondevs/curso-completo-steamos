@@ -1,0 +1,79 @@
+{
+  "capitulo": 55,
+  "titulo": "Sistema de arquivos do SteamOS",
+  "resumo": "Root imutável, /home, /var, ~/.steam, ~/.local e onde cada coisa fica.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Visão geral do layout de diretórios",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["fhs", "lsblk", "mount", "df", "partições", "layout"]
+    },
+    {
+      "n": 2,
+      "titulo": "Root imutável e atualizações atômicas",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["ostree", "rauc", "imutável", "read-only", "partição A/B", "update"]
+    },
+    {
+      "n": 3,
+      "titulo": "Partição /home e dados do usuário",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["home", "deck", "usuário", "dados", "partição", "btrfs"]
+    },
+    {
+      "n": 4,
+      "titulo": "A partição /var e arquivos mutáveis",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["var", "log", "journald", "systemd", "journalctl", "dados mutáveis"]
+    },
+    {
+      "n": 5,
+      "titulo": "O diretório ~/.steam e seus conteúdos",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam", "proton", "compatdata", "config", "steamapps", "root"]
+    },
+    {
+      "n": 6,
+      "titulo": "O diretório ~/.local e aplicações Flatpak",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["local", "flatpak", "share", "xdg", "desktop", "aplicações"]
+    },
+    {
+      "n": 7,
+      "titulo": "Partição EFI e swap no SteamOS",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["efi", "esp", "swap", "boot", "zram", "firmware"]
+    },
+    {
+      "n": 8,
+      "titulo": "Montagens, fstab e sistema de arquivos Btrfs",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["fstab", "btrfs", "subvolume", "snapshot", "mount", "btrfs"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico e navegação do disco",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["du", "ncdu", "df", "findmnt", "lsblk", "diagnóstico"]
+    }
+  ]
+}

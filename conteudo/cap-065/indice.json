@@ -1,0 +1,79 @@
+{
+  "capitulo": 65,
+  "titulo": "Moonlight e Sunshine",
+  "resumo": "Alternativa open-source ao Remote Play: Sunshine no host, Moonlight no Deck. Streaming local e remoto de qualquer jogo, de qualquer loja, com controle fino de encoder, bitrate e latência.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Remote Play vs Sunshine/Moonlight",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["remote play", "sunshine", "moonlight", "gamestream", "nvenc", "amf"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando Sunshine no host",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["sunshine", "instalação", "windows", "linux", "flatpak", "vigembus", "systemd"]
+    },
+    {
+      "n": 3,
+      "titulo": "Instalando Moonlight no Steam Deck",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["moonlight", "flatpak", "discover", "appimage", "non-steam", "decky"]
+    },
+    {
+      "n": 4,
+      "titulo": "Pareamento e primeira conexão",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["pin", "pareamento", "certificados", "stream", "overlay", "latência"]
+    },
+    {
+      "n": 5,
+      "titulo": "Encoder, bitrate, resolução e codec",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["nvenc", "amf", "hevc", "h264", "av1", "cbr", "vbr", "hdr", "áudio"]
+    },
+    {
+      "n": 6,
+      "titulo": "Latência e rede: otimização avançada",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["ping", "iperf3", "bufferbloat", "sqm", "fec", "wi-fi", "ethernet", "qos"]
+    },
+    {
+      "n": 7,
+      "titulo": "Moonlight no modo Gaming",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam input", "gyro", "overlay", "moondeck", "scripts", "capas"]
+    },
+    {
+      "n": 8,
+      "titulo": "Streaming fora de casa",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["tailscale", "wireguard", "vpn", "wol", "nat", "cgnat", "remoto"]
+    },
+    {
+      "n": 9,
+      "titulo": "Diagnóstico e checklist final",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["diagnóstico", "troubleshooting", "checklist", "script", "logs"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 58,
+  "titulo": "Transferindo arquivos",
+  "resumo": "Warpinator, KDE Connect, SSH/SFTP, Syncthing, pendrive.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Panorama: como mover arquivos para dentro e para fora do Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["transferência", "fluxo", "panorama", "escolha", "rede", "pendrive"]
+    },
+    {
+      "n": 2,
+      "titulo": "Warpinator: transferência simples entre dispositivos",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["warpinator", "flatpak", "código", "par", "discover", "local"]
+    },
+    {
+      "n": 3,
+      "titulo": "KDE Connect: integração entre Deck e celular/PC",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["kdeconnect", "celular", "android", "pareamento", "notificação", "arquivo"]
+    },
+    {
+      "n": 4,
+      "titulo": "SSH e SFTP: a via profissional e por linha de comando",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ssh", "sftp", "scp", "rsync", "sftp://", "dolphin", "chave"]
+    },
+    {
+      "n": 5,
+      "titulo": "Syncthing: sincronização contínua e sem fio",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["syncthing", "sync", "dispositivo", "pasta", "p2p", "conflict"]
+    },
+    {
+      "n": 6,
+      "titulo": "Pendrives e discos externos: montagem e formatos",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["pendrive", "hd-externo", "mount", "udisks", "exfat", "ntfs", "ext4"]
+    },
+    {
+      "n": 7,
+      "titulo": "Compartilhamentos de rede: SMB, Samba e NFS",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["smb", "samba", "nfs", "cifs", "mount", "servidor", "nas"]
+    },
+    {
+      "n": 8,
+      "titulo": "Transferência Deck ↔ PC e sincronização de saves e bibliotecas",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["pc", "saves", "biblioteca", "cloud save", "rsync", "backup", "steam"]
+    },
+    {
+      "n": 9,
+      "titulo": "Segurança, boas práticas e solução de problemas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["segurança", "firewall", "debug", "permissão", "codec", "troubleshooting"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 97,
+  "titulo": "Rede avançada, SSH e firewall",
+  "resumo": "sshd no Deck, chaves SSH, nftables e rede privada com Tailscale/VPN.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Ativando o SSH no Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["sshd", "ssh", "systemctl", "deckssh", "servidor"]
+    },
+    {
+      "n": 2,
+      "titulo": "Chaves SSH e acesso sem senha",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ssh-keygen", "ssh-copy-id", "chave", "chavepública", "authorized_keys"]
+    },
+    {
+      "n": 3,
+      "titulo": "Configuração avançada do sshd",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["sshd_config", "porta", "root", "permitrootlogin", "passwordauthentication"]
+    },
+    {
+      "n": 4,
+      "titulo": "nftables: conceitos e primeiras regras",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["nftables", "nft", "tabela", "cadeia", "regra"]
+    },
+    {
+      "n": 5,
+      "titulo": "Firewall prático no Deck com nftables",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["nft", "policy", "stateful", "conntrack", "persist"]
+    },
+    {
+      "n": 6,
+      "titulo": "Tailscale: VPN mesh no Deck",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["tailscale", "vpn", "wireguard", "mesh", "tailscale up"]
+    },
+    {
+      "n": 7,
+      "titulo": "Tailscale avançado: rotas e saída",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["tailscale", "exit-node", "subnet-router", "acl", "dns"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico e depuração de rede",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ss", "ip", "journalctl", "ping", "tcpdump"]
+    },
+    {
+      "n": 9,
+      "titulo": "Hardening e integração final",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["hardening", "fail2ban", "systemd", "backup", "checklist"]
+    }
+  ]
+}

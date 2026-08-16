@@ -1,0 +1,79 @@
+{
+  "capitulo": 30,
+  "titulo": "Flatpak pela linha de comando",
+  "resumo": "flatpak search, install, remove, update, list, info, history, remote-add, override e downgrade.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Buscando apps com flatpak search",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["flatpak", "search", "application id", "flathub", "configuracao"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando pelo terminal",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "install", "user", "system", "runtime"]
+    },
+    {
+      "n": 3,
+      "titulo": "Listando e inspecionando com list e info",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "list", "info", "permissions", "origin"]
+    },
+    {
+      "n": 4,
+      "titulo": "Atualizando com flatpak update",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "update", "mask", "appstream", "updates"]
+    },
+    {
+      "n": 5,
+      "titulo": "Removendo apps e limpando runtimes",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "remove", "uninstall", "unused", "repair", "cleanup"]
+    },
+    {
+      "n": 6,
+      "titulo": "Remotos e o canal flathub-beta",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "remote-add", "remote-ls", "flathub-beta", "remotes"]
+    },
+    {
+      "n": 7,
+      "titulo": "Overrides e permissões por app",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["flatpak", "override", "filesystem", "sandbox", "permissions"]
+    },
+    {
+      "n": 8,
+      "titulo": "Auditoria com flatpak history",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["flatpak", "history", "commit", "log", "transacional"]
+    },
+    {
+      "n": 9,
+      "titulo": "Downgrade via commit",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["flatpak", "downgrade", "commit", "update", "revert"]
+    }
+  ]
+}

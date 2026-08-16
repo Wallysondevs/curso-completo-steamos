@@ -1,0 +1,79 @@
+{
+  "capitulo": 24,
+  "titulo": "Som, microfone e dispositivos de áudio",
+  "resumo": "PipeWire, seleção de entrada/saída, volume por app, Bluetooth, codecs e troubleshooting.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "PipeWire no SteamOS",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["pipewire", "pipewire-pulse", "wireplumber", "alsa", "arquitetura"]
+    },
+    {
+      "n": 2,
+      "titulo": "Gerenciando saídas de áudio",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["pactl", "sinks", "saidas", "set-default-sink", "wpctl"]
+    },
+    {
+      "n": 3,
+      "titulo": "Volume e mudo com wpctl",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["wpctl", "set-volume", "set-mute", "pactl", "volume"]
+    },
+    {
+      "n": 4,
+      "titulo": "Volume por aplicativo",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["pactl", "sink-input", "stream", "move-sink-input", "volume"]
+    },
+    {
+      "n": 5,
+      "titulo": "Microfone e entrada de áudio",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["pactl", "sources", "source-volume", "pw-record", "microfone"]
+    },
+    {
+      "n": 6,
+      "titulo": "Fones Bluetooth e codecs",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["bluetoothctl", "bluetooth", "a2dp", "hsp", "codecs"]
+    },
+    {
+      "n": 7,
+      "titulo": "Perfis de hardware e ajuste fino",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["pactl", "card-profile", "volume-canal", "pavucontrol", "perfis"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico de PipeWire",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["journalctl", "systemctl", "pw-top", "pw-dump", "logs"]
+    },
+    {
+      "n": 9,
+      "titulo": "Troubleshooting completo de áudio",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["troubleshooting", "diagnostico", "audio", "bluetooth", "microfone"]
+    }
+  ]
+}

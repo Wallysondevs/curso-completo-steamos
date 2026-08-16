@@ -1,0 +1,79 @@
+{
+  "capitulo": 84,
+  "titulo": "Upgrade de hardware (SSD, analógicos)",
+  "resumo": "Trocar SSD 2230, analógicos hall effect, botões.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que dá para turbinar no Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["upgrade", "ssd", "analogico", "botao", "compatibilidade"]
+    },
+    {
+      "n": 2,
+      "titulo": "Escolhendo o SSD 2230 correto",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["nvme", "2230", "tlc", "qlc", "dram"]
+    },
+    {
+      "n": 3,
+      "titulo": "Backup e imagem antes de abrir",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["dd", "clone", "recovery", "rsync", "backup"]
+    },
+    {
+      "n": 4,
+      "titulo": "Abrindo o Deck com segurança",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["esd", "bateria", "desmontagem", "parafuso", "ifixit"]
+    },
+    {
+      "n": 5,
+      "titulo": "Troca do SSD passo a passo",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["ssd", "escudo", "reimage", "nvme", "lsblk"]
+    },
+    {
+      "n": 6,
+      "titulo": "Analógicos hall effect explicados",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["hall effect", "drift", "gulikit", "joystick", "campo magnetico"]
+    },
+    {
+      "n": 7,
+      "titulo": "Trocando os analógicos por hall effect",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["hall effect", "cap", "sensor", "ribbon", "calibracao"]
+    },
+    {
+      "n": 8,
+      "titulo": "Botões, D-pad e dobradiças",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["botao", "dpad", "membrana", "concha", "placa"]
+    },
+    {
+      "n": 9,
+      "titulo": "Testes, calibração e validação",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["evtest", "smartctl", "calibracao", "fio", "fsck"]
+    }
+  ]
+}

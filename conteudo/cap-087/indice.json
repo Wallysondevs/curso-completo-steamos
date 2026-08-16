@@ -1,0 +1,79 @@
+{
+  "capitulo": 87,
+  "titulo": "Bateria: saúde, economia e substituição",
+  "resumo": "Ciclos de carga, calibração, economia de energia e quando trocar a bateria do Steam Deck.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Como ler o estado da bateria",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["upower", "sysfs", "bateria", "capacidade", "energy"]
+    },
+    {
+      "n": 2,
+      "titulo": "Ciclos de carga e desgaste",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["ciclos", "desgaste", "li-ion", "carga", "descarga"]
+    },
+    {
+      "n": 3,
+      "titulo": "Medindo consumo em tempo real",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["power_now", "status", "consumo", "watts", "powertop"]
+    },
+    {
+      "n": 4,
+      "titulo": "Estimando autonomia e tempo restante",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["autonomia", "estimativa", "energy_full", "tempo", "math"]
+    },
+    {
+      "n": 5,
+      "titulo": "Calibrando o medidor de carga",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["calibração", "charge_full", "medidor", "gás", "energia"]
+    },
+    {
+      "n": 6,
+      "titulo": "Economia de energia no dia a dia",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["economia", "tela", "brilho", "wifi", "tamedaemon"]
+    },
+    {
+      "n": 7,
+      "titulo": "Modo desktop e limite de carga",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["desktop", "threshold", "limite", "carga", "80"]
+    },
+    {
+      "n": 8,
+      "titulo": "Sinais de que a bateria pede troca",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["diagnóstico", "inchaço", "saúde", "troca", "health"]
+    },
+    {
+      "n": 9,
+      "titulo": "Checklist de saúde e decisão final",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["checklist", "saúde", "scripts", "resumo", "decisão"]
+    }
+  ]
+}

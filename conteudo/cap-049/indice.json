@@ -1,0 +1,79 @@
+{
+  "capitulo": 49,
+  "titulo": "Emuladores standalone",
+  "resumo": "PCSX2, RPCS3, Dolphin, Cemu, Xemu e Xenia com as melhores configurações para o Steam Deck.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Por que standalone e não só RetroArch",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["standalone", "emulador", "dolphin", "pcsx2", "escopo"]
+    },
+    {
+      "n": 2,
+      "titulo": "Bios, firmware e arquivos de sistema",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["bios", "firmware", "ps2", "keys", "dump"]
+    },
+    {
+      "n": 3,
+      "titulo": "PCSX2 — PlayStation 2 no Deck",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["pcsx2", "ps2", "vulkan", "renderer", "widescreen"]
+    },
+    {
+      "n": 4,
+      "titulo": "Dolphin — GameCube e Wii",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["dolphin", "gamecube", "wii", "vulkan", "gecko"]
+    },
+    {
+      "n": 5,
+      "titulo": "RPCS3 — PlayStation 3 exigente",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["rpcs3", "ps3", "spu", "llvm", "compatibilidade"]
+    },
+    {
+      "n": 6,
+      "titulo": "Cemu — Wii U e o cache de shaders",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["cemu", "wiiu", "shader", "graphicpacks", "async"]
+    },
+    {
+      "n": 7,
+      "titulo": "Xemu e Xenia — Xbox clássico e 360",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["xemu", "xenia", "xbox", "xbox360", "vulkan"]
+    },
+    {
+      "n": 8,
+      "titulo": "Ajustes de desempenho e energia",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["tdp", "fsr", "frame limit", "gamemode", "vulkan"]
+    },
+    {
+      "n": 9,
+      "titulo": "Integração com Steam e fluxo final",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam rom manager", "atalho", "checklist", "save", "compat"]
+    }
+  ]
+}

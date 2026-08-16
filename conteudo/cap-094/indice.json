@@ -1,0 +1,79 @@
+{
+  "capitulo": 94,
+  "titulo": "Logs do sistema e ferramentas de diagnóstico",
+  "resumo": "dmesg, journalctl, steam-logs, mangohud, CoreCtrl.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "dmesg e o ring buffer do kernel",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dmesg", "kernel", "ring buffer", "hardware", "erro"]
+    },
+    {
+      "n": 2,
+      "titulo": "journalctl e o journal do systemd",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["journalctl", "systemd", "log", "serviço", "boot"]
+    },
+    {
+      "n": 3,
+      "titulo": "Rotação, compressão e limites de logs",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["journald", "logrotate", "retention", "vacuum", "espaço"]
+    },
+    {
+      "n": 4,
+      "titulo": "Logs do Steam e do modo de jogo",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam-logs", "gamescope", "proton", "cliente", "log"]
+    },
+    {
+      "n": 5,
+      "titulo": "MangoHud e o overlay de desempenho",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mangohud", "overlay", "fps", "vulkan", "desempenho"]
+    },
+    {
+      "n": 6,
+      "titulo": "CoreCtrl e o controle de hardware",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["corectrl", "ventoinha", "tdp", "gpu", "flatpak"]
+    },
+    {
+      "n": 7,
+      "titulo": "Sensores térmicos com lm_sensors",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["sensors", "temperatura", "ventoinha", "throttling", "hwmon"]
+    },
+    {
+      "n": 8,
+      "titulo": "Identificação de hardware do Steam Deck",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dmidecode", "serial", "firmware", "lspci", "hardware"]
+    },
+    {
+      "n": 9,
+      "titulo": "Fluxo de diagnóstico completo e checkpoints",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["diagnóstico", "fluxo", "triangulação", "rma", "checklist"]
+    }
+  ]
+}

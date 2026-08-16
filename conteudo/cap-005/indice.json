@@ -1,0 +1,79 @@
+{
+  "capitulo": 5,
+  "titulo": "Ligando e configurando pela primeira vez",
+  "resumo": "Setup inicial: idioma, Wi-Fi, conta Steam, fuso horário, primeira atualização e primeiros ajustes essenciais.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Primeira carga e primeiros sinais",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["boot", "os-release", "hostnamectl", "timedatectl", "kernel"]
+    },
+    {
+      "n": 2,
+      "titulo": "Idioma, Wi-Fi e fuso horário",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["locale", "nmcli", "ip addr", "timedatectl", "wifi"]
+    },
+    {
+      "n": 3,
+      "titulo": "Entrar na conta Steam e Steam Guard",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steam", "loginusers.vdf", "steam guard", "deck", "account"]
+    },
+    {
+      "n": 4,
+      "titulo": "A primeira atualização do sistema",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steamos-update", "systemctl", "journalctl", "imagem", "rollback"]
+    },
+    {
+      "n": 5,
+      "titulo": "Conta Steam e ajustes de privacidade",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["privacidade", "config.vdf", "nuvem", "pin", "passwd"]
+    },
+    {
+      "n": 6,
+      "titulo": "Checando armazenamento e downloads",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["df", "lsblk", "du", "partições", "microsd"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atalhos essenciais do primeiro dia",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["konsole", "flatpak", "ss", "steamos-session-select", "discover"]
+    },
+    {
+      "n": 8,
+      "titulo": "Temperatura, brilho e bateria",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["hwmon", "bateria", "backlight", "throttling", "dmesg"]
+    },
+    {
+      "n": 9,
+      "titulo": "Checklist de prontidão do sistema",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["checklist", "diagnóstico", "script", "check.sh", "baseline"]
+    }
+  ]
+}

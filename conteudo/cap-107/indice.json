@@ -1,0 +1,79 @@
+{
+  "capitulo": 107,
+  "titulo": "Comparativo: Deck vs concorrentes",
+  "resumo": "Steam Deck vs ROG Ally, Legion Go e outros handhelds: hardware, sistema, experiência real de uso e qual escolher.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Panorama dos handhelds PC",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["handheld", "mercado", "fabricantes", "x86", "portátil"]
+    },
+    {
+      "n": 2,
+      "titulo": "Steam Deck LCD vs OLED",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steamdeck", "lcd", "oled", "bateria", "wifi"]
+    },
+    {
+      "n": 3,
+      "titulo": "ROG Ally e Ally X",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["rog", "ally", "z1-extreme", "windows", "asus"]
+    },
+    {
+      "n": 4,
+      "titulo": "Lenovo Legion Go",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["legion-go", "lenovo", "destacável", "fps-mode", "tela"]
+    },
+    {
+      "n": 5,
+      "titulo": "MSI Claw, Ayaneo e outros",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["msi-claw", "ayaneo", "gpd", "onexplayer", "alternativas"]
+    },
+    {
+      "n": 6,
+      "titulo": "Comparativo técnico de hardware",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["cpu", "gpu", "ram", "tela", "bateria", "comparação"]
+    },
+    {
+      "n": 7,
+      "titulo": "SteamOS contra Windows nos handhelds",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steamos", "windows", "linux", "compatibilidade", "hibernate"]
+    },
+    {
+      "n": 8,
+      "titulo": "Ergonomia, controles e software",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ergonomia", "trackpad", "grip", "armory-crate", "legion-space"]
+    },
+    {
+      "n": 9,
+      "titulo": "Guia de escolha por cenário",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["escolha", "orçamento", "ecossistema", "recomendação", "decisão"]
+    }
+  ]
+}

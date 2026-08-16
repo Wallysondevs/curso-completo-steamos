@@ -1,0 +1,79 @@
+{
+  "capitulo": 56,
+  "titulo": "Cartão microSD — formatação e uso",
+  "resumo": "Formatar no Modo Jogo vs Desktop, ext4 vs Btrfs vs exFAT, mover jogos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O papel do microSD no Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["microsd", "armazenamento", "steamos", "mmcblk0", "casefold", "a2"]
+    },
+    {
+      "n": 2,
+      "titulo": "Formatando em ext4 (Modo Jogo e terminal)",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["mkfs.ext4", "casefold", "modo-jogo", "blkid", "tune2fs", "label"]
+    },
+    {
+      "n": 3,
+      "titulo": "Formatando em Btrfs (snapshots e compressão)",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["btrfs", "snapshot", "compressao", "zstd", "subvolume", "cow"]
+    },
+    {
+      "n": 4,
+      "titulo": "Formatando em exFAT (compartilhamento com Windows)",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["exfat", "windows", "macos", "intercambio", "fat32", "mkfs.exfat"]
+    },
+    {
+      "n": 5,
+      "titulo": "Montagem manual, fstab e pontos de montagem",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["mount", "umount", "fstab", "uuid", "nofail", "noatime", "udisks"]
+    },
+    {
+      "n": 6,
+      "titulo": "Movendo jogos para o microSD",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mover-jogos", "steamapps", "rsync", "common", "compatdata", "heroic"]
+    },
+    {
+      "n": 7,
+      "titulo": "Migrando a biblioteca Steam inteira",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["migracao", "steamapps", "rsync", "symlink", "shadercache", "compatdata"]
+    },
+    {
+      "n": 8,
+      "titulo": "Testando integridade, reparo e saúde do cartão",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["fsck", "badblocks", "f3", "btrfs-scrub", "corrupcao", "cartao-falso"]
+    },
+    {
+      "n": 9,
+      "titulo": "Resumo prático: decisão, sequência e erros a evitar",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["checklist", "fluxo-decisao", "erros-comuns", "comparativo", "conclusao"]
+    }
+  ]
+}

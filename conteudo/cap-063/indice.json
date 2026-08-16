@@ -1,0 +1,79 @@
+{
+  "capitulo": 63,
+  "titulo": "Windows no Steam Deck",
+  "resumo": "Como instalar Windows no Steam Deck — seja em dual boot ou substituindo o SteamOS — com drivers oficiais da Valve, SteamDeckTools para controles e desempenho, e diagnóstico de gargalos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Decidindo entre dual boot, substituição ou microSD",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dual boot", "windows", "microsd", "partições", "uefi"]
+    },
+    {
+      "n": 2,
+      "titulo": "Criando o pendrive bootável do Windows",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["rufus", "iso", "ventoy", "tpm", "secure boot"]
+    },
+    {
+      "n": 3,
+      "titulo": "Drivers oficiais da Valve para Windows",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["apu", "wi-fi", "bluetooth", "audio", "sdcard"]
+    },
+    {
+      "n": 4,
+      "titulo": "Instalando o Windows no SSD interno",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["particionamento", "diskpart", "instalação", "ssd", "nvme"]
+    },
+    {
+      "n": 5,
+      "titulo": "Gerenciando o boot entre SteamOS e Windows",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["uefi", "bootmgr", "grub", "rEFInd", "systemd-boot"]
+    },
+    {
+      "n": 6,
+      "titulo": "SteamDeckTools: instalação e visão geral",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steamdecktools", "rtss", "vigembus", "hidhide"]
+    },
+    {
+      "n": 7,
+      "titulo": "Mapeando os controles no Windows",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["sdtcontroller", "xinput", "dsu", "gyro", "touchpad"]
+    },
+    {
+      "n": 8,
+      "titulo": "Painel de desempenho, TDP e limites térmicos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["tdp", "fsr", "overlay", "framerate", "rtss"]
+    },
+    {
+      "n": 9,
+      "titulo": "Ajustes finais e diagnóstico de desempenho",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["hwinfo", "latencymon", "dpclat", "debloat", "benchmark"]
+    }
+  ]
+}

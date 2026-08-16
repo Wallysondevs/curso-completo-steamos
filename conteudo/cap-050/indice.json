@@ -1,0 +1,79 @@
+{
+  "capitulo": 50,
+  "titulo": "Organização de ROMs, BIOS e saves",
+  "resumo": "Estrutura de pastas do EmuDeck, onde colocar cada arquivo, backup de saves e saves na nuvem.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Visão geral da estrutura de pastas",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["emudeck", "estrutura", "pastas", "emulation", "sd card"]
+    },
+    {
+      "n": 2,
+      "titulo": "Organização de ROMs por sistema",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["roms", "subpastas", "sistemas", "no-intro", "formato"]
+    },
+    {
+      "n": 3,
+      "titulo": "BIOS e firmware por emulador",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["bios", "firmware", "checksum", "md5", "retroarch"]
+    },
+    {
+      "n": 4,
+      "titulo": "Saves, save states e memory cards",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["saves", "save states", "srm", "memcard", "symlink"]
+    },
+    {
+      "n": 5,
+      "titulo": "Scraping e organização visual da coleção",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["steam rom manager", "scraper", "screenscraper", "gameslist", "xml"]
+    },
+    {
+      "n": 6,
+      "titulo": "Backup local de saves e estados",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["backup", "rsync", "tar", "cron", "cartao sd"]
+    },
+    {
+      "n": 7,
+      "titulo": "Sincronização de saves na nuvem",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["cloudsync", "syncthing", "rclone", "dropbox", "nuvem"]
+    },
+    {
+      "n": 8,
+      "titulo": "Cartão SD e sistema de arquivos",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["ext4", "btrfs", "symlink", "mount", "fstab"]
+    },
+    {
+      "n": 9,
+      "titulo": "Migração, validação e manutenção da biblioteca",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["migração", "validação", "checksum", "dat", "troubleshooting"]
+    }
+  ]
+}

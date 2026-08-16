@@ -1,0 +1,79 @@
+{
+  "capitulo": 86,
+  "titulo": "Reparo e manutenção física",
+  "resumo": "Ferramentas, iFixit, diagnóstico de falhas físicas, manutenção preventiva.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "A filosofia de reparabilidade do Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["reparabilidade", "ifixit", "parafusos", "modularidade", "garantia"]
+    },
+    {
+      "n": 2,
+      "titulo": "Ferramentas essenciais de bancada",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ferramentas", "chave philips", "spudger", "jis", "antistatica"]
+    },
+    {
+      "n": 3,
+      "titulo": "Abrindo o Deck com segurança",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["abrir", "clipes", "tampa traseira", "esd", "parafusos torx"]
+    },
+    {
+      "n": 4,
+      "titulo": "Diagnóstico de falhas físicas",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["diagnostico", "falhas", "dmesg", "smartctl", "memtest", "journalctl"]
+    },
+    {
+      "n": 5,
+      "titulo": "Troca de tela, bateria e SSD",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["tela", "bateria", "ssd", "nvme", "troca", "termal"]
+    },
+    {
+      "n": 6,
+      "titulo": "Cooler, pasta térmica e dissipação",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["cooler", "pasta termica", "fan", "temperatura", "sensors"]
+    },
+    {
+      "n": 7,
+      "titulo": "Sticks, botões e peças de reposição",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["analogico", "hall effect", "botao", "reposicao", "calibracao"]
+    },
+    {
+      "n": 8,
+      "titulo": "Manutenção preventiva e limpeza",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["preventiva", "limpeza", "poeira", "ventilador", "alcool isopropilico"]
+    },
+    {
+      "n": 9,
+      "titulo": "Quando procurar assistência e garantia",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["rmа", "garantia", "valve", "assistencia", "serial"]
+    }
+  ]
+}

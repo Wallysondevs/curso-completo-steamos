@@ -1,0 +1,79 @@
+{
+  "capitulo": 26,
+  "titulo": "Periféricos, impressoras e Bluetooth",
+  "resumo": "Parear controle, teclado, mouse, fone, impressora via CUPS, webcam e troubleshooting.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Pareando dispositivos Bluetooth",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["bluetoothctl", "bluetooth", "pair", "trust", "connect"]
+    },
+    {
+      "n": 2,
+      "titulo": "Controles Bluetooth (DualSense, Xbox, Pro)",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["dualSense", "xbox", "pro controller", "bluetoothctl", "rssi"]
+    },
+    {
+      "n": 3,
+      "titulo": "Teclado e mouse externos",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["teclado", "mouse", "lsusb", "localectl", "xinput"]
+    },
+    {
+      "n": 4,
+      "titulo": "Impressoras com CUPS",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["cups", "lpadmin", "lpstat", "impressora", "system-config-printer"]
+    },
+    {
+      "n": 5,
+      "titulo": "Gerenciando filas e trabalhos de impressão",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["lp", "lpq", "cancel", "cups", "fila"]
+    },
+    {
+      "n": 6,
+      "titulo": "Webcam e captura",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["webcam", "uvcvideo", "v4l2-ctl", "fswebcam", "lsusb"]
+    },
+    {
+      "n": 7,
+      "titulo": "Dispositivos USB via dock e hub",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["usb", "dock", "hub", "lsusb", "lsblk"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico com dmesg e rfkill",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["dmesg", "rfkill", "lsmod", "firmware", "kernel"]
+    },
+    {
+      "n": 9,
+      "titulo": "Troubleshooting de pareamento",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["troubleshooting", "bluetoothctl", "remove", "untrust", "systemctl"]
+    }
+  ]
+}

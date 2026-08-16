@@ -1,0 +1,79 @@
+{
+  "capitulo": 35,
+  "titulo": "Aplicativos de mídia, arte e criação",
+  "resumo": "VLC, Kodi, Spotify e os editores de criação Krita, Blender e Kdenlive rodando no Steam Deck, com captura de tela, gravação e streaming.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Reproduzindo vídeo com VLC",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["vlc", "codecs", "legendas", "flatpak", "streaming"]
+    },
+    {
+      "n": 2,
+      "titulo": "Kodi e media center",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["kodi", "media center", "biblioteca", "addons", "smb"]
+    },
+    {
+      "n": 3,
+      "titulo": "Streaming de música com Spotify",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["spotify", "ncspot", "podcasts", "streaming", "radio"]
+    },
+    {
+      "n": 4,
+      "titulo": "Desenho digital com Krita",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["krita", "desenho", "mesa digitalizadora", "camadas", "wacom"]
+    },
+    {
+      "n": 5,
+      "titulo": "Modelagem 3D com Blender",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["blender", "modelagem 3d", "cycles", "render", "hip"]
+    },
+    {
+      "n": 6,
+      "titulo": "Edição de vídeo com Kdenlive",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["kdenlive", "edição de vídeo", "proxy", "timeline", "export"]
+    },
+    {
+      "n": 7,
+      "titulo": "Captura de tela com Spectacle",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["spectacle", "captura de tela", "anotações", "screenshot", "png"]
+    },
+    {
+      "n": 8,
+      "titulo": "Gravação e streaming com OBS Studio",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["obs", "streaming", "gravação", "twitch", "encoder"]
+    },
+    {
+      "n": 9,
+      "titulo": "Fluxo criativo completo no dock",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["dock", "fluxo criativo", "armazenamento", "temperatura", "apu"]
+    }
+  ]
+}

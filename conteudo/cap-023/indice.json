@@ -1,0 +1,79 @@
+{
+  "capitulo": 23,
+  "titulo": "Rede e conectividade no Modo Desktop",
+  "resumo": "NetworkManager, Wi-Fi, VPN, proxy, rede cabeada com dock e diagnóstico de conectividade no SteamOS.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "NetworkManager no Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["networkmanager", "nmcli", "ip addr", "systemctl", "journalctl"]
+    },
+    {
+      "n": 2,
+      "titulo": "Conectando a uma rede Wi-Fi",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["nmcli", "wifi", "ssid", "wpa2", "nmconnection"]
+    },
+    {
+      "n": 3,
+      "titulo": "Configurando rede pela interface do KDE",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["kde", "plasma-nm", "autoconnect", "prioridade", "nmcli"]
+    },
+    {
+      "n": 4,
+      "titulo": "VPN pela interface do KDE e nmcli",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["vpn", "openvpn", "wireguard", "nmcli", "ip route"]
+    },
+    {
+      "n": 5,
+      "titulo": "Configurando proxy",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["proxy", "socks", "http_proxy", "curl", "wget"]
+    },
+    {
+      "n": 6,
+      "titulo": "Rede cabeada via dock",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["dock", "ethernet", "ethtool", "dhcp", "metric"]
+    },
+    {
+      "n": 7,
+      "titulo": "IP fixo e DNS",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["ip fixo", "dns", "resolvectl", "nmcli", "systemd-resolved"]
+    },
+    {
+      "n": 8,
+      "titulo": "Diagnóstico de conectividade",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["ping", "dig", "ip route", "diagnóstico", "resolvectl"]
+    },
+    {
+      "n": 9,
+      "titulo": "Solucionando problemas comuns de rede",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["troubleshooting", "nmcli radio", "journalctl", "tethering", "carrier-changed"]
+    }
+  ]
+}

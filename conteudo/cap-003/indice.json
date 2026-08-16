@@ -1,0 +1,79 @@
+{
+  "capitulo": 3,
+  "titulo": "História da Valve e o ecossistema Steam",
+  "resumo": "Da Valve ao Steam, Steam Machines, Steam Link, o caminho até o Deck e como o SteamOS se encaixa na estratégia da empresa.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "A Valve antes do Steam",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["valve", "half-life", "goldsrc", "gabe newell", "historia"]
+    },
+    {
+      "n": 2,
+      "titulo": "O impacto do Steam na indústria",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam", "distribuicao", "half-life 2", "indie", "flatpak"]
+    },
+    {
+      "n": 3,
+      "titulo": "Steam Machines e o primeiro SteamOS",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steam machines", "steamos 1.0", "debian", "big picture", "hardware"]
+    },
+    {
+      "n": 4,
+      "titulo": "Steam Controller e o Steam Input",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam controller", "steam input", "vdf", "trackpad", "giroscopio"]
+    },
+    {
+      "n": 5,
+      "titulo": "Steam Link e o streaming caseiro",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["steam link", "streaming", "remote play", "latencia", "rede"]
+    },
+    {
+      "n": 6,
+      "titulo": "Proton e a aposta no Linux",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["proton", "wine", "dxvk", "protontricks", "steam play"]
+    },
+    {
+      "n": 7,
+      "titulo": "Valve Index e a realidade virtual",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["valve index", "steamvr", "vr", "headset", "knuckles"]
+    },
+    {
+      "n": 8,
+      "titulo": "O caminho até o Steam Deck",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["steam deck", "steamos 3", "arch linux", "gamescope", "apd"]
+    },
+    {
+      "n": 9,
+      "titulo": "Como o SteamOS amarra a estratégia",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["steamos", "estrategia", "ecossistema", "microsoft", "proton"]
+    }
+  ]
+}

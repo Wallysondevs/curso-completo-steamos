@@ -1,0 +1,79 @@
+{
+  "capitulo": 41,
+  "titulo": "Parâmetros de inicialização e configurações avançadas",
+  "resumo": "Variáveis de ambiente do Proton, DXVK, Wine e RADV: como passar parâmetros antes do %command% para ativar DLSS, FSR, Fsync, GameMode, MangoHud e otimizações de GPU, com diagnóstico e combinações.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que são parâmetros de inicialização",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["%command%", "variáveis de ambiente", "localconfig.vdf", "proton", "shell"]
+    },
+    {
+      "n": 2,
+      "titulo": "PROTON_ENABLE_NVAPI e DLSS",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["nvapi", "dlss", "ngx", "proton log", "nvidia"]
+    },
+    {
+      "n": 3,
+      "titulo": "DXVK_ASYNC e cache de shaders",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["dxvk", "shaders", "stutter", "pipelines", "cache"]
+    },
+    {
+      "n": 4,
+      "titulo": "gamemoderun e Feral GameMode",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["gamemode", "governador", "cpu", "gamemoded", "performance"]
+    },
+    {
+      "n": 5,
+      "titulo": "RADV_PERFTEST e otimizações de GPU",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["radv", "mesa", "aco", "gpl", "sam"]
+    },
+    {
+      "n": 6,
+      "titulo": "FSR do Proton com WINE_FULLSCREEN_FSR",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["fsr", "upscaling", "reescalonamento", "tela cheia", "fsr 1.0"]
+    },
+    {
+      "n": 7,
+      "titulo": "WINEFSYNC e sincronismo do Wine",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["fsync", "esync", "futex", "threads", "cpu-bound"]
+    },
+    {
+      "n": 8,
+      "titulo": "MangoHud para monitorar desempenho",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["mangohud", "overlay", "fps", "frametime", "telemetria"]
+    },
+    {
+      "n": 9,
+      "titulo": "Combinando múltiplos parâmetros e ordem",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["combinação", "ordem", "script", "baseline", "perfil"]
+    }
+  ]
+}

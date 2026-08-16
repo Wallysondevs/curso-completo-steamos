@@ -1,0 +1,79 @@
+{
+  "capitulo": 108,
+  "titulo": "Próximos passos e projetos avançados",
+  "resumo": "O que fazer depois: servidor, home lab, desenvolvimento, projetos.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O caminho depois do curso",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["roadmap", "comunidade", "aprendizado", "projetos", "especialização"]
+    },
+    {
+      "n": 2,
+      "titulo": "Transformando o Deck em servidor",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["servidor", "24/7", "serviços", "systemd", "nginx"]
+    },
+    {
+      "n": 3,
+      "titulo": "Home lab com Docker e containers",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["docker", "podman", "compose", "container", "portainer"]
+    },
+    {
+      "n": 4,
+      "titulo": "Automação com scripts e systemd timers",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["script", "bash", "timer", "cron", "automatização"]
+    },
+    {
+      "n": 5,
+      "titulo": "Contribuindo com código e documentação",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["git", "github", "contribuição", "pull-request", "documentação"]
+    },
+    {
+      "n": 6,
+      "titulo": "Ambiente de desenvolvimento completo",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["dev", "python", "rust", "vscode", "toolchain"]
+    },
+    {
+      "n": 7,
+      "titulo": "Virtualização com QEMU e libvirt",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["qemu", "kvm", "libvirt", "virt-manager", "vm"]
+    },
+    {
+      "n": 8,
+      "titulo": "Monitoramento com Prometheus e Grafana",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["prometheus", "grafana", "node_exporter", "dashboard", "alerta"]
+    },
+    {
+      "n": 9,
+      "titulo": "Seu plano pessoal de evolução",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["plano", "certificação", "especialização", "portfólio", "carreira"]
+    }
+  ]
+}

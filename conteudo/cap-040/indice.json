@@ -1,0 +1,79 @@
+{
+  "capitulo": 40,
+  "titulo": "ProtonUp-Qt e Proton-GE",
+  "resumo": "Instalar o ProtonUp-Qt, baixar builds Proton-GE, atualizar, selecionar GE como padrão ou por jogo e desinstalar versões antigas.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que é ProtonUp-Qt e Proton-GE",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["proton", "proton-ge", "protonup-qt", "codecs", "compatibilitytools"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando o ProtonUp-Qt",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["flatpak", "discover", "protonup-qt", "steamos"]
+    },
+    {
+      "n": 3,
+      "titulo": "Baixando o Proton-GE",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["proton-ge", "compatibilitytool.vdf", "github", "download"]
+    },
+    {
+      "n": 4,
+      "titulo": "Codecs patenteados e o WMF",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["wmf", "codecs", "patentes", "media-foundation", "mfplat"]
+    },
+    {
+      "n": 5,
+      "titulo": "Selecionando GE como padrão",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["steam", "compatibilidade", "padrão", "console-linux.txt"]
+    },
+    {
+      "n": 6,
+      "titulo": "Selecionando GE para um jogo",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["steam", "compatibilidade", "propriedades", "proton-ge"]
+    },
+    {
+      "n": 7,
+      "titulo": "Atualizando versões GE",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["atualização", "proton-ge", "regressão", "changelog"]
+    },
+    {
+      "n": 8,
+      "titulo": "Luxtorpeda, Boxtron e Roberta",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["luxtorpeda", "boxtron", "roberta", "dosbox", "scummvm"]
+    },
+    {
+      "n": 9,
+      "titulo": "Desinstalando versões antigas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["rm", "desinstalar", "compatibilitytools", "espaço", "du"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "capitulo": 75,
+  "titulo": "Animações de boot, suspend e som",
+  "resumo": "Animation Changer, substituir boot/suspend, sons de UI.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Animation Changer por dentro",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["animation changer", "decky loader", "plugin", "steamos", "gamemode"]
+    },
+    {
+      "n": 2,
+      "titulo": "Instalando Decky Loader e o plugin",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["decky", "instalacao", "curl", "sudo", "plugin"]
+    },
+    {
+      "n": 3,
+      "titulo": "Boot animations: formatos e canais",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["boot", "webm", "mp4", "vdf", "custom"]
+    },
+    {
+      "n": 4,
+      "titulo": "Suspend animations: como o deck hiberna",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["suspend", "hibernacao", "s3", "sleep", "animacao"]
+    },
+    {
+      "n": 5,
+      "titulo": "Sons de interface: boot, navegação e alertas",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["som", "ui", "audio", "wav", "mp3"]
+    },
+    {
+      "n": 6,
+      "titulo": "Onde os temas vivem no disco",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["homebrew", "decky", "diretorio", "json", "vdf"]
+    },
+    {
+      "n": 7,
+      "titulo": "Criando a própria animação de boot",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["ffmpeg", "animacao", "webm", "encode", "autoral"]
+    },
+    {
+      "n": 8,
+      "titulo": "Backup, restauração e gerenciamento",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["backup", "restauracao", "tar", "rsync", "tema"]
+    },
+    {
+      "n": 9,
+      "titulo": "Troubleshooting, limites e boas práticas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["troubleshooting", "quebrado", "steam", "verbose", "log"]
+    }
+  ]
+}

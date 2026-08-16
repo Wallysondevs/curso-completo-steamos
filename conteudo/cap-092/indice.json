@@ -1,0 +1,79 @@
+{
+  "capitulo": 92,
+  "titulo": "Reset de fábrica e reinstalação limpa",
+  "resumo": "Factory reset pelo menu Steam, reinstalar do zero, particionamento.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "O que o reset de fábrica faz e quando usar",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["factory reset", "steam deck", "restauração", "limpeza"]
+    },
+    {
+      "n": 2,
+      "titulo": "Backup antes de apagar tudo",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["backup", "rsync", "cloud save", "exportação"]
+    },
+    {
+      "n": 3,
+      "titulo": "Reset de fábrica pelo menu Steam",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["menu", "configurações", "factory reset", "gui"]
+    },
+    {
+      "n": 4,
+      "titulo": "Reinstalação pela imagem de recuperação",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["recovery image", "usb", "imagem", "flash"]
+    },
+    {
+      "n": 5,
+      "titulo": "Particionamento do disco no SteamOS",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 13,
+      "tags": ["particionamento", "gpt", "partições", "disco"]
+    },
+    {
+      "n": 6,
+      "titulo": "A linha de comando no processo de reinstalação",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["parted", "mkfs", "efi", "rebuild"]
+    },
+    {
+      "n": 7,
+      "titulo": "Dual boot e configuração avançada de partições",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 12,
+      "tags": ["dual boot", "windows", "grub", "efi", "partição"]
+    },
+    {
+      "n": 8,
+      "titulo": "Pós-instalação e primeiros ajustes",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 11,
+      "tags": ["pós-config", "atualização", "login", "verificação"]
+    },
+    {
+      "n": 9,
+      "titulo": "Checklist completo e solução de problemas",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 10,
+      "tags": ["checklist", "troubleshooting", "resumo", "boot"]
+    }
+  ]
+}

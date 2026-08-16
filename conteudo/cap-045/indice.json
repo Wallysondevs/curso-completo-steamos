@@ -1,0 +1,79 @@
+{
+  "capitulo": 45,
+  "titulo": "Mods, patches e ferramentas de compatibilidade",
+  "resumo": "Mod managers, trainers, ferramentas de comunidade (Proton Tricks, WineTricks) e jogos com anticheat.",
+  "secoes": [
+    {
+      "n": 1,
+      "titulo": "Mods de jogos no Steam Deck",
+      "arquivo": "sec-01.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["prefixo wine", "compatdata", "mods", "script extender", "appid"]
+    },
+    {
+      "n": 2,
+      "titulo": "Mod managers e launchers da comunidade",
+      "arquivo": "sec-02.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["nexus mods", "mod organizer 2", "vortex", "vfs", "load order"]
+    },
+    {
+      "n": 3,
+      "titulo": "Trainers e Cheat Engine no Linux",
+      "arquivo": "sec-03.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["cheat engine", "ptrace", "scanmem", "gameconqueror", "memoria"]
+    },
+    {
+      "n": 4,
+      "titulo": "ProtonTricks como ferramenta central",
+      "arquivo": "sec-04.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["protontricks", "winecfg", "regedit", "runtimes", "flatpak"]
+    },
+    {
+      "n": 5,
+      "titulo": "WineTricks e componentes adicionais",
+      "arquivo": "sec-05.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["winetricks", "dotnet", "media foundation", "prefixo manual", "mf-install"]
+    },
+    {
+      "n": 6,
+      "titulo": "Patches de comunidade e traduções",
+      "arquivo": "sec-06.md",
+      "status": "completo",
+      "min": 14,
+      "tags": ["xdelta", "ips", "tradução", "special k", "pcgamingwiki"]
+    },
+    {
+      "n": 7,
+      "titulo": "Anticheat no Steam Deck",
+      "arquivo": "sec-07.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["easyanticheat", "battleye", "eac", "kernel", "userspace"]
+    },
+    {
+      "n": 8,
+      "titulo": "Reparação de prefixo Wine",
+      "arquivo": "sec-08.md",
+      "status": "completo",
+      "min": 15,
+      "tags": ["diagnóstico", "backup", "rsync", "dll override", "log proton"]
+    },
+    {
+      "n": 9,
+      "titulo": "Fluxo de modding e ferramentas auxiliares",
+      "arquivo": "sec-09.md",
+      "status": "completo",
+      "min": 16,
+      "tags": ["proton ge", "heroic", "luxtorpeda", "lutris", "fluxo"]
+    }
+  ]
+}
